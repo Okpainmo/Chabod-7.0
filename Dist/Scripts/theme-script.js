@@ -14,7 +14,7 @@ const particles = {
       },
     },
     color: {
-      value: "#ff0000",
+      value: "#000000",
       animation: {
         enable: true,
         speed: 20,
@@ -41,7 +41,7 @@ const particles = {
       },
     },
     size: {
-      value: 3,
+      value: 5,
       random: true,
       anim: {
         enable: false,
@@ -53,7 +53,7 @@ const particles = {
     links: {
       enable: true,
       distance: 100,
-      color: "#ffffff",
+      color: "#757575",
       opacity: 0.4,
       width: 1,
     },
@@ -110,7 +110,7 @@ const particles = {
   },
   retina_detect: true,
   background: {
-    color: "#000000",
+    color: "#ffffff",
     image: "",
     position: "50% 50%",
     repeat: "no-repeat",
