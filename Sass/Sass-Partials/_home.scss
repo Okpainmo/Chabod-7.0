@@ -1,111 +1,59 @@
-.home {
+.seller-content {
+  // background-image: url(../../Dist/Images/pix13.jpg);
+  background-size: cover;
+  width: 100%;
   height: 100vh;
-  display: flex;
-  .side-nav {
-    width: 30%;
+  // margin-left: 30%;
+  .seller-intro-background {
     height: 100%;
-    background-color: var(--color-a);
-    position: fixed;
+  }
+  #particlesCase {
+    position: absolute;
     top: 0;
-    left: 0;
-    padding: 100px 20px 50px 70px;
-    ul {
-      list-style-type: none;
-      margin-bottom: 30px;
+    width: inherit;
+    height: 100%;
+    z-index: 10;
+  }
+  .seller-intro {
+    padding-top: 90px;
+    position: relative;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.55);
+    height: 100%;
+  }
+  @keyframes rotatePhoto {
+    0% {
+      transform: rotate(0deg);
     }
-    .side-nav-item {
-      padding: 5px 0;
+    25% {
+      transform: rotate(90deg);
     }
-    .side-nav-link {
-      font-size: 16px;
-      // color: var(--color-c);
-      span {
-        color: var(--color-c);
-      }
-      &:hover {
-        text-decoration: none;
-        color: var(--color-d);
-      }
-      i {
-        // font-size: 20px;
-        color: var(--color-b);
-      }
-      span {
-        padding-left: 10px;
-      }
+    50% {
+      transform: rotate(0deg);
     }
-    .side-intro {
-      // padding-left: 10px;
-      // border-left: 10px solid var(--color-c);
-      color: var(--color-c);
-      h5 {
-        margin-bottom: 0;
-      }
-      .social-icons-case {
-        margin-top: 10px;
-      }
-      .social-icons {
-        padding-right: 10px;
-      }
+    75% {
+      transform: rotate(-90deg);
+    }
+    100% {
+      transform: rotate(0deg);
     }
   }
-  .seller-content {
-    // background-image: url(../../Dist/Images/pix13.jpg);
+  .seller-photo {
+    width: 240px;
+    margin: 0 auto 30px;
+    height: 240px;
+    border: 7px solid var(--color-b);
+    border-radius: 100%;
+    background-image: url(../../Dist/Images/pix-6x.jpg);
     background-size: cover;
-    width: 70%;
-    height: 100%;
-    margin-left: 30%;
-    .seller-intro-background {
-      height: 100%;
-    }
-    #particlesCase {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 10;
-    }
-    .seller-intro {
-      padding-top: 120px;
-      position: relative;
-      z-index: 1000;
-      // background-color: rgba(255, 255, 255, 0.7);
-      height: 100%;
-    }
-    @keyframes rotatePhoto {
-      0% {
-        transform: rotate(0deg);
-      }
-      25% {
-        transform: rotate(90deg);
-      }
-      50% {
-        transform: rotate(0deg);
-      }
-      75% {
-        transform: rotate(-90deg);
-      }
-      100% {
-        transform: rotate(0deg);
-      }
-    }
-    .seller-photo {
-      width: 240px;
-      margin: 0 auto 30px;
-      height: 240px;
-      border: 7px solid var(--color-b);
-      border-radius: 100%;
-      background-image: url(../../Dist/Images/pix-6x.jpg);
-      background-size: cover;
-      filter: grayscale(1);
-      // use alternating background images instead
-      // animation-name: rotatePhoto;
-      // animation-duration: 60s;
-      // animation-iteration-count: infinite;
-      // animation-timing-function: ease;
-    }
-    h5 {
-      color: var(--color-c);
-    }
+    filter: grayscale(1);
+    // use alternating background images instead
+    // animation-name: rotatePhoto;
+    // animation-duration: 60s;
+    // animation-iteration-count: infinite;
+    // animation-timing-function: ease;
+  }
+  h5 {
+    color: var(--color-c);
   }
 }
