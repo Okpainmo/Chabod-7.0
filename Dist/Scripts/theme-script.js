@@ -120,6 +120,6 @@ const particles = {
 
 tsParticles.load("particlesCase", particles);
 
-function particles() {
+function alertMe() {
   alert("page loaded");
 }
