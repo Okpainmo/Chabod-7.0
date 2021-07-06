@@ -4,3 +4,6 @@ node_modules
 #ignore all gulp .json files
 package.json
 package-lock.json
+
+#ignore particles.js folder
+particles.js-master

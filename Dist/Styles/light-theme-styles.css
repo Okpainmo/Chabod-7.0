@@ -1,0 +1,132 @@
+.home {
+  height: 100vh;
+  display: flex;
+}
+.home .side-nav {
+  width: 30%;
+  height: 100%;
+  background-color: var(--color-a);
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 100px 20px 50px 70px;
+}
+.home .side-nav ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.home .side-nav .side-nav-item {
+  padding: 5px 0;
+}
+.home .side-nav .side-nav-link {
+  font-size: 16px;
+  color: var(--color-c);
+}
+.home .side-nav .side-nav-link:hover {
+  text-decoration: none;
+  color: var(--color-d);
+}
+.home .side-nav .side-nav-link .i {
+  font-size: 20px;
+}
+.home .side-nav .side-nav-link span {
+  padding-left: 10px;
+}
+.home .side-nav .side-intro {
+  color: var(--color-c);
+}
+.home .side-nav .side-intro h5 {
+  margin-bottom: 0;
+}
+.home .side-nav .side-intro .social-icons {
+  padding-right: 10px;
+}
+.home .seller-content {
+  background-size: cover;
+  width: 70%;
+  height: 100%;
+  margin-left: 30%;
+}
+.home .seller-content .seller-intro-background {
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 100%;
+}
+.home .seller-content .seller-intro {
+  padding-top: 120px;
+}
+@-webkit-keyframes rotatePhoto {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes rotatePhoto {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.home .seller-content .seller-photo {
+  width: 240px;
+  margin: 0 auto 30px;
+  height: 240px;
+  border: 7px solid var(--color-b);
+  border-radius: 100%;
+  background-image: url(../../Dist/Images/pix-6x.jpg);
+  background-size: cover;
+  filter: grayscale(1);
+}
+.home .seller-content h5 {
+  color: var(--color-c);
+}
+
+:root {
+  --color-a: #f7f8f9;
+  --color-b: black;
+  --color-c: #757575;
+  --color-d: #212529;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.mont-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.all-wide {
+  width: 100%;
+}
+
+.active {
+  color: var(--color-d) !important;
+}

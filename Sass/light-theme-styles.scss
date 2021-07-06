@@ -1,0 +1,26 @@
+@use './Sass-Partials/home';
+:root {
+  --color-a: #f7f8f9;
+  --color-b: black;
+  --color-c: #757575;
+  --color-d: #212529;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+.mont-font {
+  font-family: "Montserrat", sans-serif;
+}
+.all-wide {
+  width: 100%;
+}
+.active {
+  color: var(--color-d) !important;
+}
