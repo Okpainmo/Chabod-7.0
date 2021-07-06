@@ -18,13 +18,17 @@
     }
     .side-nav-link {
       font-size: 16px;
-      color: var(--color-c);
+      // color: var(--color-c);
+      span {
+        color: var(--color-c);
+      }
       &:hover {
         text-decoration: none;
         color: var(--color-d);
       }
-      .i {
-        font-size: 20px;
+      i {
+        // font-size: 20px;
+        color: var(--color-b);
       }
       span {
         padding-left: 10px;
@@ -36,6 +40,9 @@
       color: var(--color-c);
       h5 {
         margin-bottom: 0;
+      }
+      .social-icons-case {
+        margin-top: 10px;
       }
       .social-icons {
         padding-right: 10px;

@@ -20,14 +20,16 @@
 }
 .home .side-nav .side-nav-link {
   font-size: 16px;
+}
+.home .side-nav .side-nav-link span {
   color: var(--color-c);
 }
 .home .side-nav .side-nav-link:hover {
   text-decoration: none;
   color: var(--color-d);
 }
-.home .side-nav .side-nav-link .i {
-  font-size: 20px;
+.home .side-nav .side-nav-link i {
+  color: var(--color-b);
 }
 .home .side-nav .side-nav-link span {
   padding-left: 10px;
@@ -37,6 +39,9 @@
 }
 .home .side-nav .side-intro h5 {
   margin-bottom: 0;
+}
+.home .side-nav .side-intro .social-icons-case {
+  margin-top: 10px;
 }
 .home .side-nav .side-intro .social-icons {
   padding-right: 10px;
