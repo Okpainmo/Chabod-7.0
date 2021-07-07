@@ -41,7 +41,7 @@ const particles = {
       },
     },
     size: {
-      value: 5,
+      value: 6,
       random: true,
       anim: {
         enable: false,
@@ -59,7 +59,7 @@ const particles = {
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 3,
       direction: "none",
       random: false,
       straight: false,

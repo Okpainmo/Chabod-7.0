@@ -10,7 +10,7 @@
 .seller-content #particlesCase {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 70%;
   height: 100%;
   z-index: 10;
 }
@@ -56,9 +56,9 @@
   }
 }
 .seller-content .seller-photo {
-  width: 240px;
+  width: 250px;
+  height: 250px;
   margin: 0 auto 30px;
-  height: 240px;
   border: 7px solid var(--color-b);
   border-radius: 100%;
   background-image: url(../../Dist/Images/pix-6x.jpg);
@@ -69,10 +69,42 @@
   color: var(--color-c);
 }
 
-.about-section {
+.about-section, .portfolio-section {
   min-height: 100vh;
   width: 100%;
-  padding: 30px 0;
+  padding: 10px 0;
+}
+.about-section .row, .portfolio-section .row {
+  justify-content: space-evenly;
+}
+
+.seller-banner {
+  padding: 15px;
+  width: 35%;
+}
+.seller-banner img {
+  width: 100%;
+  height: 350px;
+  filter: grayscale(1);
+}
+
+.about-text {
+  width: 65%;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.projects {
+  padding: 50px;
+}
+.projects .card {
+  border: none;
+}
+.projects .card-body {
+  padding: 10px 0;
+}
+.projects .card-title {
+  margin-bottom: 5px;
 }
 
 :root {
@@ -80,6 +112,7 @@
   --color-b: black;
   --color-c: #757575;
   --color-d: #212529;
+  --color-e: white;
 }
 
 * {
@@ -105,9 +138,23 @@ body {
 }
 
 .section-header {
-  padding: 10px 20px;
-  margin-left: 20px;
-  border-left: 7px solid var(--color-d);
+  margin-left: 10px;
+}
+.section-header h1,
+.section-header h2,
+.section-header h3,
+.section-header h4,
+.section-header h5 {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.section-header::after {
+  content: "";
+  width: 100px;
+  margin-top: 10px;
+  height: 5px;
+  display: block;
+  background-color: var(--color-d);
 }
 
 .main {
@@ -143,7 +190,7 @@ body {
   color: var(--color-d) !important;
 }
 .side-nav .side-nav-link span {
-  color: var(--color-c);
+  color: var(--color-d);
 }
 .side-nav .side-nav-link:hover {
   text-decoration: none;
@@ -152,13 +199,13 @@ body {
 .side-nav .side-nav-link i {
   font-size: 20px;
   transform: translateY(2px);
-  color: var(--color-d);
+  color: var(--color-c);
 }
 .side-nav .side-nav-link span {
   padding-left: 15px;
 }
 .side-nav .side-intro {
-  color: var(--color-c);
+  color: var(--color-d);
 }
 .side-nav .side-intro h5 {
   margin-bottom: 0;
@@ -168,4 +215,20 @@ body {
 }
 .side-nav .side-intro .social-icons {
   padding-right: 15px;
+}
+
+.btn-case {
+  width: 300px;
+  margin-top: 10px;
+}
+
+.custom-btn {
+  padding: 10px 30px;
+  width: 100%;
+  background-color: var(--color-d);
+  color: var(--color-e);
+  display: block;
+}
+.custom-btn:hover {
+  color: var(--color-e);
 }

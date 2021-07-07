@@ -11,7 +11,7 @@
   #particlesCase {
     position: absolute;
     top: 0;
-    width: inherit;
+    width: 70%;
     height: 100%;
     z-index: 10;
   }
@@ -40,9 +40,9 @@
     }
   }
   .seller-photo {
-    width: 240px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto 30px;
-    height: 240px;
     border: 7px solid var(--color-b);
     border-radius: 100%;
     background-image: url(../../Dist/Images/pix-6x.jpg);

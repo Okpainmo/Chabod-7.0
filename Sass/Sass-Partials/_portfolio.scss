@@ -1,0 +1,17 @@
+@use 'about';
+
+.portfolio-section {
+  @extend .about-section;
+}
+.projects {
+  padding: 50px;
+  .card {
+    border: none;
+  }
+  .card-body {
+    padding: 10px 0;
+  }
+  .card-title {
+    margin-bottom: 5px;
+  }
+}
