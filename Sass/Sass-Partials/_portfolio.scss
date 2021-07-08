@@ -1,7 +1,7 @@
-@use 'about';
-
 .portfolio-section {
-  @extend .about-section;
+  min-height: 100vh;
+  width: 100%;
+  padding: 10px 0;
 }
 .projects {
   padding: 50px;
@@ -13,5 +13,34 @@
   }
   .card-title {
     margin-bottom: 5px;
+  }
+  .card-text {
+    color: var(--color-c);
+  }
+  .filter-tags {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .tag {
+    min-width: 100px;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 0 20px;
+    color: var(--color-e);
+    background-color: var(--color-d);
+    border-radius: 10px;
+    transition: background-color 0.7s ease;
+    &:hover {
+      background-color: var(--color-a);
+      color: var(--color-b);
+      cursor: pointer;
+      // border: 1px solid var(--color-d);
+    }
+  }
+  .card-img-top {
+    filter: grayscale(1);
   }
 }
