@@ -4,6 +4,8 @@
 @use './Sass-Partials/testimonials';
 @use './Sass-Partials/contact';
 @use './Sass-Partials/nav';
+@use './Sass-Partials/blog';
+@use './Sass-Partials/footer';
 
 :root {
   --color-a: #f7f8f9;
@@ -74,9 +76,10 @@ body {
 }
 
 .custom-btn {
-  padding: 10px 30px;
+  padding: 15px 30px;
   width: 100%;
   background-color: var(--color-d);
+  font-size: 18px;
   color: var(--color-e);
   display: block;
   &:hover {

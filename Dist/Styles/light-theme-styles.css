@@ -286,6 +286,7 @@
 }
 .side-nav .side-nav-link span {
   color: var(--color-c);
+  padding-left: 15px;
 }
 .side-nav .side-nav-link:hover {
   text-decoration: none;
@@ -295,9 +296,6 @@
   font-size: 20px;
   transform: translateY(2px);
   color: var(--color-d);
-}
-.side-nav .side-nav-link span {
-  padding-left: 15px;
 }
 .side-nav .side-intro {
   color: var(--color-d);
@@ -310,6 +308,79 @@
 }
 .side-nav .side-intro .social-icons {
   padding-right: 15px;
+}
+
+.blog-section {
+  min-height: 100vh;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.blog-container {
+  padding: 70px;
+}
+.blog-container .card {
+  border: 0;
+  box-shadow: 0 0 25px -10px var(--color-c);
+}
+.blog-container img {
+  filter: grayscale(1);
+}
+.blog-container .card-text {
+  color: var(--color-c);
+}
+.blog-container .post-details {
+  display: flex;
+  justify-items: end;
+}
+.blog-container .post-details .author-image {
+  display: inline-block;
+  padding-right: 15px;
+}
+.blog-container .post-details .author-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-size: cover;
+}
+.blog-container .post-details .other-details span {
+  display: block;
+}
+.blog-container .btn-case {
+  margin: 30px auto 0;
+}
+
+footer {
+  min-height: 100px;
+  padding: 15px 25px;
+  background-color: var(--color-d);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-d);
+  color: var(--color-e);
+}
+footer .footer-content {
+  width: 45%;
+  margin-top: auto;
+}
+footer .footer-content:last-child {
+  text-align: right;
+}
+footer .footer-content h5 {
+  margin-bottom: 0;
+}
+footer .footer-content .social-icons-case {
+  margin-top: 10px;
+}
+footer .footer-content .social-icons {
+  padding-right: 15px;
+}
+footer .footer-content .footer-link:hover {
+  text-decoration: none;
+}
+footer .footer-content .footer-link i {
+  font-size: 20px;
+  color: var(--color-c);
 }
 
 :root {
@@ -378,9 +449,10 @@ body {
 }
 
 .custom-btn {
-  padding: 10px 30px;
+  padding: 15px 30px;
   width: 100%;
   background-color: var(--color-d);
+  font-size: 18px;
   color: var(--color-e);
   display: block;
 }

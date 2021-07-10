@@ -23,6 +23,7 @@
     }
     span {
       color: var(--color-c);
+      padding-left: 15px;
     }
     &:hover {
       text-decoration: none;
@@ -32,9 +33,6 @@
       font-size: 20px;
       transform: translateY(2px);
       color: var(--color-d);
-    }
-    span {
-      padding-left: 15px;
     }
   }
   .side-intro {
