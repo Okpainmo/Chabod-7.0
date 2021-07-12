@@ -82,7 +82,12 @@ body {
   font-size: 18px;
   color: var(--color-e);
   display: block;
+  border: 2px solid var(--color-d);
   &:hover {
-    color: var(--color-e);
+    background-color: var(--color-e);
   }
+}
+
+.mobile-only {
+  display: none;
 }

@@ -10,12 +10,26 @@
   }
   .card-body {
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
   }
   .card-title {
     margin-bottom: 5px;
   }
   .card-text {
     color: var(--color-c);
+  }
+  .project-details {
+    width: 95%;
+  }
+  .read-on-menu-bar {
+    width: 5%;
+    text-align: right;
+    i {
+      font-size: 30px;
+      transform: translateY(7px);
+      color: var(--color-c);
+    }
   }
   .filter-tags {
     width: 100%;

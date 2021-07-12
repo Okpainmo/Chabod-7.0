@@ -26,12 +26,19 @@
 
     <!-- Theme styles -->
     <link rel="stylesheet" href="./Styles/light-theme-styles.css" />
+    <link rel="stylesheet" href="./Styles/theme-queries.css" />
 
     <!-- Font awesome -->
     <script
       src="https://kit.fontawesome.com/7d4093f05b.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
     <title>Chabod Light</title>
   </head>
@@ -45,37 +52,37 @@
         <ul>
           <li class="side-nav-item">
             <a class="side-nav-link active" href="#">
-              <i class="fas fa-home"></i>
+              <i class="bi bi-house-fill"></i>
               <span>Home</span>
             </a>
           </li>
           <li class="side-nav-item">
             <a class="side-nav-link" href="#">
-              <i class="fas fa-address-card"></i>
+              <i class="bi bi-file-earmark-person-fill"></i>
               <span>About Me</span>
             </a>
           </li>
           <li class="side-nav-item">
             <a class="side-nav-link" href="#">
-              <i class="fas fas fa-briefcase"></i>
+              <i class="bi bi-briefcase-fill"></i>
               <span>Portfolio</span>
             </a>
           </li>
           <li class="side-nav-item">
             <a class="side-nav-link" href="#">
-              <i class="fas fa-list-alt"></i>
+              <i class="bi bi-award-fill"></i>
               <span>Testimonials</span>
             </a>
           </li>
           <li class="side-nav-item">
             <a class="side-nav-link" href="#">
-              <i class="fas fa-envelope"></i>
+              <i class="bi bi-envelope-fill"></i>
               <span>Contact</span>
             </a>
           </li>
           <li class="side-nav-item">
             <a class="side-nav-link" href="#">
-              <i class="fas fa-newspaper"></i>
+              <i class="bi bi-newspaper"></i>
               <span>Blog</span>
             </a>
           </li>
@@ -108,7 +115,8 @@
                 <h3>My name is</h3>
                 <h1 class="mont-font">Chabod Sanders.</h1>
                 <h5>
-                  I am a frontend web developer, a pro graphics designer and a
+                  I am a frontend web developer, a professional graphics
+                  designer and a
                   <br />
                   UI/UX engineer.
                 </h5>
@@ -197,8 +205,13 @@
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title mont-font">The Geekies Blog.</h5>
-                    <span class="card-text">Frontend Web Development.</span>
+                    <div class="project-details">
+                      <h5 class="card-title mont-font">The Geekies Blog.</h5>
+                      <span class="card-text">Frontend Web Development.</span>
+                    </div>
+                    <div class="read-on-menu-bar">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -210,8 +223,13 @@
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title mont-font">Clara's Smoothies.</h5>
-                    <span class="card-text">Branding.</span>
+                    <div class="project-details">
+                      <h5 class="card-title mont-font">Clara's Smoothies.</h5>
+                      <span class="card-text">Branding.</span>
+                    </div>
+                    <div class="read-on-menu-bar">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -223,8 +241,13 @@
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title mont-font">Beverly Kings.</h5>
-                    <span class="card-text">Logo Design.</span>
+                    <div class="project-details">
+                      <h5 class="card-title mont-font">Beverly Kings.</h5>
+                      <span class="card-text">Logo Design.</span>
+                    </div>
+                    <div class="read-on-menu-bar">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -236,8 +259,15 @@
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title mont-font">Dreamland Collectives.</h5>
-                    <span class="card-text">UI/UX Design.</span>
+                    <div class="project-details">
+                      <h5 class="card-title mont-font">
+                        Dreamland Collectives.
+                      </h5>
+                      <span class="card-text">UI/UX Design.</span>
+                    </div>
+                    <div class="read-on-menu-bar">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -249,8 +279,15 @@
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title mont-font">Global Assurance LLC.</h5>
-                    <span class="card-text">UI/UX Design.</span>
+                    <div class="project-details">
+                      <h5 class="card-title mont-font">
+                        Global Assurance LLC.
+                      </h5>
+                      <span class="card-text">UI/UX Design.</span>
+                    </div>
+                    <div class="read-on-menu-bar">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -262,8 +299,13 @@
                     alt="..."
                   />
                   <div class="card-body">
-                    <h5 class="card-title mont-font">Shoe Hack.</h5>
-                    <span class="card-text">Frontend Web Development.</span>
+                    <div class="project-details">
+                      <h5 class="card-title mont-font">Shoe Hack.</h5>
+                      <span class="card-text">Frontend Web Development.</span>
+                    </div>
+                    <div class="read-on-menu-bar">
+                      <i class="fas fa-ellipsis-v"></i>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -277,10 +319,6 @@
           <div class="testimonials-case">
             <div class="testimonials-header">
               <h4 class="mont-font">What my clients are saying...</h4>
-              <p>
-                Just mouse over to stop the slideshow and read what my happy
-                clients are saying.
-              </p>
             </div>
             <div class="testimonial-carousel">
               <div
@@ -431,6 +469,15 @@
               <h4 class="mont-font">Drop a message</h4>
             </div>
             <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Full name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input
@@ -605,7 +652,8 @@
                     </h5>
                     <p class="card-text">
                       This is a longer card with supporting text below as a
-                      natural lead-in to additional content.
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
                     </p>
                     <div class="post-details">
                       <div class="author-image">
@@ -653,7 +701,7 @@
             </div>
           </div>
         </section>
-        <footer>
+        <footer class="mobile-only">
           <div class="footer-content">
             <h5>Chabod Sanders.</h5>
             <span>ceesanders@mymail.com.</span>

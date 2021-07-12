@@ -104,7 +104,8 @@
 .about-section .achievements .achievement-item {
   width: 30%;
   padding: 30px 10px;
-  border: 1px solid var(--color-c);
+  border-radius: 10px;
+  box-shadow: 0 0 25px -10px var(--color-c);
 }
 .about-section .achievement-item span {
   font-size: 30px;
@@ -129,11 +130,25 @@
 }
 .projects .card-body {
   padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
 .projects .card-title {
   margin-bottom: 5px;
 }
 .projects .card-text {
+  color: var(--color-c);
+}
+.projects .project-details {
+  width: 95%;
+}
+.projects .read-on-menu-bar {
+  width: 5%;
+  text-align: right;
+}
+.projects .read-on-menu-bar i {
+  font-size: 30px;
+  transform: translateY(7px);
   color: var(--color-c);
 }
 .projects .filter-tags {
@@ -173,11 +188,10 @@
   text-align: center;
 }
 .testimonials .testimonials-header {
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
-.testimonials p {
-  width: 60%;
-  margin: 0 auto;
+.testimonials .client-photo-case {
+  margin-bottom: 15px;
 }
 .testimonials .client-photo-case img {
   width: 120px;
@@ -317,7 +331,7 @@
 }
 
 .blog-container {
-  padding: 70px;
+  padding: 70px 70px 30px 70px;
 }
 .blog-container .card {
   border: 0;
@@ -455,7 +469,12 @@ body {
   font-size: 18px;
   color: var(--color-e);
   display: block;
+  border: 2px solid var(--color-d);
 }
 .custom-btn:hover {
-  color: var(--color-e);
+  background-color: var(--color-e);
+}
+
+.mobile-only {
+  display: none;
 }
