@@ -1,5 +1,5 @@
 @mixin transit {
-  transition: filter 0.75s ease;
+  transition: all 0.4s ease;
 }
 
 .portfolio-section {
@@ -15,11 +15,36 @@
       background-size: cover;
       filter: grayscale(1);
       min-height: 272px;
+      overflow: hidden;
     }
-
+    .slide-up-overlay {
+      min-height: 272px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.75);
+      transform: translateY(272px);
+      padding: 15px;
+      color: white;
+    }
+    .slide-up-overlay {
+      h5 {
+        color: var(--color-c);
+      }
+      a {
+        color: var(--color-c);
+        font-size: 17px;
+        &:hover {
+          text-decoration: none;
+          color: var(--color-e);
+        }
+      }
+    }
     &:hover {
       .card-image-case {
         filter: none;
+        @include transit;
+      }
+      .slide-up-overlay {
+        transform: translateY(0);
         @include transit;
       }
     }

@@ -18,19 +18,21 @@
   .side-nav-item {
     padding: 7px 0;
   }
+  // .active {
+  //   color: var(--color-d) !important;
+  // }
   .side-nav-link {
     font-size: 16px;
     // color: var(--color-c);
-    .active {
-      color: var(--color-d) !important;
-    }
     span {
       color: var(--color-c);
       padding-left: 15px;
     }
     &:hover {
       text-decoration: none;
-      color: var(--color-c) !important;
+      span {
+        color: var(--color-d) !important;
+      }
     }
     i {
       font-size: 20px;

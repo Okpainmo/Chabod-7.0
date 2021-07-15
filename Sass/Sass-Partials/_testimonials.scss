@@ -7,6 +7,12 @@
     padding: 50px 70px;
     text-align: center;
     // background-color: black;
+    &:hover {
+      img {
+        filter: none;
+        transition: filter 0.4s ease;
+      }
+    }
   }
   .testimonials-header {
     margin-bottom: 60px;
