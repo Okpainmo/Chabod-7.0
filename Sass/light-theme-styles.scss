@@ -7,6 +7,10 @@
 @use './Sass-Partials/blog';
 @use './Sass-Partials/footer';
 
+// @mixin transit {
+//   transition: all 0.75s ease;
+// }
+
 :root {
   --color-a: #f7f8f9;
   --color-b: black;
@@ -74,7 +78,6 @@ body {
   width: 300px;
   margin-top: 10px;
 }
-
 .custom-btn {
   padding: 15px 30px;
   width: 100%;

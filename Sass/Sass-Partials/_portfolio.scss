@@ -1,3 +1,7 @@
+@mixin transit {
+  transition: filter 0.75s ease;
+}
+
 .portfolio-section {
   min-height: 100vh;
   width: 100%;
@@ -7,6 +11,18 @@
   padding: 50px;
   .card {
     border: none;
+    .card-image-case {
+      background-size: cover;
+      filter: grayscale(1);
+      min-height: 272px;
+    }
+
+    &:hover {
+      .card-image-case {
+        filter: none;
+        @include transit;
+      }
+    }
   }
   .card-body {
     padding: 10px 0;
@@ -53,8 +69,5 @@
       cursor: pointer;
       // border: 1px solid var(--color-d);
     }
-  }
-  .card-img-top {
-    filter: grayscale(1);
   }
 }
