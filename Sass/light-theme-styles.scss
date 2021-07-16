@@ -3,9 +3,11 @@
 @use './Sass-Partials/portfolio';
 @use './Sass-Partials/testimonials';
 @use './Sass-Partials/contact';
-@use './Sass-Partials/nav';
+@use './Sass-Partials/side-nav';
 @use './Sass-Partials/blog';
 @use './Sass-Partials/footer';
+@use './Sass-Partials/side-content';
+@use './Sass-Partials/main-overlay';
 
 // @mixin transit {
 //   transition: all 0.75s ease;
@@ -36,9 +38,9 @@ body {
 .all-wide {
   width: 100%;
 }
-.active {
-  color: var(--color-d) !important;
-}
+// .active {
+//   color: var(--color-d) !important;
+// }
 
 // Section Header Styles
 
@@ -70,11 +72,6 @@ body {
 }
 
 // Side/main page content
-
-.side-content {
-  width: 70%;
-  margin-left: 30%;
-}
 
 .btn-case {
   width: 300px;
