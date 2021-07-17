@@ -8,7 +8,10 @@
   padding: 10px 0;
 }
 .projects {
-  padding: 50px;
+  padding: 20px 50px;
+  width: 95%;
+  // display: flex;
+  // justify-content: center;
   .card {
     border: none;
     .card-image-case {
