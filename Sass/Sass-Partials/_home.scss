@@ -15,8 +15,25 @@
     height: 100%;
     z-index: 10;
   }
+  .home-social {
+    display: flex;
+    flex-direction: column;
+    min-height: 50px;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 30px;
+    top: 200px;
+    z-index: 1600;
+    a {
+      span {
+        font-size: 20px;
+        color: var(--color-d);
+        margin-bottom: 20px;
+      }
+    }
+  }
   .seller-intro {
-    padding-top: 90px;
+    padding-top: 70px;
     position: relative;
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.75);
