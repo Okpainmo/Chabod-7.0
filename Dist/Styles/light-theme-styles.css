@@ -162,6 +162,21 @@
   padding: 15px;
   color: white;
 }
+.projects .card .slide-up-top {
+  display: flex;
+  justify-content: space-between;
+}
+.projects .card .slide-up-top .bi {
+  font-size: 18px;
+}
+.projects .card .slide-up-overlay_slideUp {
+  transform: translateY(0);
+  transition: transform 0.5s ease;
+}
+.projects .card .slide-up-overlay_slideDown {
+  transform: translateY(272px);
+  transition: transform 0.5s ease;
+}
 .projects .card .slide-up-overlay h5 {
   color: var(--color-c);
 }
@@ -175,10 +190,6 @@
 }
 .projects .card:hover .card-image-case {
   filter: none;
-  transition: all 0.4s ease;
-}
-.projects .card:hover .slide-up-overlay {
-  transform: translateY(0);
   transition: all 0.4s ease;
 }
 .projects .card-body {
@@ -198,8 +209,9 @@
 .projects .read-on-menu-bar {
   width: 5%;
   text-align: right;
+  cursor: pointer;
 }
-.projects .read-on-menu-bar i {
+.projects .read-on-menu-bar span {
   font-size: 30px;
   transform: translateY(7px);
   color: var(--color-c);

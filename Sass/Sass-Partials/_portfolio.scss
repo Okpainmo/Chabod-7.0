@@ -28,6 +28,22 @@
       padding: 15px;
       color: white;
     }
+    .slide-up-top {
+      display: flex;
+      justify-content: space-between;
+      .bi {
+        font-size: 18px;
+      }
+    }
+    // for Javascript(Jquery) addClass
+    .slide-up-overlay_slideUp {
+      transform: translateY(0);
+      transition: transform 0.5s ease;
+    }
+    .slide-up-overlay_slideDown {
+      transform: translateY(272px);
+      transition: transform 0.5s ease;
+    }
     .slide-up-overlay {
       h5 {
         color: var(--color-c);
@@ -44,10 +60,6 @@
     &:hover {
       .card-image-case {
         filter: none;
-        @include transit;
-      }
-      .slide-up-overlay {
-        transform: translateY(0);
         @include transit;
       }
     }
@@ -69,7 +81,8 @@
   .read-on-menu-bar {
     width: 5%;
     text-align: right;
-    i {
+    cursor: pointer;
+    span {
       font-size: 30px;
       transform: translateY(7px);
       color: var(--color-c);

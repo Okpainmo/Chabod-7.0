@@ -257,20 +257,23 @@
           </div>
           <div class="container projects">
             <div class="filter-tags">
-              <div class="tag">All</div>
+              <div class="tag" id="showAll">All</div>
               <div class="tag" id="gSort">Graphics Design</div>
               <div class="tag" id="devSort">Website Development</div>
               <div class="tag" id="interfaceSort">UI/UX Design</div>
             </div>
             <div class="row row-cols-1 row-cols-md-2">
-              <div class="col mb-4">
-                <div class="card dev">
+              <div class="col mb-4 dev">
+                <div class="card">
                   <div
                     class="card-image-case"
                     style="background-image: url(./Images/pix13.jpg)"
                   >
                     <div class="slide-up-overlay">
-                      <h5 class="mont-font">The Geekies blog</h5>
+                      <div class="slide-up-top">
+                        <h5 class="mont-font">The Geekies blog</h5>
+                        <span class="bi bi-x-square close-overlay"></span>
+                      </div>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Molestiae, nesciunt quod officia nihil alias ipsa quos
@@ -289,7 +292,7 @@
                       <span class="card-text">Frontend Web Development.</span>
                     </div>
                     <div class="read-on-menu-bar">
-                      <i class="fas fa-ellipsis-v"></i>
+                      <span class="bi bi-three-dots-vertical"></span>
                     </div>
                   </div>
                 </div>
