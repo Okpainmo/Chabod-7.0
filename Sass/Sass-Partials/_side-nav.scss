@@ -16,6 +16,7 @@
   ul {
     list-style-type: none;
     margin-bottom: 0;
+    padding: 0;
   }
   .side-nav-item {
     padding: 7px 0;
@@ -25,6 +26,7 @@
   //   color: var(--color-d) !important;
   // }
   .side-nav-link {
+    text-decoration: none;
     // color: var(--color-c);
     .side-nav-text {
       color: var(--color-c);
@@ -32,7 +34,6 @@
       padding: 0 20px;
     }
     &:hover {
-      text-decoration: none;
       .side-nav-text {
         color: var(--color-d);
       }

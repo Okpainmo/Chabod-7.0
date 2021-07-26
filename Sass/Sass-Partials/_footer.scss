@@ -22,11 +22,10 @@ footer {
       padding-right: 15px;
     }
     .footer-link {
-      // font-size: 14px;
-      &:hover {
-        text-decoration: none;
-        // color: var(--color-c) !important;
-      }
+      text-decoration: none;
+      // &:hover {
+      //   // color: var(--color-c) !important;
+      // }
       i {
         font-size: 16x;
         color: var(--color-c);
