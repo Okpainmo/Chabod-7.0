@@ -14,6 +14,19 @@
   .address-case {
     width: 30%;
   }
+  .phone-case {
+    .social-link {
+      text-decoration: none;
+      margin: 0 10px 0 0;
+      // &:hover {
+      //   // color: var(--color-c) !important;
+      // }
+      .social-icons {
+        font-size: 16px;
+        color: var(--color-c);
+      }
+    }
+  }
   i {
     font-size: 30px;
     margin-bottom: 15px;

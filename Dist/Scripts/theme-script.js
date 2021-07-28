@@ -86,7 +86,7 @@ function ShowMainOverlay() {
   document.querySelector(".side-content").style.filter = "blur(10px)";
 }
 
-const closeMainOverlayBtn = document.querySelector(".close-main-overlay");
+const closeMainOverlayBtn = document.querySelectorAll(".close-main-overlay");
 
 function closeMainOverlay() {
   document.querySelector(".main-overlay").style.display = "none";
@@ -94,7 +94,9 @@ function closeMainOverlay() {
   document.querySelector(".side-content").style.filter = "none";
 }
 // Event Listeners
-closeMainOverlayBtn.addEventListener("click", closeMainOverlay);
+closeMainOverlayBtn.forEach(function (each) {
+  each.addEventListener("click", closeMainOverlay);
+});
 gSort.addEventListener("click", showGraphics);
 devSort.addEventListener("click", showDev);
 UiUxSort.addEventListener("click", showUiUx);
