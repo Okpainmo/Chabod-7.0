@@ -555,20 +555,21 @@ footer .footer-content .footer-link {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.close-main-overlay {
+.close-main-overlay-btn {
   position: fixed;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
   color: var(--color-e);
-  top: 20px;
-  padding: 5px 7.5px;
-  right: 20px;
+  top: 15px;
+  padding: 6.5px 8.5px;
+  right: 17px;
   border-radius: 100%;
   box-shadow: 0 0 7px 2px var(--color-e);
 }
 
 .overlay-content-case {
-  width: 78%;
+  width: 80%;
   height: 90vh;
   background-color: var(--color-e);
   margin: 5vh auto;
@@ -642,6 +643,19 @@ footer .footer-content .footer-link {
   margin: 5px 0;
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
+.overlay-content-case-content .main-story .about-author {
+  color: var(--color-c);
+  font-style: italic;
+  font-size: 15px;
+  padding: 15px 0;
+  border-top: 1px solid var(--color-c);
+}
+.overlay-content-case-content .main-story .about-author a {
+  color: var(--color-c);
+}
+.overlay-content-case-content .main-story .about-author a:hover {
+  color: var(--color-d);
+}
 .overlay-content-case-content .main-story .story-links {
   display: flex;
   justify-content: space-evenly;
@@ -661,11 +675,12 @@ footer .footer-content .footer-link {
 }
 .overlay-content-case-content .story-text-header {
   color: var(--color-c);
-  border-left: 2px solid var(--color-d);
+  border-left: 5px solid var(--color-c);
   padding: 2px 10px;
-  margin: 30px 0 10px 0;
+  margin: 50px 0 15px 0;
 }
-.overlay-content-case-content .story-text-header h5 {
+.overlay-content-case-content .story-text-header h4 {
+  font-size: 22px;
   margin-bottom: 0;
 }
 
