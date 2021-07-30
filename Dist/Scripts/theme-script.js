@@ -1,3 +1,5 @@
+// Portfolio gallery filter -- start
+
 const gSort = document.getElementById("gSort");
 const devSort = document.getElementById("devSort");
 const UiUxSort = document.getElementById("interfaceSort");
@@ -56,6 +58,15 @@ function showUiUx() {
     each.classList.add("show-list");
   });
 }
+
+// portfolio gallery filter event listeners.
+
+gSort.addEventListener("click", showGraphics);
+devSort.addEventListener("click", showDev);
+UiUxSort.addEventListener("click", showUiUx);
+showAll.addEventListener("click", displayAll);
+
+// Portfolio gallery filter -- end
 
 // projects overlay-slide-up and overlay-slide-down -- start
 
@@ -118,13 +129,7 @@ closeMainOverlayBtn.forEach(function (each) {
 
 // Display and hide main-overlay and content(project stories and blog stories) -- end
 
-// Event Listeners
-
 gSort.addEventListener("click", showGraphics);
 devSort.addEventListener("click", showDev);
 UiUxSort.addEventListener("click", showUiUx);
 showAll.addEventListener("click", displayAll);
-
-// showProjectStory.forEach(function (each) {
-//   each.addEventListener("click", ShowMainOverlay);
-// });

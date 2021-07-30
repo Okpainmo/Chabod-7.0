@@ -5,16 +5,19 @@
   height: 100vh;
   background-color: var(--color-a);
   position: fixed;
-  display: flex;
-  // border-right: 0.5px solid var(--color-c);
-  flex-direction: column;
-  justify-content: space-around;
   z-index: 1500;
   top: 0;
   left: 0;
+  display: flex;
+  // border-right: 0.5px solid var(--color-c);
+  justify-content: space-around;
   text-align: center;
   padding: 20px;
   ul {
+    display: flex;
+    // border-right: 0.5px solid var(--color-c);
+    flex-direction: column;
+    justify-content: space-around;
     list-style-type: none;
     margin-bottom: 0;
     padding: 0;

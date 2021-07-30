@@ -1,5 +1,41 @@
-@media screen and (max-width: 991px) {
+@use "./Sass-Partials/media-queries-config.scss" as config;
+
+@include config.media-breakpoint-sm {
+}
+@include config.media-breakpoint-md {
   .mobile-only {
     display: none;
   }
+  .side-nav {
+    bottom: 0;
+    top: calc(100vh - 100px);
+    width: 100%;
+    height: 200px;
+
+    // display: none;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      li {
+        display: inline-block;
+      }
+    }
+  }
+  .side-content {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@include config.media-breakpoint-lg {
+  .contact {
+    .contact-form {
+      width: 70%;
+    }
+  }
+}
+
+@include config.media-breakpoint-xl {
+}
+@include config.media-breakpoint-xxl {
 }
