@@ -1,8 +1,150 @@
 @use "./Sass-Partials/media-queries-config.scss" as config;
 
 @include config.media-breakpoint-sm {
+  .side-content {
+    .home {
+      .seller-photo {
+        width: 200px;
+        height: 200px;
+      }
+    }
+    .portfolio-section {
+      .projects {
+        .card .card-image-case {
+          min-height: 350px !important;
+        }
+        .card .slide-up-overlay {
+          min-height: 350px !important;
+          transform: translateY(350px);
+        }
+      }
+    }
+    .about-section {
+      .achievements {
+        .achievement-list {
+          flex-direction: column;
+        }
+        .achievement-item {
+          width: 70%;
+          margin: 25px auto 0;
+          // margin-top: 20px;
+        }
+      }
+    }
+    .testimonials {
+      .client-quote {
+        padding: 20px 15px !important;
+      }
+    }
+    .contact {
+      .contact-details {
+        flex-direction: column;
+      }
+      .phone-case,
+      .mail-case,
+      .address-case {
+        width: 50%;
+        margin: 20px auto;
+      }
+    }
+  }
 }
 @include config.media-breakpoint-md {
+  .side-content {
+    .home {
+      .seller-intro {
+        padding: 70px 15px 0;
+      }
+    }
+    .about-section {
+      .achievements {
+        width: 100%;
+      }
+      .seller-area {
+        flex-direction: column;
+        .seller-banner {
+          width: 100%;
+          img {
+            height: 500px;
+          }
+        }
+        .about-text {
+          width: 100%;
+        }
+        .btn-case {
+          margin: 50px auto 0;
+        }
+      }
+    }
+    .portfolio-section {
+      .projects {
+        width: 100%;
+        .card .card-image-case {
+          min-height: 350px !important;
+        }
+        .card .slide-up-overlay {
+          min-height: 350px !important;
+          transform: translateY(350px);
+        }
+      }
+    }
+    .contact {
+      .contact-form {
+        width: 75% !important;
+      }
+      .map-area {
+        .address-case {
+          width: 50%;
+        }
+      }
+    }
+    .testimonials {
+      .testimonials-case {
+        padding: 50px 20px;
+      }
+      .carousel-control-next,
+      .carousel-control-prev {
+        display: none;
+      }
+    }
+  }
+}
+@include config.media-breakpoint-lg {
+  .container {
+    max-width: 100%;
+  }
+  .side-content {
+    .portfolio-section {
+      .card {
+        margin: 0;
+      }
+    }
+    .contact .contact-details {
+      padding: 30px 0;
+    }
+    .testimonials .client-quote {
+      padding: 20px 70px !important;
+    }
+    .about-section {
+      .seller-area {
+        width: 98%;
+      }
+      .seller-banner {
+        margin-right: 2%;
+        width: 38%;
+      }
+      .about-text {
+        width: 60%;
+      }
+      .achievements {
+        p {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+@include config.media-breakpoint-ln {
   .mobile-only {
     display: none;
   }
@@ -11,6 +153,9 @@
     top: calc(100vh - 100px);
     width: 100%;
     height: 200px;
+    display: none;
+    // flex-direction: row;
+    // justify-content: space-between;
 
     // display: none;
     ul {
@@ -25,17 +170,78 @@
   .side-content {
     width: 100%;
     margin-left: 0;
-  }
-}
-@include config.media-breakpoint-lg {
-  .contact {
-    .contact-form {
-      width: 70%;
+    .home {
+      height: 650px;
+    }
+    .seller-content #particlesCase {
+      width: 100%;
+      height: 650px;
+    }
+    .seller-content .home-social {
+      left: 0;
+      top: 500px;
+      width: 300px;
+      margin: 0 auto;
+      flex-direction: row;
+    }
+    .about-section {
+      min-height: 300px;
+    }
+    .portfolio-section {
+      min-height: 300px;
+    }
+    .contact {
+      min-height: 300px;
+      .contact-form {
+        width: 60%;
+      }
+    }
+    .testimonials {
+      min-height: 300px;
+      // .client-quote {
+      //   padding: 20px 110px;
+      // }
+    }
+    .blog-section {
+      min-height: 300px;
     }
   }
 }
-
 @include config.media-breakpoint-xl {
+  .contact {
+    .contact-form {
+      width: 65%;
+    }
+  }
+  .about-section {
+    .seller-banner {
+      img {
+        width: 100%;
+
+        height: 300px;
+      }
+    }
+  }
+  .portfolio-section {
+    .projects {
+      // width: 95%;
+      padding: 20px;
+      .card .card-image-case {
+        min-height: 272px;
+      }
+      .card .slide-up-overlay {
+        min-height: 272px;
+      }
+    }
+  }
+  .testimonials {
+    .client-quote {
+      padding: 20px 120px;
+    }
+  }
 }
-@include config.media-breakpoint-xxl {
-}
+// @include config.media-breakpoint-xxl {
+
+// no content
+
+// }

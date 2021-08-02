@@ -1,37 +1,45 @@
-// media queries configurations using bootstrap breakpoints
+// media queries configuration using bootstrap breakpoints
 
-// Small devices (landscape phones, 576px and up)
+// Small devices (landscape phones, 576px and down)
 @mixin media-breakpoint-sm {
-  @media (min-width: 576px) {
+  @media (max-width: 576px) {
     @content;
   }
 }
 
-//  Medium devices (tablets, 768px and up)
+//  Medium devices (tablets, 768px and down)
 
 @mixin media-breakpoint-md {
-  @media (min-width: 768px) {
+  @media (max-width: 767px) {
     @content;
   }
 }
 
-// Large devices (desktops, 992px and up)
+// Large devices (desktops, 992px and down)
 
 @mixin media-breakpoint-lg {
-  @media (min-width: 992px) {
+  @media (max-width: 992px) {
     @content;
   }
 }
 
-// X-Large devices (large desktops, 1200px and up)
+// additional breakpoint to solve viewport height issue of primary desktop design on long screen devices.
+
+@mixin media-breakpoint-ln {
+  @media (max-width: 1035px) {
+    @content;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and down)
 
 @mixin media-breakpoint-xl {
-  @media (min-width: 1200px) {
+  @media (max-width: 1200px) {
     @content;
   }
 }
 
-// XX-Large devices (larger desktops, 1400px and up)
+// XX-Large devices (larger desktops, 1400px and down)
 @mixin media-breakpoint-xxl {
   @media (max-width: 1400px) {
     @content;

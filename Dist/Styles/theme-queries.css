@@ -1,4 +1,110 @@
-@media (min-width: 768px) {
+@media (max-width: 576px) {
+  .side-content .home .seller-photo {
+    width: 200px;
+    height: 200px;
+  }
+  .side-content .portfolio-section .projects .card .card-image-case {
+    min-height: 350px !important;
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay {
+    min-height: 350px !important;
+    transform: translateY(350px);
+  }
+  .side-content .about-section .achievements .achievement-list {
+    flex-direction: column;
+  }
+  .side-content .about-section .achievements .achievement-item {
+    width: 70%;
+    margin: 25px auto 0;
+  }
+  .side-content .testimonials .client-quote {
+    padding: 20px 15px !important;
+  }
+  .side-content .contact .contact-details {
+    flex-direction: column;
+  }
+  .side-content .contact .phone-case,
+.side-content .contact .mail-case,
+.side-content .contact .address-case {
+    width: 50%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 767px) {
+  .side-content .home .seller-intro {
+    padding: 70px 15px 0;
+  }
+  .side-content .about-section .achievements {
+    width: 100%;
+  }
+  .side-content .about-section .seller-area {
+    flex-direction: column;
+  }
+  .side-content .about-section .seller-area .seller-banner {
+    width: 100%;
+  }
+  .side-content .about-section .seller-area .seller-banner img {
+    height: 500px;
+  }
+  .side-content .about-section .seller-area .about-text {
+    width: 100%;
+  }
+  .side-content .about-section .seller-area .btn-case {
+    margin: 50px auto 0;
+  }
+  .side-content .portfolio-section .projects {
+    width: 100%;
+  }
+  .side-content .portfolio-section .projects .card .card-image-case {
+    min-height: 350px !important;
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay {
+    min-height: 350px !important;
+    transform: translateY(350px);
+  }
+  .side-content .contact .contact-form {
+    width: 75% !important;
+  }
+  .side-content .contact .map-area .address-case {
+    width: 50%;
+  }
+  .side-content .testimonials .testimonials-case {
+    padding: 50px 20px;
+  }
+  .side-content .testimonials .carousel-control-next,
+.side-content .testimonials .carousel-control-prev {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .side-content .portfolio-section .card {
+    margin: 0;
+  }
+  .side-content .contact .contact-details {
+    padding: 30px 0;
+  }
+  .side-content .testimonials .client-quote {
+    padding: 20px 70px !important;
+  }
+  .side-content .about-section .seller-area {
+    width: 98%;
+  }
+  .side-content .about-section .seller-banner {
+    margin-right: 2%;
+    width: 38%;
+  }
+  .side-content .about-section .about-text {
+    width: 60%;
+  }
+  .side-content .about-section .achievements p {
+    width: 80%;
+  }
+}
+@media (max-width: 1035px) {
   .mobile-only {
     display: none;
   }
@@ -8,6 +114,7 @@
     top: calc(100vh - 100px);
     width: 100%;
     height: 200px;
+    display: none;
   }
   .side-nav ul {
     display: flex;
@@ -22,9 +129,60 @@
     width: 100%;
     margin-left: 0;
   }
+  .side-content .home {
+    height: 650px;
+  }
+  .side-content .seller-content #particlesCase {
+    width: 100%;
+    height: 650px;
+  }
+  .side-content .seller-content .home-social {
+    left: 0;
+    top: 500px;
+    width: 300px;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+  .side-content .about-section {
+    min-height: 300px;
+  }
+  .side-content .portfolio-section {
+    min-height: 300px;
+  }
+  .side-content .contact {
+    min-height: 300px;
+  }
+  .side-content .contact .contact-form {
+    width: 60%;
+  }
+  .side-content .testimonials {
+    min-height: 300px;
+  }
+  .side-content .blog-section {
+    min-height: 300px;
+  }
 }
-@media (min-width: 992px) {
+@media (max-width: 1200px) {
   .contact .contact-form {
-    width: 70%;
+    width: 65%;
+  }
+
+  .about-section .seller-banner img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .portfolio-section .projects {
+    padding: 20px;
+  }
+  .portfolio-section .projects .card .card-image-case {
+    min-height: 272px;
+  }
+  .portfolio-section .projects .card .slide-up-overlay {
+    min-height: 272px;
+  }
+
+  .testimonials .client-quote {
+    padding: 20px 120px;
   }
 }

@@ -74,16 +74,17 @@ body {
 // Side/main page content
 
 .btn-case {
-  width: 400px;
+  width: 350px;
   margin-top: 10px;
 }
 .custom-btn {
   padding: 10px 30px;
-  width: 400px;
+  width: inherit;
   background-color: var(--color-d);
   font-size: 18px;
   color: var(--color-e);
   display: block;
+  // margin: 0 auto;nnnn
   border: 2px solid var(--color-d);
   &:hover {
     background-color: var(--color-e);
