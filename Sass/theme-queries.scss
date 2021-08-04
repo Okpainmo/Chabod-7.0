@@ -19,6 +19,7 @@
     }
     .portfolio-section {
       .projects {
+        padding: 7px;
         .card .card-image-case {
           min-height: 350px !important;
         }
@@ -35,14 +36,26 @@
         }
         .achievement-item {
           width: 70%;
-          margin: 25px auto 0;
+          margin: 35px auto 0;
           // margin-top: 20px;
         }
       }
     }
     .testimonials {
       .client-quote {
-        padding: 20px 15px !important;
+        padding: 20px 0 !important;
+      }
+    }
+    .about-section {
+      .about-text {
+        text-align: center;
+        padding: 15px 0;
+      }
+      .seller-banner {
+        padding: 15px 0;
+        img {
+          height: 400px !important;
+        }
       }
     }
     .contact {
@@ -55,7 +68,34 @@
         width: 50%;
         margin: 20px auto;
       }
+      .contact-form {
+        width: 90% !important;
+        padding: 10px;
+      }
     }
+    .blog-section {
+      .card {
+        margin: 0;
+      }
+      .blog-container {
+        width: 100%;
+        padding: 20px 7px;
+      }
+    }
+    footer {
+      flex-direction: column;
+      .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        .social-icons-case {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  .section-header {
+    margin-left: 7px;
   }
 }
 @include config.media-breakpoint-md {
@@ -73,6 +113,7 @@
         flex-direction: column;
         .seller-banner {
           width: 100%;
+          margin-right: 0;
           img {
             height: 500px;
           }
@@ -89,17 +130,17 @@
       .projects {
         width: 100%;
         .card .card-image-case {
-          min-height: 350px !important;
+          min-height: 350px;
         }
         .card .slide-up-overlay {
-          min-height: 350px !important;
+          min-height: 350px;
           transform: translateY(350px);
         }
       }
     }
     .contact {
       .contact-form {
-        width: 75% !important;
+        width: 75%;
       }
       .map-area {
         .address-case {
@@ -132,7 +173,7 @@
       padding: 30px 0;
     }
     .testimonials .client-quote {
-      padding: 20px 70px !important;
+      padding: 20px 90px;
     }
     .about-section {
       .seller-area {

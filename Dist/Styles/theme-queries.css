@@ -12,6 +12,9 @@
     width: 200px;
     height: 200px;
   }
+  .side-content .portfolio-section .projects {
+    padding: 7px;
+  }
   .side-content .portfolio-section .projects .card .card-image-case {
     min-height: 350px !important;
   }
@@ -24,10 +27,20 @@
   }
   .side-content .about-section .achievements .achievement-item {
     width: 70%;
-    margin: 25px auto 0;
+    margin: 35px auto 0;
   }
   .side-content .testimonials .client-quote {
-    padding: 20px 15px !important;
+    padding: 20px 0 !important;
+  }
+  .side-content .about-section .about-text {
+    text-align: center;
+    padding: 15px 0;
+  }
+  .side-content .about-section .seller-banner {
+    padding: 15px 0;
+  }
+  .side-content .about-section .seller-banner img {
+    height: 400px !important;
   }
   .side-content .contact .contact-details {
     flex-direction: column;
@@ -37,6 +50,32 @@
 .side-content .contact .address-case {
     width: 50%;
     margin: 20px auto;
+  }
+  .side-content .contact .contact-form {
+    width: 90% !important;
+    padding: 10px;
+  }
+  .side-content .blog-section .card {
+    margin: 0;
+  }
+  .side-content .blog-section .blog-container {
+    width: 100%;
+    padding: 20px 7px;
+  }
+  .side-content footer {
+    flex-direction: column;
+  }
+  .side-content footer .footer-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .side-content footer .footer-content .social-icons-case {
+    margin-bottom: 15px;
+  }
+
+  .section-header {
+    margin-left: 7px;
   }
 }
 @media (max-width: 767px) {
@@ -51,6 +90,7 @@
   }
   .side-content .about-section .seller-area .seller-banner {
     width: 100%;
+    margin-right: 0;
   }
   .side-content .about-section .seller-area .seller-banner img {
     height: 500px;
@@ -65,14 +105,14 @@
     width: 100%;
   }
   .side-content .portfolio-section .projects .card .card-image-case {
-    min-height: 350px !important;
+    min-height: 350px;
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay {
-    min-height: 350px !important;
+    min-height: 350px;
     transform: translateY(350px);
   }
   .side-content .contact .contact-form {
-    width: 75% !important;
+    width: 75%;
   }
   .side-content .contact .map-area .address-case {
     width: 50%;
@@ -97,7 +137,7 @@
     padding: 30px 0;
   }
   .side-content .testimonials .client-quote {
-    padding: 20px 70px !important;
+    padding: 20px 90px;
   }
   .side-content .about-section .seller-area {
     width: 98%;

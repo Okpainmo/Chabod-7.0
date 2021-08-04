@@ -161,6 +161,7 @@
   filter: grayscale(1);
   min-height: 272px;
   overflow: hidden;
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .projects .card .slide-up-overlay {
   min-height: 272px;
@@ -389,7 +390,7 @@
 }
 .contact .phone-case .social-link {
   text-decoration: none;
-  margin: 0 15px 0 0;
+  margin: 0 10px;
 }
 .contact .phone-case .social-link .social-icons {
   font-size: 16px;
@@ -510,6 +511,7 @@
 }
 .blog-container img {
   filter: grayscale(1);
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .blog-container .btn-case {
   margin: 30px auto 0;
@@ -544,7 +546,7 @@ footer .footer-content .social-icons {
   color: var(--color-c);
 }
 footer .footer-content .footer-link {
-  margin-right: 15px;
+  margin: 0 10px;
   text-decoration: none;
 }
 
