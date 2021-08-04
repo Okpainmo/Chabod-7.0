@@ -2,7 +2,16 @@
 
 @include config.media-breakpoint-sm {
   .side-content {
+    .seller-content #particlesCase {
+      height: 100vh !important;
+    }
+    .seller-intro {
+      .seller-brief {
+        padding: 0 20px;
+      }
+    }
     .home {
+      height: 100vh !important;
       .seller-photo {
         width: 200px;
         height: 200px;

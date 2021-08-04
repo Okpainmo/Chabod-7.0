@@ -1,4 +1,13 @@
 @media (max-width: 576px) {
+  .side-content .seller-content #particlesCase {
+    height: 100vh !important;
+  }
+  .side-content .seller-intro .seller-brief {
+    padding: 0 20px;
+  }
+  .side-content .home {
+    height: 100vh !important;
+  }
   .side-content .home .seller-photo {
     width: 200px;
     height: 200px;
