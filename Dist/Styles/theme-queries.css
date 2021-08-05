@@ -15,6 +15,9 @@
   .side-content .portfolio-section .projects {
     padding: 7px;
   }
+  .side-content .portfolio-section .projects .tag {
+    padding: 10px 0;
+  }
   .side-content .portfolio-section .projects .card .card-image-case {
     min-height: 350px !important;
   }
@@ -44,6 +47,9 @@
   }
   .side-content .contact .contact-details {
     flex-direction: column;
+  }
+  .side-content .contact .map-area {
+    padding: 7px;
   }
   .side-content .contact .phone-case,
 .side-content .contact .mail-case,
@@ -104,6 +110,18 @@
   .side-content .portfolio-section .projects {
     width: 100%;
   }
+  .side-content .portfolio-section .projects .filter-tags {
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  .side-content .portfolio-section .projects .tag {
+    background-color: transparent;
+    min-width: 50px;
+    color: grey;
+    font-style: italic;
+    margin: 0 5px;
+    padding: 10px;
+  }
   .side-content .portfolio-section .projects .card .card-image-case {
     min-height: 350px;
   }
@@ -111,8 +129,19 @@
     min-height: 350px;
     transform: translateY(350px);
   }
+  .side-content .portfolio-section .projects .card .slide-up-overlay_slideUp {
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay_slideDown {
+    transform: translateY(350px);
+    transition: transform 0.5s ease;
+  }
   .side-content .contact .contact-form {
-    width: 75%;
+    width: 75% !important;
+  }
+  .side-content .contact .map-case {
+    width: 100%;
   }
   .side-content .contact .map-area .address-case {
     width: 50%;
@@ -151,6 +180,16 @@
   }
   .side-content .about-section .achievements p {
     width: 80%;
+  }
+
+  .main-overlay .overlay-content-case {
+    width: 95%;
+  }
+  .main-overlay .overlay-content-case .close-main-overlay-btn {
+    position: relative;
+    color: var(--color-d);
+    top: 0 !important;
+    right: -15px !important;
   }
 }
 @media (max-width: 1035px) {
@@ -224,14 +263,16 @@
   .portfolio-section .projects {
     padding: 20px;
   }
-  .portfolio-section .projects .card .card-image-case {
-    min-height: 272px;
-  }
-  .portfolio-section .projects .card .slide-up-overlay {
-    min-height: 272px;
-  }
 
   .testimonials .client-quote {
     padding: 20px 120px;
+  }
+
+  .main-overlay .overlay-content-case {
+    width: 90%;
+  }
+  .main-overlay .overlay-content-case .close-main-overlay-btn {
+    top: 5px;
+    right: 8px;
   }
 }

@@ -19,6 +19,9 @@
     }
     .portfolio-section {
       .projects {
+        .tag {
+          padding: 10px 0;
+        }
         padding: 7px;
         .card .card-image-case {
           min-height: 350px !important;
@@ -61,6 +64,9 @@
     .contact {
       .contact-details {
         flex-direction: column;
+      }
+      .map-area {
+        padding: 7px;
       }
       .phone-case,
       .mail-case,
@@ -129,18 +135,43 @@
     .portfolio-section {
       .projects {
         width: 100%;
-        .card .card-image-case {
-          min-height: 350px;
+        .filter-tags {
+          padding: 10px 0;
+          margin-bottom: 10px;
         }
-        .card .slide-up-overlay {
-          min-height: 350px;
-          transform: translateY(350px);
+        .tag {
+          background-color: transparent;
+          min-width: 50px;
+          color: grey;
+          font-style: italic;
+          margin: 0 5px;
+          padding: 10px;
+        }
+        .card {
+          .card-image-case {
+            min-height: 350px;
+          }
+          .slide-up-overlay {
+            min-height: 350px;
+            transform: translateY(350px);
+          }
+          .slide-up-overlay_slideUp {
+            transform: translateY(0);
+            transition: transform 0.5s ease;
+          }
+          .slide-up-overlay_slideDown {
+            transform: translateY(350px);
+            transition: transform 0.5s ease;
+          }
         }
       }
     }
     .contact {
       .contact-form {
-        width: 75%;
+        width: 75% !important;
+      }
+      .map-case {
+        width: 100%;
       }
       .map-area {
         .address-case {
@@ -190,6 +221,17 @@
         p {
           width: 80%;
         }
+      }
+    }
+  }
+  .main-overlay {
+    .overlay-content-case {
+      width: 95%;
+      .close-main-overlay-btn {
+        position: relative;
+        color: var(--color-d);
+        top: 0 !important;
+        right: -15px !important;
       }
     }
   }
@@ -276,17 +318,20 @@
     .projects {
       // width: 95%;
       padding: 20px;
-      .card .card-image-case {
-        min-height: 272px;
-      }
-      .card .slide-up-overlay {
-        min-height: 272px;
-      }
     }
   }
   .testimonials {
     .client-quote {
       padding: 20px 120px;
+    }
+  }
+  .main-overlay {
+    .overlay-content-case {
+      width: 90%;
+      .close-main-overlay-btn {
+        top: 5px;
+        right: 8px;
+      }
     }
   }
 }
