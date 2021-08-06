@@ -1,125 +1,153 @@
 @use "./Sass-Partials/media-queries-config.scss" as config;
 
-@include config.media-breakpoint-sm {
-  .btn-case {
-    min-width: 250px;
+@include config.media-breakpoint-xl {
+  .contact {
+    .contact-form {
+      width: 65%;
+    }
   }
+  .about-section {
+    .seller-banner {
+      img {
+        width: 100%;
 
-  .row {
-    margin-left: auto !important;
-    margin-right: auto !important;
+        height: 300px;
+      }
+    }
   }
+  .portfolio-section {
+    .projects {
+      // width: 95%;
+      padding: 20px;
+    }
+  }
+  .testimonials {
+    .client-quote {
+      padding: 20px 120px;
+    }
+  }
+  .main-overlay {
+    .overlay-content-case {
+      width: 90%;
+      .close-main-overlay-btn {
+        top: 5px;
+        right: 8px;
+      }
+    }
+  }
+}
 
-  .col-12,
-  .col,
-  .col-sm-6,
-  .col-md-4 {
-    padding: 0 7px;
-    margin: 10px 0;
+@include config.media-breakpoint-ln {
+  .mobile-only {
+    display: none;
+  }
+  .side-nav {
+    bottom: 0;
+    top: calc(100vh - 100px);
+    width: 100%;
+    height: 200px;
+    display: none;
+    // flex-direction: row;
+    // justify-content: space-between;
+
+    // display: none;
+    ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      li {
+        display: inline-block;
+      }
+    }
   }
   .side-content {
-    .seller-content #particlesCase {
-      height: 100vh !important;
-    }
-    .seller-intro {
-      .seller-brief {
-        padding: 0 20px;
-      }
-    }
+    width: 100%;
+    margin-left: 0;
     .home {
-      height: 100vh !important;
-      .seller-photo {
-        width: 200px;
-        height: 200px;
-      }
+      height: 650px;
     }
-    .portfolio-section {
-      .projects {
-        padding: 0px;
-        .tag {
-          padding: 10px 0;
-        }
-        .card .card-image-case {
-          min-height: 350px !important;
-        }
-        .card .slide-up-overlay {
-          min-height: 350px !important;
-          transform: translateY(350px);
-        }
-      }
+    .seller-content #particlesCase {
+      width: 100%;
+      height: 650px;
+    }
+    .seller-content .home-social {
+      left: 0;
+      top: 500px;
+      width: 100%;
+      margin: 0 auto;
+      flex-direction: row;
     }
     .about-section {
-      .achievements {
-        .achievement-list {
-          flex-direction: column;
-        }
-        .achievement-item {
-          width: 70%;
-          margin: 35px auto 0;
-          // margin-top: 20px;
-        }
+      min-height: 300px;
+    }
+    .portfolio-section {
+      min-height: 300px;
+    }
+    .contact {
+      min-height: 300px;
+      .contact-form {
+        width: 60%;
       }
     }
     .testimonials {
-      .client-quote {
-        padding: 20px 0 !important;
-      }
-    }
-    .about-section {
-      .about-text {
-        text-align: center;
-        padding: 15px 0;
-      }
-      .seller-banner {
-        padding: 15px 0;
-        img {
-          height: 400px !important;
-        }
-      }
-    }
-    .contact {
-      .contact-details {
-        flex-direction: column;
-      }
-      .map-area {
-        padding: 7px;
-      }
-      .phone-case,
-      .mail-case,
-      .address-case {
-        width: 50%;
-        margin: 20px auto;
-      }
-      .contact-form {
-        width: 90% !important;
-        padding: 10px;
-      }
+      min-height: 300px;
+      // .client-quote {
+      //   padding: 20px 110px;
+      // }
     }
     .blog-section {
+      min-height: 300px;
+    }
+  }
+}
+
+@include config.media-breakpoint-lg {
+  .container {
+    max-width: 100%;
+  }
+  .side-content {
+    .portfolio-section {
       .card {
         margin: 0;
       }
-      .blog-container {
-        width: 100%;
-        // padding: 20px 0px;
-      }
     }
-    footer {
-      flex-direction: column;
-      .footer-content {
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-        .social-icons-case {
-          margin-bottom: 15px;
+    .contact .contact-details {
+      padding: 30px 0;
+    }
+    .testimonials .client-quote {
+      padding: 20px 90px;
+    }
+    .about-section {
+      .seller-area {
+        width: 98%;
+      }
+      .seller-banner {
+        margin-right: 2%;
+        width: 38%;
+      }
+      .about-text {
+        width: 60%;
+      }
+      .achievements {
+        p {
+          width: 80%;
         }
       }
     }
   }
-  .section-header {
-    margin-left: 7px;
+  .main-overlay {
+    .overlay-content-case {
+      width: 95%;
+      .close-main-overlay-btn {
+        position: relative;
+        color: var(--color-d);
+        top: 0;
+        right: -15px;
+      }
+    }
   }
 }
+
 @include config.media-breakpoint-md {
   .side-content {
     .home {
@@ -184,7 +212,7 @@
     }
     .contact {
       .contact-form {
-        width: 75% !important;
+        width: 75%;
       }
       .map-case {
         width: 100%;
@@ -206,151 +234,124 @@
     }
   }
 }
-@include config.media-breakpoint-lg {
-  .container {
-    max-width: 100%;
+
+@include config.media-breakpoint-sm {
+  .btn-case {
+    min-width: 250px;
+  }
+
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .col-12,
+  .col,
+  .col-sm-6,
+  .col-md-4 {
+    padding: 0 7px;
+    margin: 10px 0;
   }
   .side-content {
+    .seller-content #particlesCase {
+      height: 100vh;
+    }
+    .seller-intro {
+      .seller-brief {
+        padding: 0 20px;
+      }
+    }
+    .home {
+      height: 100vh;
+      .seller-photo {
+        width: 200px;
+        height: 200px;
+      }
+      .seller-intro {
+        padding: 100px 15px;
+      }
+    }
     .portfolio-section {
+      .projects {
+        padding: 0px;
+        .tag {
+          padding: 10px 0;
+        }
+      }
+    }
+    .about-section {
+      .achievements {
+        .achievement-list {
+          flex-direction: column;
+        }
+        .achievement-item {
+          width: 70%;
+          margin: 35px auto 0;
+          // margin-top: 20px;
+        }
+      }
+    }
+    .testimonials {
+      .client-quote {
+        padding: 20px 0;
+      }
+    }
+    .about-section {
+      .about-text {
+        text-align: center;
+        padding: 15px 0;
+      }
+      .seller-banner {
+        padding: 15px 0;
+        img {
+          height: 400px;
+        }
+      }
+    }
+    .contact {
+      .contact-details {
+        flex-direction: column;
+      }
+      .map-area {
+        padding: 7px;
+      }
+      .phone-case,
+      .mail-case,
+      .address-case {
+        width: 50%;
+        margin: 20px auto;
+      }
+      .contact-form {
+        width: 90%;
+        padding: 10px;
+      }
+    }
+    .blog-section {
       .card {
         margin: 0;
       }
-    }
-    .contact .contact-details {
-      padding: 30px 0;
-    }
-    .testimonials .client-quote {
-      padding: 20px 90px;
-    }
-    .about-section {
-      .seller-area {
-        width: 98%;
+      .blog-container {
+        width: 100%;
+        // padding: 20px 0px;
       }
-      .seller-banner {
-        margin-right: 2%;
-        width: 38%;
-      }
-      .about-text {
-        width: 60%;
-      }
-      .achievements {
-        p {
-          width: 80%;
+    }
+    footer {
+      flex-direction: column;
+      .footer-content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        .social-icons-case {
+          margin-bottom: 15px;
         }
       }
     }
   }
-  .main-overlay {
-    .overlay-content-case {
-      width: 95%;
-      .close-main-overlay-btn {
-        position: relative;
-        color: var(--color-d);
-        top: 0 !important;
-        right: -15px !important;
-      }
-    }
+  .section-header {
+    margin-left: 7px;
   }
 }
-@include config.media-breakpoint-ln {
-  .mobile-only {
-    display: none;
-  }
-  .side-nav {
-    bottom: 0;
-    top: calc(100vh - 100px);
-    width: 100%;
-    height: 200px;
-    display: none;
-    // flex-direction: row;
-    // justify-content: space-between;
 
-    // display: none;
-    ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      li {
-        display: inline-block;
-      }
-    }
-  }
-  .side-content {
-    width: 100%;
-    margin-left: 0;
-    .home {
-      height: 650px;
-    }
-    .seller-content #particlesCase {
-      width: 100%;
-      height: 650px;
-    }
-    .seller-content .home-social {
-      left: 0;
-      top: 500px;
-      width: 300px;
-      margin: 0 auto;
-      flex-direction: row;
-    }
-    .about-section {
-      min-height: 300px;
-    }
-    .portfolio-section {
-      min-height: 300px;
-    }
-    .contact {
-      min-height: 300px;
-      .contact-form {
-        width: 60%;
-      }
-    }
-    .testimonials {
-      min-height: 300px;
-      // .client-quote {
-      //   padding: 20px 110px;
-      // }
-    }
-    .blog-section {
-      min-height: 300px;
-    }
-  }
-}
-@include config.media-breakpoint-xl {
-  .contact {
-    .contact-form {
-      width: 65%;
-    }
-  }
-  .about-section {
-    .seller-banner {
-      img {
-        width: 100%;
-
-        height: 300px;
-      }
-    }
-  }
-  .portfolio-section {
-    .projects {
-      // width: 95%;
-      padding: 20px;
-    }
-  }
-  .testimonials {
-    .client-quote {
-      padding: 20px 120px;
-    }
-  }
-  .main-overlay {
-    .overlay-content-case {
-      width: 90%;
-      .close-main-overlay-btn {
-        top: 5px;
-        right: 8px;
-      }
-    }
-  }
-}
 // @include config.media-breakpoint-xxl {
 
 // no content
