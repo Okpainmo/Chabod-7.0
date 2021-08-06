@@ -1,4 +1,21 @@
 @media (max-width: 576px) {
+  .btn-case {
+    min-width: 250px;
+  }
+
+  .row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .col-12,
+.col,
+.col-sm-6,
+.col-md-4 {
+    padding: 0 7px;
+    margin: 10px 0;
+  }
+
   .side-content .seller-content #particlesCase {
     height: 100vh !important;
   }
@@ -13,7 +30,7 @@
     height: 200px;
   }
   .side-content .portfolio-section .projects {
-    padding: 7px;
+    padding: 0px;
   }
   .side-content .portfolio-section .projects .tag {
     padding: 10px 0;
@@ -66,7 +83,6 @@
   }
   .side-content .blog-section .blog-container {
     width: 100%;
-    padding: 20px 7px;
   }
   .side-content footer {
     flex-direction: column;
