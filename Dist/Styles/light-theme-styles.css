@@ -159,14 +159,15 @@
 .projects .card .card-image-case {
   background-size: cover;
   filter: grayscale(1);
-  min-height: 272px;
+  min-height: 300px;
   overflow: hidden;
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .projects .card .slide-up-overlay {
-  height: 272px;
+  min-height: 300px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
+  transform: translateY(300px);
   padding: 15px;
   color: white;
 }
@@ -182,7 +183,7 @@
   transition: transform 0.5s ease;
 }
 .projects .card .slide-up-overlay_slideDown {
-  transform: translateY(272px);
+  transform: translateY(300px);
   transition: transform 0.5s ease;
 }
 .projects .card .slide-up-overlay h5 {
@@ -284,17 +285,12 @@
 .projects .card-text {
   color: var(--color-c);
 }
-.projects .project-details {
-  width: 95%;
-}
 .projects .read-on-menu-bar {
-  width: 5%;
   text-align: right;
   cursor: pointer;
 }
 .projects .read-on-menu-bar span {
   font-size: 30px;
-  transform: translateY(7px);
   color: var(--color-c);
 }
 .projects .filter-tags {

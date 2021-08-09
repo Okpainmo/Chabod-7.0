@@ -1,3 +1,5 @@
+/** additional breakpoint to solve viewport height issue of primary desktop design on 
+ long screen devices Like Ipads. **/
 @media (max-width: 1200px) {
   .contact .contact-form {
     width: 65%;
@@ -113,6 +115,9 @@
   .main-overlay .overlay-content-case {
     width: 95%;
   }
+  .main-overlay .overlay-content-case-content {
+    width: 75%;
+  }
   .main-overlay .overlay-content-case .close-main-overlay-btn {
     position: relative;
     color: var(--color-d);
@@ -189,10 +194,25 @@
 .side-content .testimonials .carousel-control-prev {
     display: none;
   }
+
+  .main-overlay .overlay-content-case .story-banner {
+    height: 300px;
+  }
+  .main-overlay .overlay-content-case .main-story .col .card {
+    min-height: 300px;
+  }
 }
 @media (max-width: 576px) {
   .btn-case {
-    min-width: 250px;
+    width: 100%;
+  }
+
+  .custom-btn {
+    margin: 0 auto;
+  }
+
+  .container {
+    padding: 0;
   }
 
   .row {
@@ -212,17 +232,14 @@
     height: 100vh;
   }
   .side-content .seller-intro .seller-brief {
-    padding: 0 20px;
+    padding: 0;
   }
   .side-content .home {
     height: 100vh;
   }
   .side-content .home .seller-photo {
-    width: 200px;
-    height: 200px;
-  }
-  .side-content .home .seller-intro {
-    padding: 100px 15px;
+    width: 220px;
+    height: 220px;
   }
   .side-content .portfolio-section .projects {
     padding: 0px;
@@ -237,18 +254,27 @@
     width: 70%;
     margin: 35px auto 0;
   }
+  .side-content .about-section .achievements p {
+    width: 90%;
+  }
   .side-content .testimonials .client-quote {
     padding: 20px 0;
+  }
+  .side-content .testimonials .testimonials-case {
+    padding: 50px 10px;
   }
   .side-content .about-section .about-text {
     text-align: center;
     padding: 15px 0;
   }
-  .side-content .about-section .seller-banner {
+  .side-content .about-section .seller-area {
+    width: 100%;
+  }
+  .side-content .about-section .seller-area .seller-banner {
     padding: 15px 0;
   }
-  .side-content .about-section .seller-banner img {
-    height: 400px;
+  .side-content .about-section .seller-area .seller-banner img {
+    height: 430px;
   }
   .side-content .contact .contact-details {
     flex-direction: column;
@@ -256,14 +282,17 @@
   .side-content .contact .map-area {
     padding: 7px;
   }
+  .side-content .contact .map-area .address-case {
+    width: 90%;
+  }
   .side-content .contact .phone-case,
 .side-content .contact .mail-case,
 .side-content .contact .address-case {
-    width: 50%;
+    width: 90%;
     margin: 20px auto;
   }
   .side-content .contact .contact-form {
-    width: 90%;
+    width: 95%;
     padding: 10px;
   }
   .side-content .blog-section .card {
@@ -271,6 +300,9 @@
   }
   .side-content .blog-section .blog-container {
     width: 100%;
+  }
+  .side-content .blog-section .blog-container .btn-case {
+    padding: 0 7px;
   }
   .side-content footer {
     flex-direction: column;
@@ -286,5 +318,36 @@
 
   .section-header {
     margin-left: 7px;
+  }
+
+  .main-overlay .overlay-content-case-content {
+    width: 100%;
+    padding: 7px;
+  }
+  .main-overlay .overlay-content-case-content .story-banner {
+    height: 270px;
+  }
+  .main-overlay .overlay-content-case-content .main-story .col {
+    padding: 0;
+  }
+  .main-overlay .overlay-content-case-content .main-story .col .card {
+    min-height: 300px;
+  }
+}
+@media screen and (max-width: 400px) and (max-width: 400px) {
+  .side-content .portfolio-section .projects .card .card-image-case {
+    min-height: 270px;
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay {
+    min-height: 270px;
+    transform: translateY(270px);
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay_slideDown {
+    transform: translateY(270px);
+    transition: transform 0.5s ease;
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay_slideUp {
+    transform: translateY(0);
+    transition: transform 0.5s ease;
   }
 }
