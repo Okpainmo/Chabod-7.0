@@ -721,6 +721,17 @@ body {
   background-color: #000;
 }
 
+.main-overlay .overlay-content-case {
+  color: var(--color-a);
+  background-color: white;
+}
+.main-overlay .overlay-content-case .photo-credit {
+  color: var(--color-b);
+}
+.main-overlay .overlay-content-case .post-details {
+  color: var(--color-a);
+}
+
 /** color configurations for light and dark modes. 
 simply uncomment the mode configuration of your choice **/
 * {
