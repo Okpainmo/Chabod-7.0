@@ -33,7 +33,6 @@
   padding-top: 70px;
   position: relative;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.75);
   height: 100%;
 }
 @-webkit-keyframes rotatePhoto {
@@ -698,13 +697,32 @@ footer .footer-content .footer-link {
 }
 
 :root {
-  --color-a: #f7f8f9;
-  --color-b: black;
-  --color-c: #757575;
-  --color-d: #212529;
-  --color-e: white;
+  --color-a: #161616;
+  --color-b: white;
+  --color-c: #6b6a6a;
+  --color-d: #b3b3b4;
+  --color-e: black;
 }
 
+body {
+  color: white;
+  background-color: black;
+}
+
+.seller-content .seller-intro {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.card {
+  background-color: black;
+}
+
+.form-control {
+  background-color: #000;
+}
+
+/** color configurations for light and dark modes. 
+simply uncomment the mode configuration of your choice **/
 * {
   padding: 0;
   margin: 0;

@@ -1,0 +1,26 @@
+:root {
+  --color-a: #161616;
+  --color-b: white;
+  --color-c: #6b6a6a;
+  --color-d: #b3b3b4;
+  --color-e: black;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.seller-content {
+  .seller-intro {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
+
+.card {
+  background-color: black;
+}
+
+.form-control {
+  background-color: #000;
+}

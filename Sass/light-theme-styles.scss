@@ -9,17 +9,11 @@
 @use './Sass-Partials/side-content';
 @use './Sass-Partials/main-overlay';
 
-// @mixin transit {
-//   transition: all 0.75s ease;
-// }
+/** color configurations for light and dark modes. 
+simply uncomment the mode configuration of your choice **/
 
-:root {
-  --color-a: #f7f8f9;
-  --color-b: black;
-  --color-c: #757575;
-  --color-d: #212529;
-  --color-e: white;
-}
+// @use './Sass-Partials/light-mode-config';
+@use './Sass-Partials/dark-mode-config';
 
 * {
   padding: 0;
