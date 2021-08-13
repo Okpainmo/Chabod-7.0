@@ -9,11 +9,9 @@
 @use './Sass-Partials/side-content';
 @use './Sass-Partials/main-overlay';
 
-/** color configurations for light and dark modes. 
-simply uncomment the mode configuration of your choice **/
+// color configurations for light mode.
 
-// @use './Sass-Partials/light-mode-config';
-@use './Sass-Partials/dark-mode-config';
+@use './Sass-Partials/light-mode-config';
 
 * {
   padding: 0;

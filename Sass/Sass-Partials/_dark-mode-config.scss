@@ -25,6 +25,16 @@ body {
   background-color: #000;
 }
 
+.testimonials {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter: none;
+  }
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--color-b);
+  }
+}
+
 .main-overlay {
   .overlay-content-case {
     color: var(--color-a);

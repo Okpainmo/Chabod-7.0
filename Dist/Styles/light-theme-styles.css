@@ -697,43 +697,30 @@ footer .footer-content .footer-link {
 }
 
 :root {
-  --color-a: #161616;
-  --color-b: white;
-  --color-c: #6b6a6a;
-  --color-d: #b3b3b4;
-  --color-e: black;
+  --color-a: #f7f8f9;
+  --color-b: black;
+  --color-c: #757575;
+  --color-d: #212529;
+  --color-e: white;
 }
 
 body {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 .seller-content .seller-intro {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .card {
-  background-color: black;
+  background-color: white;
 }
 
 .form-control {
-  background-color: #000;
+  background-color: #fff;
 }
 
-.main-overlay .overlay-content-case {
-  color: var(--color-a);
-  background-color: white;
-}
-.main-overlay .overlay-content-case .photo-credit {
-  color: var(--color-b);
-}
-.main-overlay .overlay-content-case .post-details {
-  color: var(--color-a);
-}
-
-/** color configurations for light and dark modes. 
-simply uncomment the mode configuration of your choice **/
 * {
   padding: 0;
   margin: 0;
