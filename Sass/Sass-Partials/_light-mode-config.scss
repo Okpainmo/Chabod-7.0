@@ -24,3 +24,20 @@ body {
 .form-control {
   background-color: #fff;
 }
+
+.main-overlay {
+  .overlay-content-case {
+    color: var(--color-b);
+    background-color: var(--color-a);
+    .photo-credit {
+      color: var(--color-b);
+    }
+    .post-details {
+      color: var(--color-a);
+    }
+    .close-main-overlay-btn {
+      color: var(--color-e);
+      box-shadow: 0 0 7px 2px var(--color-e);
+    }
+  }
+}

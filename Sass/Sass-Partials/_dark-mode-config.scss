@@ -37,13 +37,17 @@ body {
 
 .main-overlay {
   .overlay-content-case {
-    color: var(--color-a);
-    background-color: white;
+    color: var(--color-e);
+    background-color: var(--color-b);
     .photo-credit {
       color: var(--color-b);
     }
     .post-details {
       color: var(--color-a);
+    }
+    .close-main-overlay-btn {
+      color: var(--color-b);
+      box-shadow: 0 0 7px 2px var(--color-b);
     }
   }
 }

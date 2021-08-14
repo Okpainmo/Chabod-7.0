@@ -572,12 +572,10 @@ footer .footer-content .footer-link {
   width: 35px;
   height: 35px;
   font-size: 17px;
-  color: var(--color-e);
   top: 15px;
   padding: 5.5px 9px;
   right: 17px;
   border-radius: 100%;
-  box-shadow: 0 0 7px 2px var(--color-e);
 }
 
 .overlay-content-case {
@@ -730,14 +728,18 @@ body {
 }
 
 .main-overlay .overlay-content-case {
-  color: var(--color-a);
-  background-color: white;
+  color: var(--color-e);
+  background-color: var(--color-b);
 }
 .main-overlay .overlay-content-case .photo-credit {
   color: var(--color-b);
 }
 .main-overlay .overlay-content-case .post-details {
   color: var(--color-a);
+}
+.main-overlay .overlay-content-case .close-main-overlay-btn {
+  color: var(--color-b);
+  box-shadow: 0 0 7px 2px var(--color-b);
 }
 
 * {

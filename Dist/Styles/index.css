@@ -1,0 +1,137 @@
+:root {
+  --color-a: #f7f8f9;
+  --color-b: black;
+  --color-c: #757575;
+  --color-d: #212529;
+  --color-e: white;
+}
+
+body {
+  color: black;
+  background-color: white;
+}
+
+.seller-content .seller-intro {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.card {
+  background-color: white;
+}
+
+.form-control {
+  background-color: #fff;
+}
+
+.main-overlay .overlay-content-case {
+  color: var(--color-b);
+  background-color: var(--color-a);
+}
+.main-overlay .overlay-content-case .photo-credit {
+  color: var(--color-b);
+}
+.main-overlay .overlay-content-case .post-details {
+  color: var(--color-a);
+}
+.main-overlay .overlay-content-case .close-main-overlay-btn {
+  color: var(--color-e);
+  box-shadow: 0 0 7px 2px var(--color-e);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.mont-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.modes-display {
+  height: 100vh;
+  padding: 0;
+  display: flex;
+}
+.modes-display .light-side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.modes-display .light-side .pseudo-nav {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modes-display .light-side .pseudo-nav .brand-name {
+  color: var(--color-b);
+  font-size: 25px;
+}
+.modes-display .light-side .mode-name {
+  color: var(--color-b);
+}
+.modes-display .dark-side {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-b);
+}
+.modes-display .dark-side .mode-name {
+  color: var(--color-e);
+}
+.modes-display a {
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+}
+.modes-display a:hover img {
+  transform: scale(1.05);
+  transition: transform 0.75s ease;
+}
+.modes-display a .image-case {
+  min-width: 300px;
+  min-height: 200px;
+  font-size: 20px;
+}
+.modes-display a .image-case img {
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 0 10px 2px #b9b8b8;
+}
+
+@media screen and (max-width: 1050px) {
+  .modes-display {
+    flex-direction: column;
+  }
+  .modes-display .dark-side {
+    width: 100%;
+    min-height: 50vh;
+  }
+  .modes-display .light-side {
+    width: 100%;
+    min-height: 50vh;
+    padding-top: 100px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .modes-display a .image-case {
+    padding: 7px;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  .modes-display a .image-case img {
+    width: 100%;
+    height: 175px;
+  }
+}
