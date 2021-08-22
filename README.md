@@ -9,6 +9,7 @@ https://chabodtheme.netlify.app
 
 > Chabod 7.0 is an awesome potrfolio website template that is built to help makers show the world what they do
 > with style while ensuring an engaging user experience.
+> It comes in both light and dark modes.
 
 Chabod is built with a pop-up for telling project stories and an inbuilt blog.
 
@@ -24,4 +25,10 @@ Chabod is built with a pop-up for telling project stories and an inbuilt blog.
 
 ## Project Banner
 
+### Chabod light mode
+
 ![Github Logo](./Dist/Images/light-home.png)
+
+### Chabod dark mode
+
+![Github Logo](./Dist/Images/dark-home.png)
