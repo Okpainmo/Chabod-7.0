@@ -1,3 +1,7 @@
+// color configurations for light mode.
+
+@use './Sass-Partials/dark-mode-config';
+
 @use './Sass-Partials/home';
 @use './Sass-Partials/about';
 @use './Sass-Partials/portfolio';
@@ -8,10 +12,6 @@
 @use './Sass-Partials/footer';
 @use './Sass-Partials/side-content';
 @use './Sass-Partials/main-overlay';
-
-// color configurations for light mode.
-
-@use './Sass-Partials/dark-mode-config';
 
 * {
   padding: 0;

@@ -5,39 +5,25 @@ const gulp = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const autoprefixer = require("gulp-autoprefixer");
 
-// custom-hello task
-gulp.task("hello", function (done) {
-  console.log("hello from gulp");
-  done();
-});
+// sass and autoprefixer tasks
 
-// sass task
 function buildStyles() {
   return gulp
     .src("Sass/**/*.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(
       autoprefixer({
-        cascade: false,
+        overrideBrowserslist: ["> 1%"],
       })
     )
+
     .pipe(gulp.dest("Dist/Styles"));
 }
 
 exports.buildStyles = buildStyles;
 
-// // autoprefixer task
-// exports.default = () =>
-//   gulp
-//     .src("Sass/**/*.scss")
-//     .pipe(
-//       autoprefixer({
-//         cascade: false,
-//       })
-//     )
-//     .pipe(gulp.dest("Dist/Styles/**/*.css"));
+// watch task - watches for sass(to compile to CSS). And for autoprefixing as well.
 
-// watch task
 gulp.task("watch", function () {
   gulp.watch("Sass/**/*.scss", gulp.series("buildStyles"));
 });
