@@ -22,6 +22,10 @@ Chabod is built with a pop-up for telling project stories and an inbuilt blog.
 6. Bootstrap 5
 7. Ts particles.
 
-## Project Banner
+### Chabod light mode
 
 ![Github Logo](./Dist/Images/light-home.png)
+
+### Chabod dark mode
+
+![Github Logo](./Dist/Images/dark-home.png)
