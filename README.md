@@ -2,7 +2,7 @@
 
 ## Project site
 
-This project is hosted live on netlify. Click on the link below to see it live.
+This project is hosted live on netlify. Click on this link below to see it live -
 https://chabodtheme.netlify.app
 
 ## About Chabod 7.0
