@@ -11,7 +11,8 @@ https://chabodtheme.netlify.app
 > with style while ensuring an engaging user experience.
 > It comes in both light and dark modes.
 
-Chabod is built with a pop-up for telling project stories and an inbuilt blog.
+> Chabod is built with a pop-up for telling project stories and an inbuilt blog.
+> It comes in both light and dark modes.
 
 ## Project Stack/Build Tools
 
@@ -23,7 +24,7 @@ Chabod is built with a pop-up for telling project stories and an inbuilt blog.
 6. Bootstrap 5
 7. Ts particles.
 
-## Project Banner
+### Chabod light mode
 
 ### Chabod light mode
 
