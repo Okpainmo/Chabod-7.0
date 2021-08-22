@@ -1,3 +1,7 @@
+// color configurations for light mode.
+
+@use './Sass-Partials/light-mode-config';
+
 @use './Sass-Partials/home';
 @use './Sass-Partials/about';
 @use './Sass-Partials/portfolio';
@@ -8,18 +12,6 @@
 @use './Sass-Partials/footer';
 @use './Sass-Partials/side-content';
 @use './Sass-Partials/main-overlay';
-
-// @mixin transit {
-//   transition: all 0.75s ease;
-// }
-
-:root {
-  --color-a: #f7f8f9;
-  --color-b: black;
-  --color-c: #757575;
-  --color-d: #212529;
-  --color-e: white;
-}
 
 * {
   padding: 0;
@@ -43,7 +35,6 @@ body {
 // }
 
 // Section Header Styles
-
 .section-header {
   margin-left: 20px;
   // border-left: 7px solid var(--color-d);

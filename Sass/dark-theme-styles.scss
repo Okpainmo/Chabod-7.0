@@ -1,0 +1,87 @@
+// color configurations for light mode.
+
+@use './Sass-Partials/dark-mode-config';
+
+@use './Sass-Partials/home';
+@use './Sass-Partials/about';
+@use './Sass-Partials/portfolio';
+@use './Sass-Partials/testimonials';
+@use './Sass-Partials/contact';
+@use './Sass-Partials/side-nav';
+@use './Sass-Partials/blog';
+@use './Sass-Partials/footer';
+@use './Sass-Partials/side-content';
+@use './Sass-Partials/main-overlay';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.mont-font {
+  font-family: "Montserrat", sans-serif;
+}
+.all-wide {
+  width: 100%;
+}
+// .active {
+//   color: var(--color-d) !important;
+// }
+
+// Section Header Styles
+.section-header {
+  margin-left: 20px;
+  // border-left: 7px solid var(--color-d);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin-bottom: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  &::after {
+    content: "";
+    width: 100px;
+    margin-top: 10px;
+    height: 5px;
+    display: block;
+    background-color: var(--color-d);
+  }
+}
+// General parent case
+
+.main {
+  min-height: 100vh;
+  display: flex;
+}
+
+// Side/main page content
+
+.btn-case {
+  width: 350px;
+  margin-top: 10px;
+}
+.custom-btn {
+  padding: 10px 30px;
+  width: inherit;
+  background-color: var(--color-d);
+  font-size: 18px;
+  color: var(--color-e);
+  display: block;
+  // margin: 0 auto;nnnn
+  border: 2px solid var(--color-d);
+  &:hover {
+    background-color: var(--color-e);
+  }
+}
+
+.mobile-only {
+  display: none;
+}

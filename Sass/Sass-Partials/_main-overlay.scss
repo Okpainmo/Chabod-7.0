@@ -13,12 +13,10 @@
   width: 35px;
   height: 35px;
   font-size: 17px;
-  color: var(--color-e);
   top: 15px;
   padding: 5.5px 9px;
   right: 17px;
   border-radius: 100%;
-  box-shadow: 0 0 7px 2px var(--color-e);
 }
 .overlay-content-case {
   width: 80%;
@@ -125,6 +123,18 @@
         margin-right: 10px;
         // transform: translateY(-5px);
       }
+      // .back-to-top-btn {
+      //   position: relative;
+      //   width: 45px;
+      //   height: 45px;
+      //   font-size: 17px;
+      //   color: var(--color-e);
+      //   bottom: 55px;
+      //   padding: 5.5px 9px;
+      //   right: 17px;
+      //   border-radius: 100%;
+      //   box-shadow: 0 0 7px 2px var(--color-d);
+      // }
     }
     .story-text-header {
       color: var(--color-c);

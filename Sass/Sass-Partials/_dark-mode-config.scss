@@ -1,0 +1,53 @@
+:root {
+  --color-a: #161616;
+  --color-b: white;
+  --color-c: #6b6a6a;
+  --color-d: #b3b3b4;
+  --color-e: black;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.seller-content {
+  .seller-intro {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+}
+
+.card {
+  background-color: black;
+}
+
+.form-control {
+  background-color: #000;
+}
+
+.testimonials {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter: none;
+  }
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--color-b);
+  }
+}
+
+.main-overlay {
+  .overlay-content-case {
+    color: var(--color-e);
+    background-color: var(--color-b);
+    .photo-credit {
+      color: var(--color-b);
+    }
+    .post-details {
+      color: var(--color-a);
+    }
+    .close-main-overlay-btn {
+      color: var(--color-b);
+      box-shadow: 0 0 7px 2px var(--color-b);
+    }
+  }
+}
