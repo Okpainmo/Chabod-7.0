@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 :root {
   --color-a: #f7f8f9;
   --color-b: black;
@@ -41,8 +37,6 @@ body {
   color: var(--color-e);
   box-shadow: 0 0 7px 2px var(--color-e);
 }
-
->>>>>>> save-new-nav-model
 .seller-content {
   background-size: cover;
   width: 100%;
@@ -304,19 +298,19 @@ body {
 }
 .projects .show-list {
   -webkit-animation-name: fadeIn;
-          animation-name: fadeIn;
+  animation-name: fadeIn;
   -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
+  animation-duration: 1.2s;
   -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
 }
 .projects .show-all {
   -webkit-animation-name: showAll;
-          animation-name: showAll;
+  animation-name: showAll;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
+  animation-timing-function: ease;
 }
 .projects .card-body {
   padding: 10px 0;
@@ -451,7 +445,8 @@ body {
   padding: 30px 50px;
   width: 55%;
 }
-.contact .form-header, .contact .map-area-header {
+.contact .form-header,
+.contact .map-area-header {
   margin-bottom: 30px;
 }
 .contact button {
@@ -807,4 +802,3 @@ body {
 .mobile-only {
   display: none;
 }
->>>>>>> save-new-nav-model

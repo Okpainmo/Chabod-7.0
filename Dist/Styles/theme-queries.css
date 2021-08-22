@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 @media (max-width: 576px) {
   .side-content .seller-content #particlesCase {
     height: 100vh !important;
-=======
-/** additional breakpoint to solve viewport height issue of primary desktop design on 
- long screen devices Like Ipads. **/
-@media (max-width: 1200px) {
-  .contact .contact-form {
-    width: 65%;
->>>>>>> save-new-nav-model
   }
 
   .about-section .seller-banner img {
@@ -202,7 +192,7 @@
     padding: 50px 20px;
   }
   .side-content .testimonials .carousel-control-next,
-.side-content .testimonials .carousel-control-prev {
+  .side-content .testimonials .carousel-control-prev {
     display: none;
   }
 
@@ -261,9 +251,9 @@
   }
 
   .col-12,
-.col,
-.col-sm-6,
-.col-md-4 {
+  .col,
+  .col-sm-6,
+  .col-md-4 {
     padding: 0 7px;
     margin: 10px 0;
   }
@@ -337,8 +327,8 @@
     width: 90%;
   }
   .side-content .contact .phone-case,
-.side-content .contact .mail-case,
-.side-content .contact .address-case {
+  .side-content .contact .mail-case,
+  .side-content .contact .address-case {
     width: 90%;
     margin: 20px auto;
   }
@@ -410,4 +400,3 @@
     min-height: 220px;
   }
 }
->>>>>>> save-new-nav-model
