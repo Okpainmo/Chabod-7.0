@@ -25,8 +25,6 @@ https://chabodtheme.netlify.app
 
 ### Chabod light mode
 
-### Chabod light mode
-
 ![Github Logo](./Dist/Images/light-home.png)
 
 ### Chabod dark mode
