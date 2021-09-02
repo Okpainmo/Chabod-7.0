@@ -11,6 +11,12 @@ body {
   background-color: white;
 }
 
+.side-content {
+  .float-chat-button {
+    background-color: var(--color-b);
+  }
+}
+
 .seller-content {
   .seller-intro {
     background-color: rgba(255, 255, 255, 0.75);
@@ -29,11 +35,20 @@ body {
   .overlay-content-case {
     color: var(--color-b);
     background-color: var(--color-a);
+    &-header {
+      color: var(--color-d);
+      box-shadow: 0 0 4px 0px var(--color-c);
+    }
+    &-content {
+      .caption {
+        color: var(--color-d);
+      }
+    }
     .photo-credit {
       color: var(--color-b);
     }
     .post-details {
-      color: var(--color-a);
+      color: var(--color-d);
     }
     .close-main-overlay-btn {
       color: var(--color-e);

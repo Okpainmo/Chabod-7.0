@@ -1,4 +1,13 @@
 .side-content {
   width: 85%;
   margin-left: 15%;
+  .float-chat-button {
+    position: fixed;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 100%;
+    bottom: 20px;
+    right: 20px;
+    z-index: 3000;
+  }
 }

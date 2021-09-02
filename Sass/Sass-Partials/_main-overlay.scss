@@ -27,8 +27,6 @@
   border-radius: 5px;
   &-header {
     padding: 5px 20px;
-    color: var(--color-d);
-    box-shadow: 0 0 4px 0px var(--color-c);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,6 +41,10 @@
   &-content {
     margin: 20px auto;
     width: 70%;
+    .caption {
+      font-size: 11px;
+      padding: 5px 0;
+    }
     .project-category,
     .blog-post-category {
       color: var(--color-c);
@@ -103,6 +105,13 @@
           &:hover {
             color: var(--color-d);
           }
+        }
+        .bottom-overlay-close-button {
+          width: 200px;
+          height: 30px;
+          padding: 5px 10px;
+          margin: 20px auto;
+          background-color: black;
         }
       }
       .story-links {
