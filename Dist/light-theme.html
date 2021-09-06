@@ -155,9 +155,11 @@
         </ul>
       </section>
       <section class="side-content">
-        <div class="float-chat-button">
-          <span class="float-chat-button-icon"> l </span>
-        </div>
+        <a href="#to-form">
+          <div class="float-chat-button">
+            <span class="float-chat-button-icon fas fa-comment-alt"></span>
+          </div>
+        </a>
         <section class="seller-content home">
           <div class="seller-intro-background">
             <div class="seller-intro">
@@ -638,7 +640,7 @@
               </div>
             </div>
           </div>
-          <div class="contact-form">
+          <div class="contact-form" id="to-form">
             <div class="form-header">
               <h4 class="mont-font">Drop a message</h4>
             </div>
@@ -997,7 +999,7 @@
                 </div>
               </div>
               <div class="bottom-overlay-close-button">
-                  <span><span class="bi bi-x"></span>Close</span>
+                <span><span class="bi bi-x"></span>Close</span>
               </div>
               <!-- <div class="back-to-top-button">
                 <span class="back-to-top-btn bi bi-x-lg"></span>
@@ -2252,7 +2254,7 @@
             },
           },
           color: {
-            value: "#000000",
+            value: '#000000',
             animation: {
               enable: true,
               speed: 20,
@@ -2260,7 +2262,7 @@
             },
           },
           shape: {
-            type: "circle",
+            type: 'circle',
             stroke: {
               width: 0,
             },
@@ -2291,17 +2293,17 @@
           links: {
             enable: true,
             distance: 100,
-            color: "#757575",
+            color: '#757575',
             opacity: 0.4,
             width: 1,
           },
           move: {
             enable: true,
             speed: 3,
-            direction: "none",
+            direction: 'none',
             random: false,
             straight: false,
-            out_mode: "out",
+            out_mode: 'out',
             attract: {
               enable: false,
               rotateX: 600,
@@ -2310,15 +2312,15 @@
           },
         },
         interactivity: {
-          detect_on: "canvas",
+          detect_on: 'canvas',
           events: {
             onhover: {
               enable: true,
-              mode: "repulse",
+              mode: 'repulse',
             },
             onclick: {
               enable: true,
-              mode: "push",
+              mode: 'push',
             },
             resize: true,
           },
@@ -2348,15 +2350,15 @@
         },
         retina_detect: true,
         background: {
-          color: "#ffffff",
-          image: "",
-          position: "50% 50%",
-          repeat: "no-repeat",
-          size: "cover",
+          color: '#ffffff',
+          image: '',
+          position: '50% 50%',
+          repeat: 'no-repeat',
+          size: 'cover',
         },
       };
 
-      tsParticles.load("particlesCase", particles);
+      tsParticles.load('particlesCase', particles);
     </script>
 
     <!-- Bootstrap Bundle with Popper -->

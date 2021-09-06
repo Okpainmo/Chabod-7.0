@@ -3,11 +3,18 @@
   margin-left: 15%;
   .float-chat-button {
     position: fixed;
+    color: var(--color-a);
     min-width: 50px;
+    box-shadow: 0 0 10px 1px var(--color-c);
     min-height: 50px;
     border-radius: 100%;
+    text-align: center;
     bottom: 20px;
     right: 20px;
     z-index: 3000;
+    &-icon {
+      font-size: 20px;
+      transform: translateY(16px);
+    }
   }
 }

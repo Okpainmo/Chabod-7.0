@@ -261,11 +261,11 @@
   }
 
   .side-nav {
-    top: calc(100vh - 52px);
+    top: calc(100vh - 55px);
     padding: 5px 15px;
   }
   .side-nav .side-nav-link .bi {
-    font-size: 16px;
+    font-size: 18px;
   }
   .side-nav .side-nav-link .side-nav-text {
     font-size: 11px;
@@ -276,6 +276,9 @@
   }
   .side-content .seller-intro .seller-brief {
     padding: 0;
+  }
+  .side-content .float-chat-button {
+    bottom: 65px;
   }
   .side-content .home {
     height: 100vh;
