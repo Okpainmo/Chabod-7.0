@@ -70,16 +70,12 @@
     .home {
       height: 650px;
     }
+    .float-chat-button {
+      bottom: 120px;
+    }
     .seller-content #particlesCase {
       width: 100%;
       height: 650px;
-    }
-    .seller-content .home-social {
-      left: 0;
-      top: 500px;
-      width: 100%;
-      margin: 0 auto;
-      flex-direction: row;
     }
     .about-section {
       min-height: 300px;
@@ -101,6 +97,9 @@
     }
     .blog-section {
       min-height: 300px;
+    }
+    footer {
+      margin-bottom: 100px;
     }
   }
 }
@@ -162,6 +161,9 @@
       .seller-intro {
         padding: 70px 15px 0;
       }
+    }
+    .float-chat-button {
+      bottom: 100px;
     }
     .about-section {
       .achievements {
@@ -239,6 +241,9 @@
       .carousel-control-prev {
         display: none;
       }
+    }
+    footer {
+      margin-bottom: 85px;
     }
   }
   .side-nav {
@@ -328,6 +333,13 @@
       .seller-brief {
         padding: 0;
       }
+    }
+    .seller-content .home-social {
+      left: 0;
+      top: 500px;
+      width: 100%;
+      margin: 0 auto;
+      flex-direction: row;
     }
     .float-chat-button {
       bottom: 65px;
@@ -423,6 +435,7 @@
     }
     footer {
       flex-direction: column;
+      margin-bottom: 55px;
       .footer-content {
         width: 80%;
         margin: 0 auto;

@@ -16,5 +16,9 @@
       font-size: 20px;
       transform: translateY(16px);
     }
+    &:hover {
+      transform: scale(1.07);
+      transition: transform ease 0.75s;
+    }
   }
 }

@@ -56,16 +56,12 @@
   .side-content .home {
     height: 650px;
   }
+  .side-content .float-chat-button {
+    bottom: 120px;
+  }
   .side-content .seller-content #particlesCase {
     width: 100%;
     height: 650px;
-  }
-  .side-content .seller-content .home-social {
-    left: 0;
-    top: 500px;
-    width: 100%;
-    margin: 0 auto;
-    flex-direction: row;
   }
   .side-content .about-section {
     min-height: 300px;
@@ -84,6 +80,9 @@
   }
   .side-content .blog-section {
     min-height: 300px;
+  }
+  .side-content footer {
+    margin-bottom: 100px;
   }
 }
 @media (max-width: 992px) {
@@ -131,6 +130,9 @@
 @media (max-width: 767px) {
   .side-content .home .seller-intro {
     padding: 70px 15px 0;
+  }
+  .side-content .float-chat-button {
+    bottom: 100px;
   }
   .side-content .about-section .achievements {
     width: 100%;
@@ -196,6 +198,9 @@
   .side-content .testimonials .carousel-control-next,
 .side-content .testimonials .carousel-control-prev {
     display: none;
+  }
+  .side-content footer {
+    margin-bottom: 85px;
   }
 
   .side-nav {
@@ -277,6 +282,13 @@
   .side-content .seller-intro .seller-brief {
     padding: 0;
   }
+  .side-content .seller-content .home-social {
+    left: 0;
+    top: 500px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+  }
   .side-content .float-chat-button {
     bottom: 65px;
   }
@@ -352,6 +364,7 @@
   }
   .side-content footer {
     flex-direction: column;
+    margin-bottom: 55px;
   }
   .side-content footer .footer-content {
     width: 80%;

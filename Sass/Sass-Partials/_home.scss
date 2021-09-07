@@ -29,6 +29,10 @@
         font-size: 22px;
         color: var(--color-d);
         margin-bottom: 20px;
+        &:hover {
+          transform: scale(1.15);
+          transition: transform 0.75s ease;
+        }
       }
     }
   }

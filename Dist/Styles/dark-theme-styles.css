@@ -88,6 +88,10 @@ body {
   color: var(--color-d);
   margin-bottom: 20px;
 }
+.seller-content .home-social a span:hover {
+  transform: scale(1.15);
+  transition: transform 0.75s ease;
+}
 .seller-content .seller-intro {
   padding-top: 70px;
   position: relative;
@@ -455,7 +459,7 @@ body {
   height: 100vh;
   background-color: var(--color-a);
   position: fixed;
-  z-index: 1500;
+  z-index: 3000;
   top: 0;
   left: 0;
   display: flex;
@@ -584,6 +588,10 @@ footer .footer-content .footer-link {
 .side-content .float-chat-button-icon {
   font-size: 20px;
   transform: translateY(16px);
+}
+.side-content .float-chat-button:hover {
+  transform: scale(1.07);
+  transition: transform ease 0.75s;
 }
 
 .main-overlay {
