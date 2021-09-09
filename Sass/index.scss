@@ -8,16 +8,16 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .mont-font {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .mt-20 {
   margin-top: 20px;
 }
 .modes-display {
-  height: 100vh;
+  min-height: 100vh;
   padding: 0;
   display: flex;
   .light-side {

@@ -192,7 +192,7 @@ body {
 }
 .projects .card {
   border: none;
-  margin: 0 15px;
+  margin: 0 15px 10px;
 }
 .projects .card .card-image-case {
   background-size: cover;
@@ -401,6 +401,10 @@ body {
   font-size: 16px;
   color: var(--color-c);
 }
+.contact .phone-case .social-link .social-icons:hover {
+  transform: scale(1.1);
+  transition: transform 0.75s ease;
+}
 .contact i {
   font-size: 30px;
   margin-bottom: 15px;
@@ -519,7 +523,7 @@ body {
 }
 .blog-container .card .card-body {
   padding: 15px 0 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .blog-container img {
   filter: grayscale(1);
@@ -556,6 +560,10 @@ footer .footer-content .social-icons-case {
 footer .footer-content .social-icons {
   font-size: 16px;
   color: var(--color-c);
+}
+footer .footer-content .social-icons:hover {
+  transform: scale(1.1);
+  transition: transform 0.75s ease;
 }
 footer .footer-content .footer-link {
   margin: 0 10px;
