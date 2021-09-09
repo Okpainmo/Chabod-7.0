@@ -13,6 +13,10 @@
 @use './Sass-Partials/side-content';
 @use './Sass-Partials/main-overlay';
 
+//for demo only
+
+@use './Sass-Partials/sales-nav';
+
 * {
   padding: 0;
   margin: 0;
@@ -22,10 +26,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 .mont-font {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .all-wide {
   width: 100%;
@@ -44,10 +48,10 @@ body {
   h4,
   h5 {
     margin-bottom: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   &::after {
-    content: "";
+    content: '';
     width: 100px;
     margin-top: 10px;
     height: 5px;

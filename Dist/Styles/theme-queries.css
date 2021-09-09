@@ -56,6 +56,9 @@
   .side-content .home {
     height: 650px;
   }
+  .side-content .sales-nav {
+    width: 100%;
+  }
   .side-content .float-chat-button {
     bottom: 120px;
   }
