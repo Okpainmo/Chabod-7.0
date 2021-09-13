@@ -10,11 +10,12 @@
     flex-direction: row-reverse;
   }
   a {
-    background-color: var(--color-b);
-    color: var(--color-e);
+    color: var(--color-b);
     font-weight: bold;
+    border: 2px solid var(--color-b);
     &:hover {
-      color: var(--color-e);
+      color: var(--color-a);
+      background-color: var(--color-b);
       transform: scale(1.1);
       transition: transform 0.75s ease;
     }
