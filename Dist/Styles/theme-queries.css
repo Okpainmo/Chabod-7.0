@@ -171,19 +171,21 @@
     margin: 0 5px;
     padding: 10px;
   }
+  .side-content .portfolio-section .projects .card .slide-overlay-case {
+    height: 350px;
+  }
   .side-content .portfolio-section .projects .card .card-image-case {
     min-height: 350px;
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay {
     min-height: 350px;
-    transform: translateY(350px);
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay_slideUp {
-    transform: translateY(0);
+    transform: translateY(-350px);
     transition: transform 0.5s ease;
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay_slideDown {
-    transform: translateY(350px);
+    transform: translateY(0);
     transition: transform 0.5s ease;
   }
   .side-content .contact .contact-form {
@@ -398,19 +400,21 @@
   }
 }
 @media screen and (max-width: 400px) and (max-width: 400px) {
+  .side-content .portfolio-section .projects .card .slide-overlay-case {
+    height: 270px;
+  }
   .side-content .portfolio-section .projects .card .card-image-case {
     min-height: 270px;
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay {
     min-height: 270px;
-    transform: translateY(270px);
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay_slideDown {
-    transform: translateY(270px);
+    transform: translateY(0);
     transition: transform 0.5s ease;
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay_slideUp {
-    transform: translateY(0);
+    transform: translateY(-270px);
     transition: transform 0.5s ease;
   }
 

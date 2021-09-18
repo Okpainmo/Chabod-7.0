@@ -46,7 +46,11 @@
     text-align: center;
     padding: 30px 50px;
     width: 55%;
+    min-height: 400px;
   }
+  // .gap-2 {
+  //   min-height: 50px;
+  // }
   input {
     color: var(--color-c);
   }

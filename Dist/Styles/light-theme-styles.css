@@ -201,11 +201,15 @@ body {
   overflow: hidden;
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
+.projects .card .slide-overlay-case {
+  width: 100%;
+  height: 300px;
+  overflow-y: hidden;
+}
 .projects .card .slide-up-overlay {
   min-height: 300px;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.75);
-  transform: translateY(300px);
   padding: 15px;
   color: white;
 }
@@ -213,15 +217,15 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.projects .card .slide-up-top .bi {
+.projects .card .slide-up-top .span {
   font-size: 18px;
 }
 .projects .card .slide-up-overlay_slideUp {
-  transform: translateY(0);
+  transform: translateY(-300px);
   transition: transform 0.5s ease;
 }
 .projects .card .slide-up-overlay_slideDown {
-  transform: translateY(300px);
+  transform: translateY(0);
   transition: transform 0.5s ease;
 }
 .projects .card .slide-up-overlay h5 {
@@ -318,11 +322,11 @@ body {
   color: var(--color-e);
   background-color: var(--color-d);
   border-radius: 10px;
-  transition: background-color 0.7s ease;
 }
 .projects .tag:hover {
-  background-color: var(--color-a);
-  color: var(--color-b);
+  transition: background-color 0.5s ease;
+  background-color: var(--color-c);
+  color: var(--color-e);
   cursor: pointer;
 }
 
@@ -417,6 +421,7 @@ body {
   text-align: center;
   padding: 30px 50px;
   width: 55%;
+  min-height: 400px;
 }
 .contact input {
   color: var(--color-c);
@@ -815,6 +820,7 @@ body {
 
 .btn-case {
   width: 350px;
+  min-height: 55px;
   margin-top: 10px;
 }
 
@@ -825,10 +831,13 @@ body {
   font-size: 18px;
   color: var(--color-e);
   display: block;
-  border: 2px solid var(--color-d);
+  border: none;
 }
 .custom-btn:hover {
-  background-color: var(--color-e);
+  background-color: var(--color-c);
+  color: var(--color-a);
+  border-bottom: 3px solid var(--color-b);
+  transition: border 0.2s ease;
 }
 
 .mobile-only {

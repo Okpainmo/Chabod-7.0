@@ -79,10 +79,11 @@ body {
   font-size: 18px;
   color: var(--color-e);
   display: block;
-  // margin: 0 auto;nnnn
-  border: 2px solid var(--color-d);
+  border: none;
   &:hover {
     background-color: var(--color-e);
+    border-bottom: 3px solid var(--color-b);
+    transition: border 0.2s ease;
   }
 }
 

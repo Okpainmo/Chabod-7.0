@@ -204,19 +204,21 @@
           padding: 10px;
         }
         .card {
+          .slide-overlay-case {
+            height: 350px;
+          }
           .card-image-case {
             min-height: 350px;
           }
           .slide-up-overlay {
             min-height: 350px;
-            transform: translateY(350px);
           }
           .slide-up-overlay_slideUp {
-            transform: translateY(0);
+            transform: translateY(-350px);
             transition: transform 0.5s ease;
           }
           .slide-up-overlay_slideDown {
-            transform: translateY(350px);
+            transform: translateY(0);
             transition: transform 0.5s ease;
           }
         }
@@ -476,19 +478,21 @@
       .portfolio-section {
         .projects {
           .card {
+            .slide-overlay-case {
+              height: 270px;
+            }
             .card-image-case {
               min-height: 270px;
             }
             .slide-up-overlay {
               min-height: 270px;
-              transform: translateY(270px);
             }
             .slide-up-overlay_slideDown {
-              transform: translateY(270px);
+              transform: translateY(0);
               transition: transform 0.5s ease;
             }
             .slide-up-overlay_slideUp {
-              transform: translateY(0);
+              transform: translateY(-270px);
               transition: transform 0.5s ease;
             }
           }
