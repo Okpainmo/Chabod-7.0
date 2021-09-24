@@ -23,10 +23,12 @@
       filter: grayscale(1);
       min-height: 300px;
       overflow: hidden;
+      transform: scale(1);
       box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%), 0 0 15px rgb(0 0 0 / 6%);
       &:hover {
-        transform: scale(1.2);
-        transition: transform 0.75s ease;
+        transform: scale(1.07);
+        transition: transform ease 0.97s;
+        cursor: pointer;
       }
     }
     .slide-overlay-case {

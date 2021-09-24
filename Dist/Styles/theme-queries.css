@@ -132,7 +132,7 @@
 }
 @media (max-width: 767px) {
   .side-content .home .seller-intro {
-    padding: 70px 15px 0;
+    padding: 15vh 15px 0;
   }
   .side-content .float-chat-button {
     bottom: 100px;

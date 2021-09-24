@@ -41,6 +41,44 @@
   </head>
   <body>
     <main class="all-wide main">
+      <!--Sales Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel"></h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div class="sales-modal-content">
+                <h3 class="sales-header mont-font">Buy Chabod on</h3>
+                <div class="sales-platform envato">
+                  Envato <span class="envato-green">(Theme Forest)</span>
+                </div>
+                <h4>Or</h4>
+                <div class="sales-platform selar">Selar</div>
+                <div class="buy-recommendation">
+                  <p>
+                    Recommendation: Use Selar if you are buying from Nigeria or
+                    any other African country
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <section class="side-nav">
         <ul>
           <li class="side-nav-item">
@@ -84,8 +122,16 @@
       <section class="side-content">
         <nav class="navbar navbar-expand-lg navbar-light sales-nav">
           <div class="container-fluid">
-            <!-- <span>Live Demo</span> -->
-            <a role="button" class="btn" href="#">Buy Now</a>
+            <!-- Button trigger modal -->
+
+            <button
+              type="button"
+              class="btn"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Buy Now
+            </button>
           </div>
         </nav>
         <a href="#to-form">

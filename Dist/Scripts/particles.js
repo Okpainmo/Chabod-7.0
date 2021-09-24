@@ -11,7 +11,7 @@ const particles = {
       },
     },
     color: {
-      value: "#ffffff",
+      value: '#ffffff',
       animation: {
         enable: true,
         speed: 20,
@@ -19,7 +19,7 @@ const particles = {
       },
     },
     shape: {
-      type: "circle",
+      type: 'circle',
       stroke: {
         width: 0,
       },
@@ -50,17 +50,17 @@ const particles = {
     links: {
       enable: true,
       distance: 100,
-      color: "#757575",
+      color: '#757575',
       opacity: 0.4,
       width: 1,
     },
     move: {
       enable: true,
       speed: 3,
-      direction: "none",
+      direction: 'none',
       random: false,
       straight: false,
-      out_mode: "out",
+      out_mode: 'out',
       attract: {
         enable: false,
         rotateX: 600,
@@ -69,15 +69,15 @@ const particles = {
     },
   },
   interactivity: {
-    detect_on: "canvas",
+    detect_on: 'canvas',
     events: {
       onhover: {
         enable: true,
-        mode: "repulse",
+        mode: 'repulse',
       },
       onclick: {
         enable: true,
-        mode: "push",
+        mode: 'push',
       },
       resize: true,
     },
@@ -107,12 +107,12 @@ const particles = {
   },
   retina_detect: true,
   background: {
-    color: "#000000",
-    image: "",
-    position: "50% 50%",
-    repeat: "no-repeat",
-    size: "cover",
+    color: '#000000',
+    image: '',
+    position: '50% 50%',
+    repeat: 'no-repeat',
+    size: 'cover',
   },
 };
 
-tsParticles.load("particlesCase", particles);
+tsParticles.load('particlesCase', particles);

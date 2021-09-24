@@ -199,11 +199,13 @@ body {
   filter: grayscale(1);
   min-height: 300px;
   overflow: hidden;
+  transform: scale(1);
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .projects .card .card-image-case:hover {
-  transform: scale(1.2);
-  transition: transform 0.75s ease;
+  transform: scale(1.07);
+  transition: transform ease 0.97s;
+  cursor: pointer;
 }
 .projects .card .slide-overlay-case {
   width: 100%;
@@ -519,6 +521,7 @@ body {
 .blog-container .card {
   border: 0;
   margin: 0 15px;
+  overflow: hidden;
 }
 .blog-container .card:hover {
   cursor: pointer;
@@ -536,7 +539,11 @@ body {
 }
 .blog-container img {
   filter: grayscale(1);
-  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+  transform: scale(1);
+}
+.blog-container img:hover {
+  transform: scale(1.03);
+  transition: transform ease 0.97s;
 }
 .blog-container .btn-case {
   margin: 30px auto 0;
@@ -751,6 +758,42 @@ footer .footer-content .footer-link {
   margin-bottom: 0;
 }
 
+.modal {
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.modal .sales-modal-content {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 0;
+}
+.modal .sales-modal-content h4 {
+  color: gray;
+}
+.modal .sales-modal-content .sales-platform {
+  margin: 20px auto;
+  font-size: 18px;
+  padding: 12px 15px;
+  box-shadow: 0 0 24px -13px gray;
+  background-color: white;
+  border-radius: 30px;
+  min-width: 235px;
+}
+.modal .sales-modal-content .buy-recommendation {
+  padding: 20px 10px;
+}
+.modal .sales-modal-content .modal-header {
+  border-bottom: 0;
+}
+.modal .sales-modal-content .envato-green {
+  color: green;
+}
+.modal .sales-modal-content .selar {
+  color: blue;
+}
+
 .sales-nav {
   position: fixed;
   top: 0;
@@ -763,12 +806,12 @@ footer .footer-content .footer-link {
 .sales-nav .container-fluid {
   flex-direction: row-reverse;
 }
-.sales-nav a {
+.sales-nav button {
   color: var(--color-b);
   font-weight: bold;
   border: 1px solid var(--color-b);
 }
-.sales-nav a:hover {
+.sales-nav button:hover {
   color: var(--color-a);
   background-color: var(--color-b);
   transform: scale(1.1);
