@@ -15,6 +15,15 @@ body {
   background-color: var(--color-b);
 }
 
+.portfolio-section .tag {
+  color: var(--color-e);
+  background-color: var(--color-d);
+}
+.portfolio-section .tag:hover {
+  background-color: var(--color-c);
+  color: var(--color-e);
+}
+
 .seller-content .seller-intro {
   background-color: rgba(255, 255, 255, 0.75);
 }
@@ -325,14 +334,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 20px;
-  color: var(--color-e);
-  background-color: var(--color-d);
   border-radius: 10px;
 }
 .projects .tag:hover {
   transition: background-color 0.5s ease;
-  background-color: var(--color-c);
-  color: var(--color-e);
   cursor: pointer;
 }
 

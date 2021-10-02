@@ -71,8 +71,10 @@ body {
 
 .btn-case {
   width: 350px;
+  min-height: 55px;
   margin-top: 10px;
 }
+
 .custom-btn {
   padding: 10px 30px;
   width: inherit;
@@ -82,8 +84,9 @@ body {
   display: block;
   border: none;
   &:hover {
-    background-color: var(--color-e);
-    border-bottom: 3px solid var(--color-b);
+    background-color: var(--color-c);
+    color: var(--color-b);
+    border-bottom: 3px solid var(--color-d);
     transition: border 0.2s ease;
   }
 }
