@@ -219,15 +219,15 @@ body {
   transform: scale(1);
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
-.projects .card .card-image-case:hover {
-  transform: scale(1.07);
-  transition: transform ease 0.97s;
-  cursor: pointer;
-}
 .projects .card .slide-overlay-case {
   width: 100%;
   height: 300px;
   overflow: hidden;
+}
+.projects .card .slide-overlay-case:hover .card-image-case {
+  transform: scale(1.25);
+  transition: transform ease 1.5s;
+  cursor: pointer;
 }
 .projects .card .slide-up-overlay {
   min-height: 300px;
@@ -535,13 +535,18 @@ body {
   border: 0;
   margin: 0 15px;
   overflow: hidden;
+  border-radius: 0;
+}
+.blog-container .card .post-banner {
+  overflow: hidden;
 }
 .blog-container .card:hover {
   cursor: pointer;
 }
 .blog-container .card:hover img {
   filter: none;
-  transition: filter 0.4s ease;
+  transform: scale(1.25);
+  transition: transform ease 1.5s;
 }
 .blog-container .card .card-title {
   text-transform: capitalize;
@@ -553,10 +558,7 @@ body {
 .blog-container img {
   filter: grayscale(1);
   transform: scale(1);
-}
-.blog-container img:hover {
-  transform: scale(1.03);
-  transition: transform ease 0.97s;
+  border-radius: 0;
 }
 .blog-container .btn-case {
   margin: 30px auto 0;
