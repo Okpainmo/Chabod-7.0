@@ -11,58 +11,76 @@ body {
   background-color: white;
 }
 
-.side-content {
-  .float-chat-button {
-    background-color: var(--color-b);
-  }
+.section-header::after {
+  background-color: var(--color-d);
 }
 
-.portfolio-section {
-  .tag {
-    color: var(--color-e);
-    background-color: var(--color-d);
-    &:hover {
-      background-color: var(--color-c);
-      color: var(--color-e);
+.side-nav {
+  background-color: var(--color-a);
+  .side-nav-link {
+    .side-nav-text {
+      color: var(--color-c);
+    }
+    .side-icons {
+      color: var(--color-d);
     }
   }
 }
 
-.seller-content {
-  .seller-intro {
-    background-color: rgba(255, 255, 255, 0.75);
+.side-content {
+  .float-chat-button {
+    background-color: var(--color-b);
   }
-}
+  .portfolio-section {
+    .projects {
+      .tag {
+        color: var(--color-e);
+        background-color: var(--color-d);
+        &:hover {
+          background-color: var(--color-c);
+          color: var(--color-e);
+        }
+      }
+    }
+    // .side-content .portfolio-section .projects .tag
+  }
 
-.card {
-  background-color: white;
-}
+  .seller-content {
+    .seller-intro {
+      background-color: rgba(255, 255, 255, 0.75);
+    }
+  }
 
-.form-control {
-  background-color: #fff;
+  .card {
+    background-color: white;
+  }
+
+  .form-control {
+    background-color: #fff;
+  }
 }
 
 .main-overlay {
   .overlay-content-case {
     color: var(--color-b);
-    background-color: var(--color-a);
+    background-color: var(--color-e);
     &-header {
       color: var(--color-d);
       box-shadow: 0 0 4px 0px var(--color-c);
     }
     &-content {
       .caption {
-        color: var(--color-d);
+        color: var(--color-c);
       }
     }
     .photo-credit {
       color: var(--color-b);
     }
     .post-details {
-      color: var(--color-d);
+      color: var(--color-c);
     }
     .close-main-overlay-btn {
-      color: var(--color-e);
+      color: var(--color-d);
       box-shadow: 0 0 7px 2px var(--color-e);
     }
   }

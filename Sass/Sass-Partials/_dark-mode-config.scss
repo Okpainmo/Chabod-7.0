@@ -11,6 +11,22 @@ body {
   background-color: black;
 }
 
+.section-header::after {
+  background-color: var(--color-d);
+}
+
+.side-nav {
+  background-color: var(--color-a);
+  .side-nav-link {
+    .side-nav-text {
+      color: var(--color-c);
+    }
+    .side-icons {
+      color: var(--color-d);
+    }
+  }
+}
+
 .side-content {
   .float-chat-button {
     background-color: var(--color-d);
@@ -18,12 +34,17 @@ body {
 }
 
 .portfolio-section {
-  .tag {
-    color: var(--color-e);
-    background-color: var(--color-d);
-    &:hover {
-      background-color: var(--color-c);
+  .projects {
+    .tag {
       color: var(--color-e);
+      background-color: var(--color-d);
+      &:hover {
+        background-color: var(--color-c);
+        color: var(--color-e);
+      }
+    }
+    .card .slide-up-overlay .project-story-link:hover {
+      color: var(--color-b);
     }
   }
 }
@@ -62,17 +83,17 @@ body {
     }
     &-content {
       .caption {
-        color: var(--color-a);
+        color: var(--color-c);
       }
     }
-    .photo-credit {
+    .overlay-content-case-content .story-banner .photo-credit {
       color: var(--color-b);
     }
     .post-details {
       color: var(--color-a);
     }
     .close-main-overlay-btn {
-      color: var(--color-b);
+      color: var(--color-d);
       box-shadow: 0 0 7px 2px var(--color-b);
     }
   }

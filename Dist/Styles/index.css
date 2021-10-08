@@ -11,50 +11,60 @@ body {
   background-color: white;
 }
 
+.section-header::after {
+  background-color: var(--color-d);
+}
+
+.side-nav {
+  background-color: var(--color-a);
+}
+.side-nav .side-nav-link .side-nav-text {
+  color: var(--color-c);
+}
+.side-nav .side-nav-link .side-icons {
+  color: var(--color-d);
+}
+
 .side-content .float-chat-button {
   background-color: var(--color-b);
 }
-
-.portfolio-section .tag {
+.side-content .portfolio-section .projects .tag {
   color: var(--color-e);
   background-color: var(--color-d);
 }
-.portfolio-section .tag:hover {
+.side-content .portfolio-section .projects .tag:hover {
   background-color: var(--color-c);
   color: var(--color-e);
 }
-
-.seller-content .seller-intro {
+.side-content .seller-content .seller-intro {
   background-color: rgba(255, 255, 255, 0.75);
 }
-
-.card {
+.side-content .card {
   background-color: white;
 }
-
-.form-control {
+.side-content .form-control {
   background-color: #fff;
 }
 
 .main-overlay .overlay-content-case {
   color: var(--color-b);
-  background-color: var(--color-a);
+  background-color: var(--color-e);
 }
 .main-overlay .overlay-content-case-header {
   color: var(--color-d);
   box-shadow: 0 0 4px 0px var(--color-c);
 }
 .main-overlay .overlay-content-case-content .caption {
-  color: var(--color-d);
+  color: var(--color-c);
 }
 .main-overlay .overlay-content-case .photo-credit {
   color: var(--color-b);
 }
 .main-overlay .overlay-content-case .post-details {
-  color: var(--color-d);
+  color: var(--color-c);
 }
 .main-overlay .overlay-content-case .close-main-overlay-btn {
-  color: var(--color-e);
+  color: var(--color-d);
   box-shadow: 0 0 7px 2px var(--color-e);
 }
 

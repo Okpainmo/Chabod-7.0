@@ -52,10 +52,10 @@
     />
     <title>Chabod Light</title>
   </head>
-  <body>
-    <main class="all-wide main">
+  <body id="lightBody">
+    <main class="all-wide main" id="masterNode">
       <!--Sales Modal -->
-      <div
+      <!-- <div
         class="modal fade"
         id="exampleModal"
         tabindex="-1"
@@ -91,7 +91,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <section class="side-nav">
         <ul>
           <li class="side-nav-item">
@@ -133,9 +133,9 @@
         </ul>
       </section>
       <section class="side-content">
-        <nav class="navbar navbar-expand-lg navbar-light sales-nav">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light sales-nav">
           <div class="container-fluid">
-            <!-- Button trigger modal -->
+            Button trigger modal
 
             <button
               type="button"
@@ -146,7 +146,7 @@
               Buy Now
             </button>
           </div>
-        </nav>
+        </nav> -->
         <a href="#to-form">
           <div class="float-chat-button">
             <span class="float-chat-button-icon fas fa-comment-alt"></span>
@@ -222,7 +222,7 @@
                       facilis! Ad, ipsa? Lorem ipsum
                     </p>
                     <div class="btn-case">
-                      <a href="#" class="btn custom-btn">
+                      <a href="#" class="btn custom-btn" id="modeSwitch">
                         Download My Resume/CV
                       </a>
                     </div>
@@ -791,7 +791,7 @@
               </div>
               <div class="col-md-4 col-sm-6 col-12">
                 <div class="card seller-blog-story">
-                 <div class="post-banner">
+                  <div class="post-banner">
                     <img
                       src="./Images/pix13.jpg"
                       class="card-img-top"
@@ -867,7 +867,7 @@
       <section class="main-overlay project-story">
         <div class="overlay-content-case">
           <div class="overlay-content-case-header">
-            <h3 class="story-tag mont-font">Project Story</h3>
+            <h3 class="story-tag mont-font">Project Story 1</h3>
             <span class="close-main-overlay-btn bi bi-x-lg"></span>
           </div>
 
@@ -1017,130 +1017,16 @@
       <section class="main-overlay project-story">
         <div class="overlay-content-case">
           <div class="overlay-content-case-header">
-            <h3 class="story-tag mont-font">Project Story</h3>
-            <span class="close-main-overlay-btn bi bi-x-lg"></span>
-          </div>
-
-          <div class="overlay-content-case-content">
-            <h5 class="project-category text-center">Branding</h5>
-            <div class="story-heading mont-font text-center">
-              <h4>Project title: Clara's Smoothies</h4>
-            </div>
-            <div
-              class="story-banner"
-              style="background-image: url(./Images/pix13.jpg)"
-            ></div>
-            <div class="main-story">
-              <p class="story-block mt-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
-                necessitatibus reiciendis odit vitae incidunt! Enim suscipit hic
-                nisi excepturi omnis saepe, eum, minus eligendi consequuntur
-                mollitia, qui officiis voluptatem sunt asperiores ipsam id
-                labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
-              </p>
-              <div class="story-text-header mont-font">
-                <h4>My Roles</h4>
-              </div>
-              <ul>
-                <li>UI/UX Designer</li>
-                <li>Front-end Web Developer</li>
-              </ul>
-              <div class="story-text-header mont-font">
-                <h4>Project Stack</h4>
-              </div>
-              <ul>
-                <li>Figma</li>
-                <li>React JS</li>
-                <li>SASS</li>
-                <li>Gulp.JS</li>
-                <li>BootStrap 5</li>
-              </ul>
-              <div class="project-gallery mt-4">
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                  <div class="col">
-                    <div
-                      class="card"
-                      style="background-image: url(./Images/pix13.jpg)"
-                    ></div>
-                  </div>
-                  <div class="col">
-                    <div
-                      class="card"
-                      style="background-image: url(./Images/pix13.jpg)"
-                    ></div>
-                  </div>
-                  <div class="col">
-                    <div
-                      class="card"
-                      style="background-image: url(./Images/pix13.jpg)"
-                    ></div>
-                  </div>
-                  <div class="col">
-                    <div
-                      class="card"
-                      style="background-image: url(./Images/pix13.jpg)"
-                    ></div>
-                  </div>
-                  <div class="col">
-                    <div
-                      class="card"
-                      style="background-image: url(./Images/pix13.jpg)"
-                    ></div>
-                  </div>
-                  <div class="col">
-                    <div
-                      class="card"
-                      style="background-image: url(./Images/pix13.jpg)"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <p class="story-block mt-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
-                necessitatibus reiciendis odit vitae incidunt! Enim suscipit hic
-                nisi excepturi omnis saepe, eum, minus eligendi consequuntur
-                mollitia, qui officiis voluptatem sunt asperiores ipsam id
-                labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
-              </p>
-              <p class="story-block">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Perferendis, numquam voluptates minus amet cumque placeat quo
-                magnam quidem beatae, illum, accusantium itaque dolore maxime a
-                illo quod ex nemo totam.
-              </p>
-              <div class="story-links">
-                <div class="go-to-site">
-                  <a href="#" class="btn" role="button">
-                    <span class="bi bi-link-45deg"></span>
-                    <span>Visit Live Project Site</span>
-                  </a>
-                </div>
-                <div class="repo-link">
-                  <a href="#" class="btn" role="button">
-                    <span class="bi bi-github"></span>
-                    <span>View Github Repository</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="main-overlay project-story">
-        <div class="overlay-content-case">
-          <div class="overlay-content-case-header">
-            <h3 class="story-tag mont-font">Project Story</h3>
+            <h3 class="story-tag mont-font">Project 2</h3>
             <span class="close-main-overlay-btn bi bi-x-lg"></span>
           </div>
 
           <div class="overlay-content-case-content">
             <h5 class="project-category text-center">
-              Frontend Web Development
+              UI/UX / Frontend Web Development
             </h5>
             <div class="story-heading mont-font text-center">
-              <h4>Project title: Clara's Smoothies</h4>
+              <h4>Project title: Project Title</h4>
             </div>
             <div
               class="story-banner"
@@ -1154,6 +1040,16 @@
                 nisi excepturi omnis saepe, eum, minus eligendi consequuntur
                 mollitia, qui officiis voluptatem sunt asperiores ipsam id
                 labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
+              </p>
+              <div class="story-text-header mont-font">
+                <h4>Objectives</h4>
+              </div>
+              <p class="story-blog">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur officia beatae quisquam, deleniti illum doloribus,
+                sapiente quo, fuga consectetur consequuntur assumenda
+                accusantium eos voluptates consequatur! Harum quas facilis
+                accusantium quibusdam.
               </p>
               <div class="story-text-header mont-font">
                 <h4>My Roles</h4>
@@ -1179,36 +1075,60 @@
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1247,7 +1167,7 @@
       <section class="main-overlay project-story">
         <div class="overlay-content-case">
           <div class="overlay-content-case-header">
-            <h3 class="story-tag mont-font">Project Story</h3>
+            <h3 class="story-tag mont-font">Project Story 3</h3>
             <span class="close-main-overlay-btn bi bi-x-lg"></span>
           </div>
 
@@ -1272,6 +1192,16 @@
                 labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
               </p>
               <div class="story-text-header mont-font">
+                <h4>Objectives</h4>
+              </div>
+              <p class="story-blog">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur officia beatae quisquam, deleniti illum doloribus,
+                sapiente quo, fuga consectetur consequuntur assumenda
+                accusantium eos voluptates consequatur! Harum quas facilis
+                accusantium quibusdam.
+              </p>
+              <div class="story-text-header mont-font">
                 <h4>My Roles</h4>
               </div>
               <ul>
@@ -1295,36 +1225,60 @@
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1363,7 +1317,7 @@
       <section class="main-overlay project-story">
         <div class="overlay-content-case">
           <div class="overlay-content-case-header">
-            <h3 class="story-tag mont-font">Project Story</h3>
+            <h3 class="story-tag mont-font">Project Story 4</h3>
             <span class="close-main-overlay-btn bi bi-x-lg"></span>
           </div>
 
@@ -1386,6 +1340,16 @@
                 nisi excepturi omnis saepe, eum, minus eligendi consequuntur
                 mollitia, qui officiis voluptatem sunt asperiores ipsam id
                 labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
+              </p>
+              <div class="story-text-header mont-font">
+                <h4>Objectives</h4>
+              </div>
+              <p class="story-blog">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur officia beatae quisquam, deleniti illum doloribus,
+                sapiente quo, fuga consectetur consequuntur assumenda
+                accusantium eos voluptates consequatur! Harum quas facilis
+                accusantium quibusdam.
               </p>
               <div class="story-text-header mont-font">
                 <h4>My Roles</h4>
@@ -1411,36 +1375,60 @@
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1479,7 +1467,7 @@
       <section class="main-overlay project-story">
         <div class="overlay-content-case">
           <div class="overlay-content-case-header">
-            <h3 class="story-tag mont-font">Project Story</h3>
+            <h3 class="story-tag mont-font">Project Story 5</h3>
             <span class="close-main-overlay-btn bi bi-x-lg"></span>
           </div>
 
@@ -1502,6 +1490,16 @@
                 nisi excepturi omnis saepe, eum, minus eligendi consequuntur
                 mollitia, qui officiis voluptatem sunt asperiores ipsam id
                 labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
+              </p>
+              <div class="story-text-header mont-font">
+                <h4>Objectives</h4>
+              </div>
+              <p class="story-blog">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur officia beatae quisquam, deleniti illum doloribus,
+                sapiente quo, fuga consectetur consequuntur assumenda
+                accusantium eos voluptates consequatur! Harum quas facilis
+                accusantium quibusdam.
               </p>
               <div class="story-text-header mont-font">
                 <h4>My Roles</h4>
@@ -1527,36 +1525,210 @@
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                   <div class="col">
                     <div
                       class="card"
                       style="background-image: url(./Images/pix13.jpg)"
                     ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p class="story-block mt-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
+                necessitatibus reiciendis odit vitae incidunt! Enim suscipit hic
+                nisi excepturi omnis saepe, eum, minus eligendi consequuntur
+                mollitia, qui officiis voluptatem sunt asperiores ipsam id
+                labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
+              </p>
+              <p class="story-block">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis, numquam voluptates minus amet cumque placeat quo
+                magnam quidem beatae, illum, accusantium itaque dolore maxime a
+                illo quod ex nemo totam.
+              </p>
+              <div class="story-links">
+                <div class="go-to-site">
+                  <a href="#" class="btn" role="button">
+                    <span class="bi bi-link-45deg"></span>
+                    <span>Visit Live Project Site</span>
+                  </a>
+                </div>
+                <div class="repo-link">
+                  <a href="#" class="btn" role="button">
+                    <span class="bi bi-github"></span>
+                    <span>View Github Repository</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-overlay project-story">
+        <div class="overlay-content-case">
+          <div class="overlay-content-case-header">
+            <h3 class="story-tag mont-font">Project Story 6</h3>
+            <span class="close-main-overlay-btn bi bi-x-lg"></span>
+          </div>
+
+          <div class="overlay-content-case-content">
+            <h5 class="project-category text-center">
+              UI/UX / Frontend Web Development
+            </h5>
+            <div class="story-heading mont-font text-center">
+              <h4>Project title: Clara's Smoothies</h4>
+            </div>
+            <div
+              class="story-banner"
+              style="background-image: url(./Images/pix13.jpg)"
+            ></div>
+            <div class="main-story">
+              <p class="story-block mt-4">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
+                necessitatibus reiciendis odit vitae incidunt! Enim suscipit hic
+                nisi excepturi omnis saepe, eum, minus eligendi consequuntur
+                mollitia, qui officiis voluptatem sunt asperiores ipsam id
+                labore? Perspiciatis quod maxime suscipit dicta, id eligendi?
+              </p>
+              <div class="story-text-header mont-font">
+                <h4>Objectives</h4>
+              </div>
+              <p class="story-blog">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur officia beatae quisquam, deleniti illum doloribus,
+                sapiente quo, fuga consectetur consequuntur assumenda
+                accusantium eos voluptates consequatur! Harum quas facilis
+                accusantium quibusdam.
+              </p>
+              <div class="story-text-header mont-font">
+                <h4>My Roles</h4>
+              </div>
+              <ul>
+                <li>UI/UX Designer</li>
+                <li>Front-end Web Developer</li>
+              </ul>
+              <div class="story-text-header mont-font">
+                <h4>Project Stack</h4>
+              </div>
+              <ul>
+                <li>Figma</li>
+                <li>React JS</li>
+                <li>SASS</li>
+                <li>Gulp.JS</li>
+                <li>BootStrap 5</li>
+              </ul>
+              <div class="project-gallery mt-4">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                  <div class="col">
+                    <div
+                      class="card"
+                      style="background-image: url(./Images/pix13.jpg)"
+                    ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card"
+                      style="background-image: url(./Images/pix13.jpg)"
+                    ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card"
+                      style="background-image: url(./Images/pix13.jpg)"
+                    ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card"
+                      style="background-image: url(./Images/pix13.jpg)"
+                    ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card"
+                      style="background-image: url(./Images/pix13.jpg)"
+                    ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card"
+                      style="background-image: url(./Images/pix13.jpg)"
+                    ></div>
+                    <div class="caption">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Sunt, temporibus.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1757,6 +1929,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
                 eligendi distinctio, dicta hic quibusdam asperiores sed aperiam
@@ -1778,6 +1955,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
@@ -1861,6 +2043,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
                 eligendi distinctio, dicta hic quibusdam asperiores sed aperiam
@@ -1882,6 +2069,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
@@ -1965,6 +2157,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
                 eligendi distinctio, dicta hic quibusdam asperiores sed aperiam
@@ -1986,6 +2183,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
@@ -2069,6 +2271,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
                 eligendi distinctio, dicta hic quibusdam asperiores sed aperiam
@@ -2090,6 +2297,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
@@ -2173,6 +2385,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
                 eligendi distinctio, dicta hic quibusdam asperiores sed aperiam
@@ -2194,6 +2411,11 @@
               >
                 <div class="photo-credit">Photo Credit: Pixabay.</div>
               </div>
+              <div class="caption">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt,
+                temporibus.
+              </div>
+
               <p class="story-block mt-4">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Ducimus mollitia nam animi soluta qui, eius quos doloribus iste
@@ -2365,6 +2587,138 @@
       };
 
       tsParticles.load('particlesCase', particles);
+    </script>
+
+    <!-- script for switching to dark mode from light mode -->
+
+    <script>
+      const modeSwitch = document.getElementById('modeSwitch');
+      const masterNode = document.getElementById('masterNode');
+      const lightBody = document.getElementById('lightBody');
+
+      function goodNight() {
+        masterNode.classList.add('dark-mode-activated');
+        lightBody.classList.add('dark-body');
+
+        const particles = {
+          fpsLimit: 60,
+          particles: {
+            number: {
+              value: 90,
+              density: {
+                enable: true,
+                value_area: 800,
+              },
+            },
+            color: {
+              value: '#ffffff',
+              animation: {
+                enable: true,
+                speed: 20,
+                sync: true,
+              },
+            },
+            shape: {
+              type: 'circle',
+              stroke: {
+                width: 0,
+              },
+              polygon: {
+                nb_sides: 5,
+              },
+            },
+            opacity: {
+              value: 0.5,
+              random: false,
+              anim: {
+                enable: false,
+                speed: 3,
+                opacity_min: 0.1,
+                sync: false,
+              },
+            },
+            size: {
+              value: 6,
+              random: true,
+              anim: {
+                enable: false,
+                speed: 20,
+                size_min: 0.1,
+                sync: false,
+              },
+            },
+            links: {
+              enable: true,
+              distance: 100,
+              color: '#757575',
+              opacity: 0.4,
+              width: 1,
+            },
+            move: {
+              enable: true,
+              speed: 3,
+              direction: 'none',
+              random: false,
+              straight: false,
+              out_mode: 'out',
+              attract: {
+                enable: false,
+                rotateX: 600,
+                rotateY: 1200,
+              },
+            },
+          },
+          interactivity: {
+            detect_on: 'canvas',
+            events: {
+              onhover: {
+                enable: true,
+                mode: 'repulse',
+              },
+              onclick: {
+                enable: true,
+                mode: 'push',
+              },
+              resize: true,
+            },
+            modes: {
+              grab: {
+                distance: 400,
+                line_linked: {
+                  opacity: 1,
+                },
+              },
+              bubble: {
+                distance: 400,
+                size: 40,
+                duration: 2,
+                opacity: 0.8,
+              },
+              repulse: {
+                distance: 200,
+              },
+              push: {
+                particles_nb: 4,
+              },
+              remove: {
+                particles_nb: 2,
+              },
+            },
+          },
+          retina_detect: true,
+          background: {
+            color: '#000000',
+            image: '',
+            position: '50% 50%',
+            repeat: 'no-repeat',
+            size: 'cover',
+          },
+        };
+
+        tsParticles.load('particlesCase', particles);
+      }
+
+      modeSwitch.addEventListener('click', goodNight);
     </script>
 
     <!-- Bootstrap Bundle with Popper -->

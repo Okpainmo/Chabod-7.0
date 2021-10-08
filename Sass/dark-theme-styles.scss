@@ -1,4 +1,4 @@
-// color configurations for light mode.
+// color configurations for dark mode.
 
 @use './Sass-Partials/dark-mode-config';
 
@@ -93,4 +93,125 @@ body {
 
 .mobile-only {
   display: none;
+}
+
+// Implementation of color mode switching.
+// Implementation of color mode switching.
+
+// all light mode color config styles stored in Sass variables.
+
+$light-a: #f7f8f9;
+$light-b: black;
+$light-c: #757575;
+$light-d: #212529;
+$light-e: white;
+
+.light-body {
+  color: $light-b;
+  background-color: $light-e;
+}
+
+.light-mode-activated {
+  transition: all 0.75s ease;
+  .section-header {
+    color: $light-b;
+    &::after {
+      background-color: $light-b;
+    }
+  }
+  .side-nav {
+    background-color: $light-a;
+  }
+  .side-nav-link {
+    .side-nav-text {
+      color: $light-c;
+    }
+    .side-icons {
+      color: $light-d;
+    }
+  }
+  .side-content {
+    .custom-btn {
+      color: $light-e;
+      background-color: $light-d;
+      &:hover {
+        background-color: $light-c;
+        color: $light-a;
+        border-bottom: 3px solid $light-d;
+      }
+    }
+    .float-chat-button {
+      background-color: $light-b;
+      color: $light-e;
+    }
+    .portfolio-section {
+      .tag {
+        color: $light-e;
+        background-color: $light-d;
+        &:hover {
+          background-color: $light-c;
+          color: $light-e;
+        }
+      }
+    }
+    .testimonials {
+      .client-photo-case {
+        img {
+          border: 2px solid $light-b;
+        }
+      }
+      .carousel-control-next-icon,
+      .carousel-control-prev-icon {
+        filter: invert(1) grayscale(100);
+      }
+      .carousel-dark .carousel-indicators [data-bs-target] {
+        background-color: $light-b;
+      }
+    }
+    .seller-content {
+      .seller-photo {
+        border: 7px solid $light-b;
+      }
+      .seller-intro {
+        background-color: rgba(255, 255, 255, 0.75);
+      }
+      .home-social a span {
+        color: $light-d;
+      }
+    }
+
+    .card {
+      background-color: $light-e;
+    }
+
+    .form-control {
+      background-color: $light-e;
+    }
+
+    footer {
+      color: $light-e;
+      background-color: $light-d;
+    }
+  }
+  .main-overlay {
+    .overlay-content-case {
+      color: $light-d;
+      background-color: $light-e;
+      &-header {
+        color: $light-d;
+        box-shadow: 0 0 4px 0px $light-c;
+      }
+      .photo-credit {
+        color: $light-e;
+      }
+      .post-details {
+        color: $light-a;
+      }
+      .close-main-overlay-btn {
+        color: $light-d;
+        // background-color: $light-d;
+        // box-shadow: 0 0 7px 2px $light-a;
+      }
+    }
+  }
 }

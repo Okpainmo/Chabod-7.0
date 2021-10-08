@@ -104,6 +104,17 @@
       margin-bottom: 100px;
     }
   }
+  .main-overlay {
+    .overlay-content-case {
+      .close-main-overlay-btn {
+        position: relative;
+        // color: var(--color-d);
+        box-shadow: none;
+        top: 0;
+        right: -10px;
+      }
+    }
+  }
 }
 
 @include config.media-breakpoint-lg {
@@ -145,13 +156,6 @@
       width: 96%;
       &-content {
         width: 75%;
-      }
-      .close-main-overlay-btn {
-        position: relative;
-        color: var(--color-d);
-        box-shadow: none;
-        top: 0;
-        right: -10px;
       }
     }
   }

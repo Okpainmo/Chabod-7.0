@@ -87,6 +87,13 @@
   .side-content footer {
     margin-bottom: 100px;
   }
+
+  .main-overlay .overlay-content-case .close-main-overlay-btn {
+    position: relative;
+    box-shadow: none;
+    top: 0;
+    right: -10px;
+  }
 }
 @media (max-width: 992px) {
   .container {
@@ -121,13 +128,6 @@
   }
   .main-overlay .overlay-content-case-content {
     width: 75%;
-  }
-  .main-overlay .overlay-content-case .close-main-overlay-btn {
-    position: relative;
-    color: var(--color-d);
-    box-shadow: none;
-    top: 0;
-    right: -10px;
   }
 }
 @media (max-width: 767px) {

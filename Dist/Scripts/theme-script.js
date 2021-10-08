@@ -146,3 +146,5 @@ gSort.addEventListener('click', showGraphics);
 devSort.addEventListener('click', showDev);
 UiUxSort.addEventListener('click', showUiUx);
 showAll.addEventListener('click', displayAll);
+
+// script for animating overlay-content entry and exit

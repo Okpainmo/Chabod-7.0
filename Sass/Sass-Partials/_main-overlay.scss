@@ -19,6 +19,31 @@
   border-radius: 100%;
 }
 .overlay-content-case {
+  @keyframes animate-overlay-content-case {
+    0% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+    20% {
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.5;
+    }
+    60% {
+      opacity: 0.75;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  animation-name: animate-overlay-content-case;
+  animation-duration: 0.75s;
+  animation-timing-function: ease;
   width: 80%;
   height: 90vh;
   background-color: var(--color-e);
