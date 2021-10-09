@@ -65,6 +65,15 @@ body {
 .main {
   min-height: 100vh;
   display: flex;
+  .side-content {
+    .light-mode-switch {
+      color: var(--color-b);
+    }
+    .dark-mode-switch {
+      color: var(--color-a);
+      display: none;
+    }
+  }
 }
 
 // Side/main page content
