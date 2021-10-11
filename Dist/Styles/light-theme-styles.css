@@ -64,7 +64,7 @@ body {
   color: var(--color-c);
 }
 .main-overlay .overlay-content-case .close-main-overlay-btn {
-  color: var(--color-d);
+  color: var(--color-e);
   box-shadow: 0 0 7px 2px var(--color-e);
 }
 
@@ -955,7 +955,7 @@ body {
 }
 
 .dark-mode-activated {
-  transition: all 0.75s ease;
+  transition: all 1.2s ease;
 }
 .dark-mode-activated .section-header {
   color: white;

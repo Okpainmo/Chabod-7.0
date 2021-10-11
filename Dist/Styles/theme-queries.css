@@ -90,6 +90,7 @@
 
   .main-overlay .overlay-content-case .close-main-overlay-btn {
     position: relative;
+    color: var(--color-d);
     box-shadow: none;
     top: 0;
     right: -10px;
@@ -285,7 +286,7 @@
   }
   .side-content .seller-content .home-social {
     left: 0;
-    top: 525px;
+    top: 540px;
     width: 100%;
     margin: 0 auto;
     flex-direction: row;

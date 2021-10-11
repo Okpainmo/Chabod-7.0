@@ -123,7 +123,7 @@ $dark-e: black;
 }
 
 .dark-mode-activated {
-  transition: all 0.75s ease;
+  transition: all 1.2s ease;
   .section-header {
     color: $dark-b;
     &::after {

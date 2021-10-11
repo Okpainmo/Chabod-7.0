@@ -1,78 +1,105 @@
-// Portfolio gallery filter -- start
+// script for filtering/sorting portfolio gallery -- start
+// script for filtering/sorting portfolio gallery -- start
 
-const gSort = document.getElementById('gSort');
-const devSort = document.getElementById('devSort');
-const UiUxSort = document.getElementById('interfaceSort');
+// variables
+
+const firstJob = document.getElementById('firstJob');
+const secondJob = document.getElementById('secondJob');
+const thirdJob = document.getElementById('thirdJob');
 const showAll = document.getElementById('showAll');
 
+// function for sorting portfolio and displaying all portfolio projects
+
 function displayAll() {
-  document.querySelectorAll('.graphics, .dev, .UiUx').forEach(function (each) {
-    each.style.display = 'block';
-  });
-  document.querySelectorAll('.graphics,.dev, .UiUx').forEach(function (each) {
-    each.classList.add('show-all');
-  });
+  document
+    .querySelectorAll('.first-job, .second-job, .third-job')
+    .forEach(function (each) {
+      each.style.display = 'block';
+    });
+  document
+    .querySelectorAll('.first-job, .second-job, .third-job')
+    .forEach(function (each) {
+      each.classList.add('show-all');
+    });
 }
 
-function showGraphics() {
-  document.querySelectorAll('.graphics,.dev, .UiUx').forEach(function (each) {
-    each.classList.remove('show-all');
-  });
-  document.querySelectorAll('.graphics').forEach(function (each) {
+// function for sorting portfolio and displaying only "firstJob" variable projects
+
+function showFirstJob() {
+  document
+    .querySelectorAll('.first-job, .second-job, .third-job')
+    .forEach(function (each) {
+      each.classList.remove('show-all');
+    });
+  document.querySelectorAll('.first-job').forEach(function (each) {
     each.style.display = 'block';
   });
-  document.querySelectorAll('.dev, .UiUx').forEach(function (each) {
+  document.querySelectorAll('.second-job, .third-job').forEach(function (each) {
     each.style.display = 'none';
   });
-  document.querySelectorAll('.graphics').forEach(function (each) {
+  document.querySelectorAll('.first-job').forEach(function (each) {
     each.classList.add('show-list');
   });
 }
 
-function showDev() {
-  document.querySelectorAll('.graphics,.dev, .UiUx').forEach(function (each) {
-    each.classList.remove('show-all');
-  });
-  document.querySelectorAll('.dev').forEach(function (each) {
+// function for sorting portfolio and displaying only "secondJob" variable projects
+
+function showSecondJob() {
+  document
+    .querySelectorAll('.first-job, .second-job, .third-job')
+    .forEach(function (each) {
+      each.classList.remove('show-all');
+    });
+  document.querySelectorAll('.second-job').forEach(function (each) {
     each.style.display = 'block';
   });
-  document.querySelectorAll('.graphics, .UiUx').forEach(function (each) {
+  document.querySelectorAll('.first-job, .third-job').forEach(function (each) {
     each.style.display = 'none';
   });
-  document.querySelectorAll('.dev').forEach(function (each) {
+  document.querySelectorAll('.second-job').forEach(function (each) {
     each.classList.add('show-list');
   });
 }
 
-function showUiUx() {
-  document.querySelectorAll('.graphics,.dev, .UiUx').forEach(function (each) {
-    each.classList.remove('show-all');
-  });
-  document.querySelectorAll('.UiUx').forEach(function (each) {
+// function for sorting portfolio and displaying only "thirdJob" variable projects
+
+function showThirdJob() {
+  document
+    .querySelectorAll('.first-job, .second-job, .third-job')
+    .forEach(function (each) {
+      each.classList.remove('show-all');
+    });
+  document.querySelectorAll('.third-job').forEach(function (each) {
     each.style.display = 'block';
   });
-  document.querySelectorAll('.graphics, .dev').forEach(function (each) {
+  document.querySelectorAll('.first-job, .second-job').forEach(function (each) {
     each.style.display = 'none';
   });
-  document.querySelectorAll('.UiUx').forEach(function (each) {
+  document.querySelectorAll('.third-job').forEach(function (each) {
     each.classList.add('show-list');
   });
 }
 
-// portfolio gallery filter event listeners.
+// portfolio gallery filter/sort event listeners.
 
-gSort.addEventListener('click', showGraphics);
-devSort.addEventListener('click', showDev);
-UiUxSort.addEventListener('click', showUiUx);
+firstJob.addEventListener('click', showFirstJob);
+secondJob.addEventListener('click', showSecondJob);
+thirdJob.addEventListener('click', showThirdJob);
 showAll.addEventListener('click', displayAll);
 
-// Portfolio gallery filter -- end
+// script for filtering/sorting portfolio gallery -- end
+// script for filtering/sorting portfolio gallery -- end
 
-// projects overlay-slide-up and overlay-slide-down -- start
+// script for projects overlay-slide-up and overlay-slide-down -- start
+// script for projects overlay-slide-up and overlay-slide-down -- start
+
+// variables
 
 const projectOverlayBtn = document.querySelectorAll('.read-on-menu-bar');
 const closeProjectOverlayBtn = document.querySelectorAll('.close-overlay');
 const overlayBanner = document.querySelectorAll('.project-banner');
+
+// function for sliding up project story intro
 
 projectOverlayBtn.forEach(function (each) {
   each.addEventListener('click', function () {
@@ -82,11 +109,10 @@ projectOverlayBtn.forEach(function (each) {
     this.parentNode.previousSibling.previousSibling.childNodes[3].classList.add(
       'slide-up-overlay_slideUp'
     );
-    // this.parentNode.previousSibling.previousSibling.classList.remove(
-    //   'overlay-flip'
-    // );
   });
 });
+
+// function for sliding down(closing) project story intro
 
 closeProjectOverlayBtn.forEach(function (each) {
   each.addEventListener('click', function slideDownOverlay() {
@@ -96,9 +122,13 @@ closeProjectOverlayBtn.forEach(function (each) {
   });
 });
 
-// projects overlay-slide-up and overlay-slide-down -- end
+// script for projects overlay-slide-up and overlay-slide-down -- end
+// script for projects overlay-slide-up and overlay-slide-down -- end
 
-// Display and hide main-overlay and content(project stories and blog stories) -- start
+// Script for displaying and hiding main-overlay and content (project stories and blog stories) -- start
+// Script for displaying and hiding main-overlay and content (project stories and blog stories) -- start
+
+// variables
 
 const closeMainOverlayBtn = document.querySelectorAll(
   '.close-main-overlay-btn'
@@ -109,18 +139,27 @@ const showBlogStory = document.querySelectorAll('.seller-blog-story');
 const blogStories = document.querySelectorAll('.blog-story');
 const directOverlayOpener = document.querySelectorAll('.overlay-flip');
 
+/** loop code for filtering all main overlays and displaying only the overlay contents 
+of the clicked/selected items **/
+
 for (let x = 0; x < 6; x++) {
+  // function for showing sorted/selected project story through the link on the project slide up overlay
+
   showProjectStory[x].addEventListener('click', function () {
     projectStories[x].style.display = 'block';
     document.querySelector('.side-nav').style.filter = 'blur(10px)';
     document.querySelector('.side-content').style.filter = 'blur(10px)';
   });
 
+  // function for showing sorted/selected project story through direct clicking of project banners
+
   directOverlayOpener[x].addEventListener('click', function () {
     projectStories[x].style.display = 'block';
     document.querySelector('.side-nav').style.filter = 'blur(10px)';
     document.querySelector('.side-content').style.filter = 'blur(10px)';
   });
+
+  // function for showing sorted/selected blog story
 
   showBlogStory[x].addEventListener('click', function () {
     blogStories[x].style.display = 'block';
@@ -129,6 +168,8 @@ for (let x = 0; x < 6; x++) {
   });
 }
 
+// function for closing all main overlay pop-ups
+
 closeMainOverlayBtn.forEach(function (each) {
   each.addEventListener('click', function closeMainOverlay() {
     document.querySelector('.side-nav').style.filter = 'none';
@@ -136,15 +177,8 @@ closeMainOverlayBtn.forEach(function (each) {
     document.querySelectorAll('.main-overlay').forEach(function (each) {
       each.style.display = 'none';
     });
-    // document.querySelectorAll('.card-image-case').classList.add('overlay-flip');
   });
 });
 
-// Display and hide main-overlay and content(project stories and blog stories) -- end
-
-gSort.addEventListener('click', showGraphics);
-devSort.addEventListener('click', showDev);
-UiUxSort.addEventListener('click', showUiUx);
-showAll.addEventListener('click', displayAll);
-
-// script for animating overlay-content entry and exit
+// Script for displaying and hiding main-overlay and content (project stories and blog stories) -- end
+// Script for displaying and hiding main-overlay and content (project stories and blog stories) -- end

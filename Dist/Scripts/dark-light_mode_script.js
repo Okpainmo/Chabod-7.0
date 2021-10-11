@@ -1,15 +1,21 @@
-// script for switching color modes
+// script for switching between color modes
 
-const modeSwitch = document.getElementById('modeSwitch');
-const restoreMode = document.getElementById('modeRestore');
+// variables
+
+const modeChanger = document.getElementById('modeChanger');
+const modeRestorer = document.getElementById('modeRestorer');
 const masterNode = document.getElementById('masterNode');
-const lightBody = document.getElementById('lightBody');
+const darkBody = document.getElementById('lightBody');
+
+// function for switching from dark mode to light mode
 
 function goodDay() {
-  masterNode.classList.add('light-mode-activated');
   darkBody.classList.add('light-body');
-  modeSwitch.style.display = 'none';
-  restoreMode.style.display = 'block';
+  masterNode.classList.add('light-mode-activated');
+  modeChanger.style.display = 'none';
+  modeRestorer.style.display = 'block';
+
+  // customized tsParticles configurations for light mode
 
   const particles = {
     fpsLimit: 60,
@@ -126,14 +132,20 @@ function goodDay() {
     },
   };
 
+  // ts particles loader for adding light mode configuration
+
   tsParticles.load('particlesCase', particles);
 }
 
+// function for switching from light mode to dark mode
+
 function goodNight() {
-  masterNode.classList.remove('light-mode-activated');
   darkBody.classList.remove('light-body');
-  modeSwitch.style.display = 'block';
-  restoreMode.style.display = 'none';
+  masterNode.classList.remove('light-mode-activated');
+  modeChanger.style.display = 'block';
+  modeRestorer.style.display = 'none';
+
+  // customized tsParticles configurations for dark mode
 
   const particles = {
     fpsLimit: 60,
@@ -250,8 +262,12 @@ function goodNight() {
     },
   };
 
+  // ts particles loader for adding dark mode configuration
+
   tsParticles.load('particlesCase', particles);
 }
 
-modeSwitch.addEventListener('click', goodDay);
-restoreMode.addEventListener('click', goodNight);
+// Event listeners
+
+modeChanger.addEventListener('click', goodDay);
+modeRestorer.addEventListener('click', goodNight);
