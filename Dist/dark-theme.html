@@ -38,6 +38,7 @@
     />
 
     <!-- favicon(product icon to be displayed in browsers) -->
+
     <link
       rel="icon"
       type="image/png"
@@ -45,7 +46,7 @@
       href="../Dist/Images/black-fav-icon.png"
     />
 
-    <title>Chabod Dark-light</title>
+    <title>Chabod Dark - light</title>
   </head>
   <body id="darkBody">
     <main class="all-wide main" id="masterNode">
@@ -90,31 +91,19 @@
         </ul>
       </section>
       <section class="side-content">
-        <div class="dark-mode-switch mode-switch" id="modeRestorer">
-          <span class="bi bi-moon-fill"></span>
-        </div>
-        <div class="light-mode-switch mode-switch" id="modeChanger">
-          <span class="bi bi-brightness-high-fill"></span>
-        </div>
-        <!-- <nav class="navbar navbar-expand-lg navbar-light sales-nav">
-          <div class="container-fluid">
-            Button trigger modal
-
-            <button
-              type="button"
-              class="btn"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Buy Now
-            </button>
+        <div class="floating-buttons-case">
+          <div class="dark-mode-switch mode-switch" id="modeRestorer">
+            <span class="bi bi-moon-fill"></span>
           </div>
-        </nav> -->
-        <a href="#to-form">
-          <div class="float-chat-button">
-            <span class="float-chat-button-icon fas fa-comment-alt"></span>
+          <div class="light-mode-switch mode-switch" id="modeChanger">
+            <span class="bi bi-brightness-high-fill"></span>
           </div>
-        </a>
+          <a href="#to-form">
+            <div class="float-chat-button">
+              <span class="float-chat-button-icon fas fa-comment-alt"></span>
+            </div>
+          </a>
+        </div>
         <section class="seller-content home">
           <div class="seller-intro-background">
             <div class="seller-intro">
@@ -226,12 +215,12 @@
           <div class="container projects">
             <div class="filter-tags">
               <div class="tag" id="showAll">All</div>
-              <div class="tag" id="gSort">Graphics Design</div>
-              <div class="tag" id="devSort">Website Development</div>
-              <div class="tag" id="interfaceSort">UI/UX Design</div>
+              <div class="tag" id="firstJob">Graphics Design</div>
+              <div class="tag" id="secondJob">Website Development</div>
+              <div class="tag" id="thirdJob">UI/UX Design</div>
             </div>
             <div class="row row-cols-1 row-cols-md-2">
-              <div class="col col-md-6 graphics">
+              <div class="col col-md-6 first-job">
                 <div class="card">
                   <div class="slide-overlay-case">
                     <div
@@ -263,7 +252,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 dev">
+              <div class="col col-md-6 second-job">
                 <div class="card">
                   <div class="slide-overlay-case">
                     <div
@@ -295,7 +284,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 graphics">
+              <div class="col col-md-6 first-job">
                 <div class="card">
                   <div class="slide-overlay-case">
                     <div
@@ -327,7 +316,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 UiUx">
+              <div class="col col-md-6 third-job">
                 <div class="card">
                   <div class="slide-overlay-case">
                     <div
@@ -361,7 +350,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 dev">
+              <div class="col col-md-6 second-job">
                 <div class="card">
                   <div class="slide-overlay-case">
                     <div
@@ -393,7 +382,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col col-md-6 UiUx">
+              <div class="col col-md-6 third-job">
                 <div class="card">
                   <div class="slide-overlay-case">
                     <div
@@ -822,10 +811,10 @@
         </footer>
       </section>
 
-      <!-- overlay section for displaying extra off page content -->
-      <!-- overlay section for displaying extra off page content -->
+      <!-- overlay section for displaying extra off page content - start -->
+      <!-- overlay section for displaying extra off page content - start -->
 
-      <!-- Add project stories here -->
+      <!-- Add project stories here - start -->
 
       <section class="main-overlay project-story">
         <div class="overlay-content-case">
@@ -1686,9 +1675,9 @@
         </div>
       </section>
 
-      <!-- Add project stories here -->
+      <!-- Add project stories here - end -->
 
-      <!-- Add blog stories here -->
+      <!-- Add blog stories here - start -->
 
       <section class="main-overlay blog-story">
         <div class="overlay-content-case">
@@ -2351,10 +2340,10 @@
         </div>
       </section>
 
-      <!-- Add blog stories here -->
+      <!-- Add blog stories here - end -->
 
-      <!-- overlay section for displaying extra off page content -->
-      <!-- overlay section for displaying extra off page content -->
+      <!-- overlay section for displaying extra off page content - end -->
+      <!-- overlay section for displaying extra off page content - end -->
     </main>
 
     <!-- ts-particles CDN-->
@@ -2362,6 +2351,14 @@
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.1/tsparticles.min.js"
       integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Bundle with Popper -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
 
@@ -2486,19 +2483,11 @@
       tsParticles.load('particlesCase', particles);
     </script>
 
-    <!-- Bootstrap Bundle with Popper -->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-
     <!-- link to script for switching between color modes -->
 
     <script src="../Dist/Scripts/dark-light_mode_script.js"></script>
 
-    <!-- Theme script -->
+    <!-- Theme script link -->
 
     <script src="./Scripts/theme-script.js"></script>
   </body>

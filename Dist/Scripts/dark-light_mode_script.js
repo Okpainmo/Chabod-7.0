@@ -5,7 +5,7 @@
 const modeChanger = document.getElementById('modeChanger');
 const modeRestorer = document.getElementById('modeRestorer');
 const masterNode = document.getElementById('masterNode');
-const darkBody = document.getElementById('lightBody');
+const darkBody = document.getElementById('darkBody');
 
 // function for switching from dark mode to light mode
 

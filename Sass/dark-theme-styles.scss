@@ -121,7 +121,7 @@ $light-e: white;
 }
 
 .light-mode-activated {
-  transition: all 0.75s ease;
+  transition: all 1.05s ease;
   .section-header {
     color: $light-b;
     &::after {

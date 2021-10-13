@@ -551,7 +551,7 @@ body {
 }
 .blog-container .card .card-body {
   padding: 15px 0 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .blog-container img {
   filter: grayscale(1);
@@ -663,7 +663,7 @@ footer .footer-content .footer-link {
 
 .overlay-content-case {
   animation-name: animate-overlay-content-case;
-  animation-duration: 0.75s;
+  animation-duration: 1.05s;
   animation-timing-function: ease;
   width: 80%;
   height: 90vh;
@@ -955,7 +955,7 @@ body {
 }
 
 .dark-mode-activated {
-  transition: all 1.2s ease;
+  transition: all 1.05s ease;
 }
 .dark-mode-activated .section-header {
   color: white;
