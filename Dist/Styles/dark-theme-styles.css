@@ -651,17 +651,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.close-main-overlay-btn {
-  position: fixed;
-  width: 35px;
-  height: 35px;
-  font-size: 17px;
-  top: 15px;
-  padding: 5.5px 9px;
-  right: 17px;
-  border-radius: 100%;
-}
-
 .overlay-content-case {
   animation-name: animate-overlay-content-case;
   animation-duration: 1.05s;
@@ -672,6 +661,16 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   margin: 5vh auto;
   overflow: auto;
   border-radius: 5px;
+}
+.overlay-content-case .close-main-overlay-btn {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  font-size: 17px;
+  top: 15px;
+  padding: 5.5px 9px;
+  right: 17px;
+  border-radius: 100%;
 }
 @keyframes animate-overlay-content-case {
   0% {
