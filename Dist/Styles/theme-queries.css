@@ -31,6 +31,11 @@
     display: none;
   }
 
+  .dark-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn,
+.light-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
+    color: black;
+  }
+
   .side-nav {
     bottom: 0;
     top: calc(100vh - 100px);
@@ -358,6 +363,9 @@
   .side-content .blog-section .card {
     margin: 0;
   }
+  .side-content .blog-section .card .card-body {
+    margin-bottom: 10px;
+  }
   .side-content .blog-section .blog-container {
     width: 100%;
   }
@@ -372,6 +380,9 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
+  }
+  .side-content footer .footer-content .footer-link {
+    margin: 0 10px;
   }
   .side-content footer .footer-content .social-icons-case {
     margin-bottom: 15px;

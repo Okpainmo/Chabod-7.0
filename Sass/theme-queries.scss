@@ -40,6 +40,16 @@
   .mobile-only {
     display: none;
   }
+  .dark-mode-activated,
+  .light-mode-activated {
+    .main-overlay {
+      .overlay-content-case {
+        .close-main-overlay-btn {
+          color: black;
+        }
+      }
+    }
+  }
   .side-nav {
     bottom: 0;
     top: calc(100vh - 100px);
@@ -116,7 +126,6 @@
     }
   }
 }
-
 @include config.media-breakpoint-lg {
   .container {
     max-width: 100%;
@@ -160,7 +169,6 @@
     }
   }
 }
-
 @include config.media-breakpoint-md {
   .side-content {
     .home {
@@ -432,6 +440,9 @@
     .blog-section {
       .card {
         margin: 0;
+        .card-body {
+          margin-bottom: 10px;
+        }
       }
       .blog-container {
         width: 100%;
@@ -448,6 +459,9 @@
         width: 80%;
         margin: 0 auto;
         text-align: center;
+        .footer-link {
+          margin: 0 10px;
+        }
         .social-icons-case {
           margin-bottom: 15px;
         }

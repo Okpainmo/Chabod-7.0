@@ -214,12 +214,12 @@ $light-e: white;
         color: $light-e;
       }
       .post-details {
-        color: $light-a;
+        color: $light-c;
       }
       .close-main-overlay-btn {
-        color: $light-d;
+        color: $light-e;
         // background-color: $light-d;
-        // box-shadow: 0 0 7px 2px $light-a;
+        box-shadow: 0 0 7px 2px $light-e;
       }
     }
   }
