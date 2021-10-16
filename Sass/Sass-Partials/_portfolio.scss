@@ -79,6 +79,25 @@
             }
           }
         }
+        .card-body {
+          padding: 10px 0;
+          display: flex;
+          justify-content: space-between;
+          .card-title {
+            margin-bottom: 5px;
+          }
+          .card-text {
+            color: var(--color-c);
+          }
+        }
+        .read-on-menu-bar {
+          text-align: right;
+          cursor: pointer;
+          span {
+            font-size: 30px;
+            color: var(--color-c);
+          }
+        }
 
         // for Javascript addClass
 

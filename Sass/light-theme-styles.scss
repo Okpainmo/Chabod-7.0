@@ -1,6 +1,8 @@
-// color configurations for light mode.
+// color configurations partial for light mode.
 
 @use './Sass-Partials/light-mode-config';
+
+// other sass partials
 
 @use './Sass-Partials/home';
 @use './Sass-Partials/about';
@@ -14,9 +16,7 @@
 @use './Sass-Partials/main-overlay';
 @use './Sass-Partials/purchase-modal';
 
-//for demo only
-
-@use './Sass-Partials/sales-nav';
+// basic page settings
 
 * {
   padding: 0;
@@ -25,25 +25,18 @@
 }
 html {
   scroll-behavior: smooth;
-}
-body {
-  font-family: 'Nunito', sans-serif;
+  body {
+    font-family: 'Nunito', sans-serif;
+  }
+  .mont-font {
+    font-family: 'Montserrat', sans-serif;
+  }
 }
 
-.mont-font {
-  font-family: 'Montserrat', sans-serif;
-}
-.all-wide {
-  width: 100%;
-}
-// .active {
-//   color: var(--color-d) !important;
-// }
+// section header styling
 
-// Section Header Styles
 .section-header {
   margin-left: 20px;
-  // border-left: 7px solid var(--color-d);
   h1,
   h2,
   h3,
@@ -58,10 +51,9 @@ body {
     margin-top: 10px;
     height: 5px;
     display: block;
-    // background-color: var(--color-d);
   }
 }
-// General parent case
+// general parent container
 
 .main {
   min-height: 100vh;
@@ -73,41 +65,38 @@ body {
     }
     .dark-mode-switch {
       color: var(--color-d);
-      // display: block;
     }
   }
 }
 
-// Side/main page content
+// side(main page) content
 
 .btn-case {
   width: 350px;
   min-height: 55px;
   margin-top: 10px;
-}
-
-.custom-btn {
-  padding: 10px 30px;
-  width: inherit;
-  background-color: var(--color-d);
-  font-size: 18px;
-  color: var(--color-e);
-  display: block;
-  border: none;
-  &:hover {
-    background-color: var(--color-c);
-    color: var(--color-a);
-    border-bottom: 3px solid var(--color-d);
-    transition: border 0.2s ease;
+  .custom-btn {
+    padding: 10px 30px;
+    width: inherit;
+    background-color: var(--color-d);
+    font-size: 18px;
+    color: var(--color-e);
+    display: block;
+    border: none;
+    &:hover {
+      background-color: var(--color-c);
+      color: var(--color-a);
+      border-bottom: 3px solid var(--color-d);
+      transition: border 0.2s ease;
+    }
   }
 }
-
 .mobile-only {
   display: none;
 }
 
-// Implementation of color mode switching.
-// Implementation of color mode switching.
+// Implementation of color mode switching - start
+// Implementation of color mode switching - start
 
 // all dark mode color config styles stored in Sass variables.
 
@@ -132,13 +121,13 @@ $dark-e: black;
   }
   .side-nav {
     background-color: $dark-a;
-  }
-  .side-nav-link {
-    .side-nav-text {
-      color: $dark-c;
-    }
-    .side-icons {
-      color: $dark-d;
+    .side-nav-link {
+      .side-nav-text {
+        color: $dark-c;
+      }
+      .side-icons {
+        color: $dark-d;
+      }
     }
   }
   .side-content {
@@ -190,11 +179,9 @@ $dark-e: black;
         color: $dark-d;
       }
     }
-
     .card {
       background-color: $dark-e;
     }
-
     .form-control {
       background-color: $dark-e;
       color: $dark-b;
@@ -221,8 +208,7 @@ $dark-e: black;
       }
       .close-main-overlay-btn {
         color: $dark-b;
-        // background-color: $dark-d;
-        // box-shadow: 0 0 7px 2px $dark-b;
+        box-shadow: 0 0 7px 2px $dark-b;
       }
     }
   }

@@ -15,6 +15,12 @@
         transition: filter 0.4s ease;
       }
     }
+    .carousel-indicators {
+      bottom: -50px;
+      li {
+        background-color: var(--color-b);
+      }
+    }
     .client-photo-case {
       margin-bottom: 15px;
       img {
@@ -36,12 +42,6 @@
       font-size: 22px;
       span {
         font-weight: bold;
-      }
-    }
-    .carousel-indicators {
-      bottom: -50px;
-      li {
-        background-color: var(--color-b);
       }
     }
   }
