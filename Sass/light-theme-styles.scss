@@ -60,11 +60,7 @@ html {
   display: flex;
   .side-content {
     .light-mode-switch {
-      color: var(--color-e);
       display: none;
-    }
-    .dark-mode-switch {
-      color: var(--color-d);
     }
   }
 }
@@ -78,15 +74,10 @@ html {
   .custom-btn {
     padding: 10px 30px;
     width: inherit;
-    background-color: var(--color-d);
     font-size: 18px;
-    color: var(--color-e);
     display: block;
     border: none;
     &:hover {
-      background-color: var(--color-c);
-      color: var(--color-a);
-      border-bottom: 3px solid var(--color-d);
       transition: border 0.2s ease;
     }
   }

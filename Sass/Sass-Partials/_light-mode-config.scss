@@ -7,8 +7,8 @@
 }
 
 body {
-  color: black;
-  background-color: white;
+  color: var(--color-b);
+  background-color: var(--color-e);
 }
 
 .section-header::after {
@@ -24,10 +24,35 @@ body {
     .side-icons {
       color: var(--color-d);
     }
+    &:hover {
+      .side-nav-text {
+        color: var(--color-d);
+      }
+      .side-icons {
+        color: var(--color-c);
+      }
+    }
   }
 }
 
 .side-content {
+  .btn-case {
+    .custom-btn {
+      background-color: var(--color-d);
+      color: var(--color-e);
+      &:hover {
+        background-color: var(--color-c);
+        color: var(--color-b);
+        border-bottom: 3px solid var(--color-d);
+      }
+    }
+  }
+  .light-mode-switch {
+    color: var(--color-d);
+  }
+  .dark-mode-switch {
+    color: var(--color-e);
+  }
   .card {
     background-color: white;
   }
@@ -35,7 +60,9 @@ body {
     background-color: #fff;
   }
   .float-chat-button {
-    background-color: var(--color-b);
+    background-color: var(--color-d);
+    color: var(--color-e);
+    box-shadow: 0 0 10px 1px var(--color-c);
   }
   .seller-content {
     .seller-intro-background {
@@ -74,11 +101,12 @@ body {
       }
       .row {
         .card {
+          box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%),
+            0 0 15px rgb(0 0 0 / 6%);
           .slide-overlay-case {
-            .card-image-case {
-              box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%),
-                0 0 15px rgb(0 0 0 / 6%);
-            }
+            // .card-image-case {
+
+            // }
             .slide-up-overlay {
               color: var(--color-e);
               background-color: rgba(0, 0, 0, 0.75);
@@ -106,6 +134,18 @@ body {
             }
           }
         }
+      }
+    }
+  }
+  .testimonials {
+    .carousel-dark {
+      .client-photo-case {
+        img {
+          border: 2px solid var(--color-d);
+        }
+      }
+      .client-quote {
+        color: var(--color-c);
       }
     }
   }

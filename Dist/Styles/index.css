@@ -7,8 +7,8 @@
 }
 
 body {
-  color: black;
-  background-color: white;
+  color: var(--color-b);
+  background-color: var(--color-e);
 }
 
 .section-header::after {
@@ -24,7 +24,28 @@ body {
 .side-nav .side-nav-link .side-icons {
   color: var(--color-d);
 }
+.side-nav .side-nav-link:hover .side-nav-text {
+  color: var(--color-d);
+}
+.side-nav .side-nav-link:hover .side-icons {
+  color: var(--color-c);
+}
 
+.side-content .btn-case .custom-btn {
+  background-color: var(--color-d);
+  color: var(--color-e);
+}
+.side-content .btn-case .custom-btn:hover {
+  background-color: var(--color-c);
+  color: var(--color-b);
+  border-bottom: 3px solid var(--color-d);
+}
+.side-content .light-mode-switch {
+  color: var(--color-d);
+}
+.side-content .dark-mode-switch {
+  color: var(--color-e);
+}
 .side-content .card {
   background-color: white;
 }
@@ -32,7 +53,9 @@ body {
   background-color: #fff;
 }
 .side-content .float-chat-button {
-  background-color: var(--color-b);
+  background-color: var(--color-d);
+  color: var(--color-e);
+  box-shadow: 0 0 10px 1px var(--color-c);
 }
 .side-content .seller-content .seller-intro-background .seller-intro {
   background-color: rgba(255, 255, 255, 0.75);
@@ -57,7 +80,7 @@ body {
   background-color: var(--color-c);
   color: var(--color-e);
 }
-.side-content .portfolio-section .projects .row .card .slide-overlay-case .card-image-case {
+.side-content .portfolio-section .projects .row .card {
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .side-content .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay {
@@ -77,6 +100,12 @@ body {
   color: var(--color-c);
 }
 .side-content .portfolio-section .projects .row .card .card-body .read-on-menu-bar span {
+  color: var(--color-c);
+}
+.side-content .testimonials .carousel-dark .client-photo-case img {
+  border: 2px solid var(--color-d);
+}
+.side-content .testimonials .carousel-dark .client-quote {
   color: var(--color-c);
 }
 .side-content .contact .contact-details .phone-case span,
