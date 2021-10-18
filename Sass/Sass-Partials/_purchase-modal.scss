@@ -1,6 +1,9 @@
 .modal {
   z-index: 10000;
   background-color: rgba(0, 0, 0, 0.75);
+  .modal-header {
+    border-bottom: 0;
+  }
   .sales-modal-content {
     color: black;
     display: flex;
@@ -20,17 +23,12 @@
       min-width: 235px;
     }
     .buy-recommendation {
-      // margin-top: 20px;
       padding: 20px 10px;
-    }
-    .modal-header {
-      border-bottom: 0;
     }
     .envato-green {
       color: green;
     }
     .selar {
-      // background-color: blue;
       color: blue;
     }
   }

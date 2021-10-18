@@ -28,8 +28,24 @@ body {
 }
 
 .side-content {
+  .card {
+    background-color: white;
+  }
+  .form-control {
+    background-color: #fff;
+  }
   .float-chat-button {
     background-color: var(--color-b);
+  }
+  .seller-content {
+    .seller-intro {
+      background-color: rgba(255, 255, 255, 0.75);
+    }
+  }
+  .about-section {
+    .achievement-item {
+      box-shadow: 0 0 25px -10px var(--color-c);
+    }
   }
   .portfolio-section {
     .projects {
@@ -42,21 +58,38 @@ body {
         }
       }
     }
-    // .side-content .portfolio-section .projects .tag
   }
-
-  .seller-content {
-    .seller-intro {
-      background-color: rgba(255, 255, 255, 0.75);
+  .contact {
+    .contact-details {
+      .phone-case,
+      .main-case,
+      .address-case {
+        span {
+          color: var(--color-c);
+        }
+      }
+      .phone-case {
+        .social-icons-case {
+          .social-icons {
+            color: var(--color-c);
+          }
+        }
+      }
     }
-  }
-
-  .card {
-    background-color: white;
-  }
-
-  .form-control {
-    background-color: #fff;
+    .contact-form {
+      input {
+        color: var(--color-c);
+      }
+      button {
+        background-color: var(--color-d);
+        color: var(--color-e);
+      }
+    }
+    .map-area {
+      .map-case {
+        color: var(--color-b);
+      }
+    }
   }
 }
 
@@ -69,15 +102,15 @@ body {
       box-shadow: 0 0 4px 0px var(--color-c);
     }
     &-content {
+      .photo-credit {
+        color: var(--color-b);
+      }
       .caption {
         color: var(--color-c);
       }
-    }
-    .photo-credit {
-      color: var(--color-b);
-    }
-    .post-details {
-      color: var(--color-c);
+      .post-details {
+        color: var(--color-c);
+      }
     }
     .close-main-overlay-btn {
       color: var(--color-e);

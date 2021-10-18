@@ -25,8 +25,20 @@ body {
   color: var(--color-d);
 }
 
+.side-content .card {
+  background-color: white;
+}
+.side-content .form-control {
+  background-color: #fff;
+}
 .side-content .float-chat-button {
   background-color: var(--color-b);
+}
+.side-content .seller-content .seller-intro {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.side-content .about-section .achievement-item {
+  box-shadow: 0 0 25px -10px var(--color-c);
 }
 .side-content .portfolio-section .projects .tag {
   color: var(--color-e);
@@ -36,14 +48,23 @@ body {
   background-color: var(--color-c);
   color: var(--color-e);
 }
-.side-content .seller-content .seller-intro {
-  background-color: rgba(255, 255, 255, 0.75);
+.side-content .contact .contact-details .phone-case span,
+.side-content .contact .contact-details .main-case span,
+.side-content .contact .contact-details .address-case span {
+  color: var(--color-c);
 }
-.side-content .card {
-  background-color: white;
+.side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: var(--color-c);
 }
-.side-content .form-control {
-  background-color: #fff;
+.side-content .contact .contact-form input {
+  color: var(--color-c);
+}
+.side-content .contact .contact-form button {
+  background-color: var(--color-d);
+  color: var(--color-e);
+}
+.side-content .contact .map-area .map-case {
+  color: var(--color-b);
 }
 
 .main-overlay .overlay-content-case {
@@ -54,13 +75,13 @@ body {
   color: var(--color-d);
   box-shadow: 0 0 4px 0px var(--color-c);
 }
+.main-overlay .overlay-content-case-content .photo-credit {
+  color: var(--color-b);
+}
 .main-overlay .overlay-content-case-content .caption {
   color: var(--color-c);
 }
-.main-overlay .overlay-content-case .photo-credit {
-  color: var(--color-b);
-}
-.main-overlay .overlay-content-case .post-details {
+.main-overlay .overlay-content-case-content .post-details {
   color: var(--color-c);
 }
 .main-overlay .overlay-content-case .close-main-overlay-btn {
@@ -173,7 +194,6 @@ body {
   width: 30%;
   padding: 30px 10px;
   border-radius: 10px;
-  box-shadow: 0 0 25px -10px var(--color-c);
 }
 .about-section .achievements .achievement-list .achievement-item span {
   font-size: 30px;
@@ -269,11 +289,11 @@ body {
 .portfolio-section .projects .row .card .card-body .card-text {
   color: var(--color-c);
 }
-.portfolio-section .projects .row .card .read-on-menu-bar {
+.portfolio-section .projects .row .card .card-body .read-on-menu-bar {
   text-align: right;
   cursor: pointer;
 }
-.portfolio-section .projects .row .card .read-on-menu-bar span {
+.portfolio-section .projects .row .card .card-body .read-on-menu-bar span {
   font-size: 30px;
   color: var(--color-c);
 }
@@ -391,11 +411,6 @@ body {
   font-size: 30px;
   margin-bottom: 15px;
 }
-.contact .contact-details .phone-case span,
-.contact .contact-details .mail-case span,
-.contact .contact-details .address-case span {
-  color: var(--color-c);
-}
 .contact .contact-details .phone-case .social-icons-case {
   margin-top: 10px;
 }
@@ -405,7 +420,6 @@ body {
 }
 .contact .contact-details .phone-case .social-icons-case .social-link .social-icons {
   font-size: 16px;
-  color: var(--color-c);
 }
 .contact .contact-details .phone-case .social-icons-case .social-link .social-icons:hover {
   transform: scale(1.1);
@@ -420,14 +434,9 @@ body {
 .contact .contact-form .form-header, .contact .contact-form .map-area .map-area-header, .contact .map-area .contact-form .map-area-header {
   margin-bottom: 30px;
 }
-.contact .contact-form input {
-  color: var(--color-c);
-}
 .contact .contact-form button {
-  background-color: var(--color-d);
   border: none;
   padding: 10px;
-  color: var(--color-e);
 }
 .contact .map-area {
   padding: 20px;
@@ -441,7 +450,6 @@ body {
   height: 400px;
   filter: grayscale(1);
   margin: 20px auto 0;
-  background-color: black;
   text-align: center;
   font-size: 50px;
 }
@@ -776,6 +784,9 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   z-index: 10000;
   background-color: rgba(0, 0, 0, 0.75);
 }
+.modal .modal-header {
+  border-bottom: 0;
+}
 .modal .sales-modal-content {
   color: black;
   display: flex;
@@ -797,9 +808,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .modal .sales-modal-content .buy-recommendation {
   padding: 20px 10px;
-}
-.modal .sales-modal-content .modal-header {
-  border-bottom: 0;
 }
 .modal .sales-modal-content .envato-green {
   color: green;
