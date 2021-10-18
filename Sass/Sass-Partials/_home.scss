@@ -15,14 +15,10 @@
         width: 250px;
         height: 250px;
         margin: 0 auto 30px;
-        border: 7px solid var(--color-b);
         border-radius: 100%;
         background-image: url(../../Dist/Images/pix-6x.jpg);
         background-size: cover;
         filter: grayscale(1);
-      }
-      h5 {
-        color: var(--color-c);
       }
     }
     #particlesCase {
@@ -44,7 +40,6 @@
       a {
         span {
           font-size: 22px;
-          color: var(--color-d);
           margin-bottom: 20px;
           &:hover {
             transform: scale(1.15);

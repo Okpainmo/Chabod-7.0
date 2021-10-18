@@ -41,33 +41,21 @@
             min-height: 300px;
             overflow: hidden;
             transform: scale(1);
-            box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%),
-              0 0 15px rgb(0 0 0 / 6%);
           }
           .slide-up-overlay {
             min-height: 300px;
             width: 100%;
-            background-color: rgba(0, 0, 0, 0.75);
             padding: 15px;
-            color: white;
             .project-story-link {
-              color: var(--color-c);
               font-size: 17px;
               text-decoration: underline;
               &:hover {
                 cursor: pointer;
-                color: var(--color-e);
               }
             }
             .slide-up-top {
               display: flex;
               justify-content: space-between;
-              h5 {
-                color: var(--color-c);
-              }
-              // span {
-              //   font-size: 18px;
-              // }
             }
           }
           &:hover {
@@ -86,15 +74,11 @@
           .card-title {
             margin-bottom: 5px;
           }
-          .card-text {
-            color: var(--color-c);
-          }
           .read-on-menu-bar {
             text-align: right;
             cursor: pointer;
             span {
               font-size: 30px;
-              color: var(--color-c);
             }
           }
         }

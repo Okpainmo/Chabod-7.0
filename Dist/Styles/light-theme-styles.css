@@ -34,19 +34,50 @@ body {
 .side-content .float-chat-button {
   background-color: var(--color-b);
 }
-.side-content .seller-content .seller-intro {
+.side-content .seller-content .seller-intro-background .seller-intro {
   background-color: rgba(255, 255, 255, 0.75);
+}
+.side-content .seller-content .seller-intro-background .seller-intro .seller-photo {
+  border: 7px solid var(--color-b);
+}
+.side-content .seller-content .seller-intro-background .seller-intro h5 {
+  color: var(--color-c);
+}
+.side-content .seller-content .seller-intro-background .home-social a span {
+  color: var(--color-d);
 }
 .side-content .about-section .achievement-item {
   box-shadow: 0 0 25px -10px var(--color-c);
 }
-.side-content .portfolio-section .projects .tag {
+.side-content .portfolio-section .projects .filter-tags .tag {
   color: var(--color-e);
   background-color: var(--color-d);
 }
-.side-content .portfolio-section .projects .tag:hover {
+.side-content .portfolio-section .projects .filter-tags .tag:hover {
   background-color: var(--color-c);
   color: var(--color-e);
+}
+.side-content .portfolio-section .projects .row .card .slide-overlay-case .card-image-case {
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+}
+.side-content .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay {
+  color: var(--color-e);
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.side-content .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .project-story-link {
+  color: var(--color-c);
+}
+.side-content .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .project-story-link:hover {
+  color: var(--color-e);
+}
+.side-content .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .slide-up-top h5 {
+  color: var(--color-c);
+}
+.side-content .portfolio-section .projects .row .card .card-body .card-text {
+  color: var(--color-c);
+}
+.side-content .portfolio-section .projects .row .card .card-body .read-on-menu-bar span {
+  color: var(--color-c);
 }
 .side-content .contact .contact-details .phone-case span,
 .side-content .contact .contact-details .main-case span,
@@ -66,7 +97,17 @@ body {
 .side-content .contact .map-area .map-case {
   color: var(--color-b);
 }
+.side-content footer {
+  background-color: var(--color-d);
+  color: var(--color-e);
+}
+.side-content footer .social-icons-case .social-icons {
+  color: var(--color-c);
+}
 
+.main-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
 .main-overlay .overlay-content-case {
   color: var(--color-b);
   background-color: var(--color-e);
@@ -75,13 +116,45 @@ body {
   color: var(--color-d);
   box-shadow: 0 0 4px 0px var(--color-c);
 }
+.main-overlay .overlay-content-case-content .project-category,
+.main-overlay .overlay-content-case-content .blog-post-category {
+  color: var(--color-c);
+}
 .main-overlay .overlay-content-case-content .photo-credit {
-  color: var(--color-b);
+  color: var(--color-e);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .main-overlay .overlay-content-case-content .caption {
   color: var(--color-c);
 }
 .main-overlay .overlay-content-case-content .post-details {
+  color: var(--color-d);
+}
+.main-overlay .overlay-content-case-content .post-details .author-name::after {
+  background-color: var(--color-d);
+}
+.main-overlay .overlay-content-case-content .main-story .story-text-header {
+  color: var(--color-c);
+  border-left: 5px solid var(--color-c);
+}
+.main-overlay .overlay-content-case-content .col .card {
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+}
+.main-overlay .overlay-content-case-content .about-author {
+  color: var(--color-c);
+  border-top: 1px solid var(--color-c);
+}
+.main-overlay .overlay-content-case-content .about-author a {
+  color: var(--color-c);
+}
+.main-overlay .overlay-content-case-content .about-author a:hover {
+  color: var(--color-d);
+}
+.main-overlay .overlay-content-case-content .story-links a {
+  color: var(--color-e);
+  background-color: var(--color-d);
+}
+.main-overlay .overlay-content-case-content .story-links a .bi {
   color: var(--color-c);
 }
 .main-overlay .overlay-content-case .close-main-overlay-btn {
@@ -109,14 +182,10 @@ body {
   width: 250px;
   height: 250px;
   margin: 0 auto 30px;
-  border: 7px solid var(--color-b);
   border-radius: 100%;
   background-image: url(../../Dist/Images/pix-6x.jpg);
   background-size: cover;
   filter: grayscale(1);
-}
-.seller-content .seller-intro-background .seller-intro h5 {
-  color: var(--color-c);
 }
 .seller-content .seller-intro-background #particlesCase {
   position: absolute;
@@ -137,7 +206,6 @@ body {
 }
 .seller-content .seller-intro-background .home-social a span {
   font-size: 22px;
-  color: var(--color-d);
   margin-bottom: 20px;
 }
 .seller-content .seller-intro-background .home-social a span:hover {
@@ -247,30 +315,22 @@ body {
   min-height: 300px;
   overflow: hidden;
   transform: scale(1);
-  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay {
   min-height: 300px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.75);
   padding: 15px;
-  color: white;
 }
 .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .project-story-link {
-  color: var(--color-c);
   font-size: 17px;
   text-decoration: underline;
 }
 .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .project-story-link:hover {
   cursor: pointer;
-  color: var(--color-e);
 }
 .portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .slide-up-top {
   display: flex;
   justify-content: space-between;
-}
-.portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .slide-up-top h5 {
-  color: var(--color-c);
 }
 .portfolio-section .projects .row .card .slide-overlay-case:hover .card-image-case {
   filter: none;
@@ -286,16 +346,12 @@ body {
 .portfolio-section .projects .row .card .card-body .card-title {
   margin-bottom: 5px;
 }
-.portfolio-section .projects .row .card .card-body .card-text {
-  color: var(--color-c);
-}
 .portfolio-section .projects .row .card .card-body .read-on-menu-bar {
   text-align: right;
   cursor: pointer;
 }
 .portfolio-section .projects .row .card .card-body .read-on-menu-bar span {
   font-size: 30px;
-  color: var(--color-c);
 }
 .portfolio-section .projects .row .card .slide-up-overlay_slideUp {
   transform: translateY(-300px);
@@ -552,8 +608,6 @@ footer {
   padding: 15px 25px;
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-d);
-  color: var(--color-e);
 }
 footer .footer-content {
   width: 45%;
@@ -574,7 +628,6 @@ footer .footer-content .social-icons-case .footer-link {
 }
 footer .footer-content .social-icons-case .footer-link .social-icons {
   font-size: 16px;
-  color: var(--color-c);
 }
 footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   transform: scale(1.1);
@@ -626,7 +679,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   z-index: 4000;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3);
 }
 .main-overlay .overlay-content-case {
   animation-name: animate-overlay-content-case;
@@ -634,7 +686,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   animation-timing-function: ease;
   width: 80%;
   height: 90vh;
-  background-color: var(--color-e);
   margin: 5vh auto;
   overflow: auto;
   border-radius: 5px;
@@ -687,10 +738,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   margin: 20px auto;
   width: 70%;
 }
-.main-overlay .overlay-content-case-content .project-category,
-.main-overlay .overlay-content-case-content .blog-post-category {
-  color: var(--color-c);
-}
 .main-overlay .overlay-content-case-content h4 {
   display: inline-block;
 }
@@ -704,14 +751,11 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .main-overlay .overlay-content-case-content .story-banner .photo-credit {
   padding: 3px 15px;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: var(--color-e);
   min-width: 100px;
   font-size: 14px;
   margin-left: auto;
 }
 .main-overlay .overlay-content-case-content .post-details {
-  color: var(--color-d);
   margin-top: 5px;
 }
 .main-overlay .overlay-content-case-content .post-details .author-name {
@@ -720,7 +764,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .main-overlay .overlay-content-case-content .post-details .author-name::after {
   content: "";
-  background-color: var(--color-d);
   width: 30px;
   margin: auto 5px;
   height: 1px;
@@ -730,8 +773,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   font-size: 17px;
 }
 .main-overlay .overlay-content-case-content .main-story .story-text-header {
-  color: var(--color-c);
-  border-left: 5px solid var(--color-c);
   padding: 2px 10px;
   margin: 50px 0 15px 0;
 }
@@ -743,20 +784,11 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   min-height: 200px;
   background-size: cover;
   margin: 5px 0;
-  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .main-overlay .overlay-content-case-content .main-story .about-author {
-  color: var(--color-c);
   font-style: italic;
   font-size: 15px;
   padding: 15px 0;
-  border-top: 1px solid var(--color-c);
-}
-.main-overlay .overlay-content-case-content .main-story .about-author a {
-  color: var(--color-c);
-}
-.main-overlay .overlay-content-case-content .main-story .about-author a:hover {
-  color: var(--color-d);
 }
 .main-overlay .overlay-content-case-content .main-story .story-links {
   display: flex;
@@ -764,15 +796,12 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   margin: 35px 0;
 }
 .main-overlay .overlay-content-case-content .main-story .story-links a {
-  color: var(--color-e);
   text-decoration: none;
-  background-color: var(--color-d);
   padding: 10px 15px;
   border-radius: 5px 10px;
 }
 .main-overlay .overlay-content-case-content .main-story .story-links a .bi {
   font-size: 20px;
-  color: var(--color-c);
   margin-right: 10px;
 }
 .main-overlay .overlay-content-case-content .main-story .caption {
@@ -801,7 +830,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   margin: 20px auto;
   font-size: 18px;
   padding: 12px 15px;
-  box-shadow: 0 0 24px -7px gray;
+  box-shadow: 0 0 24px -10px gray;
   background-color: white;
   border-radius: 30px;
   min-width: 235px;
