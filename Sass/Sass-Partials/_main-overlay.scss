@@ -105,7 +105,7 @@
         }
         .col {
           .card {
-            min-height: 250px;
+            min-height: 200px;
             background-size: cover;
             margin: 5px 0;
           }
@@ -117,8 +117,8 @@
         }
         .story-links {
           display: flex;
-          flex-direction: row;
-          margin: 35px 0;
+          justify-content: space-evenly;
+          margin: 35px 0 0;
           a {
             text-decoration: none;
             padding: 10px 15px;

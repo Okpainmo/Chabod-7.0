@@ -167,9 +167,14 @@ body {
       input {
         color: var(--color-c);
       }
-      button {
+      .custom-btn {
         background-color: var(--color-d);
         color: var(--color-e);
+        &:hover {
+          background-color: var(--color-c);
+          color: var(--color-e);
+          border-bottom: 3px solid var(--color-d);
+        }
       }
     }
     .map-area {

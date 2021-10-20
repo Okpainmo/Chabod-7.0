@@ -119,9 +119,14 @@ body {
 .side-content .contact .contact-form input {
   color: var(--color-c);
 }
-.side-content .contact .contact-form button {
+.side-content .contact .contact-form .custom-btn {
   background-color: var(--color-d);
   color: var(--color-e);
+}
+.side-content .contact .contact-form .custom-btn:hover {
+  background-color: var(--color-c);
+  color: var(--color-e);
+  border-bottom: 3px solid var(--color-d);
 }
 .side-content .contact .map-area .map-case {
   background-color: var(--color-b);

@@ -156,7 +156,7 @@ body {
   .contact {
     .contact-details {
       .phone-case,
-      .main-case,
+      .mail-case,
       .address-case {
         span {
           color: var(--color-c);
@@ -174,9 +174,14 @@ body {
       input {
         color: var(--color-c);
       }
-      button {
+      .custom-btn {
         background-color: var(--color-d);
         color: var(--color-e);
+        &:hover {
+          background-color: var(--color-d);
+          color: var(--color-e);
+          border-bottom: 3px solid var(--color-d);
+        }
       }
     }
     .map-area {

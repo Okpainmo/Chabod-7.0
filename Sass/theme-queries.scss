@@ -203,6 +203,9 @@
     .portfolio-section {
       .projects {
         width: 100%;
+        .row {
+          margin: 0;
+        }
         .filter-tags {
           padding: 10px 0;
           margin-bottom: 10px;
@@ -263,7 +266,7 @@
     }
   }
   .side-nav {
-    top: calc(100vh - 85px);
+    top: calc(100vh - 70px);
     padding: 10px;
     .side-nav-item {
       .side-nav-link {
@@ -281,19 +284,19 @@
     }
   }
   .main-overlay {
-    .overlay-content-case {
+    .overlay-content-case-content {
       .story-banner {
         height: 300px;
-        .main-story {
-          .col {
-            .card {
-              min-height: 300px;
-            }
+      }
+      .main-story {
+        .col {
+          .card {
+            min-height: 300px;
           }
-          .story-links {
-            flex-direction: column;
-          }
-          .story-links > * {
+        }
+        .story-links {
+          flex-direction: column;
+          & > * {
             margin-bottom: 20px;
             width: 100%;
             a {
@@ -501,6 +504,9 @@
         .main-story {
           .col {
             padding: 0;
+            .card {
+              min-height: 230px;
+            }
           }
           .story-links {
             margin: 35px 0 0;

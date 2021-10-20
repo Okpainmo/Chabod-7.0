@@ -165,6 +165,9 @@
   .side-content .portfolio-section .projects {
     width: 100%;
   }
+  .side-content .portfolio-section .projects .row {
+    margin: 0;
+  }
   .side-content .portfolio-section .projects .filter-tags {
     padding: 10px 0;
     margin-bottom: 10px;
@@ -215,7 +218,7 @@
   }
 
   .side-nav {
-    top: calc(100vh - 85px);
+    top: calc(100vh - 70px);
     padding: 10px;
   }
   .side-nav .side-nav-item .side-nav-link .side-icons {
@@ -229,20 +232,20 @@
     display: none;
   }
 
-  .main-overlay .overlay-content-case .story-banner {
+  .main-overlay .overlay-content-case-content .story-banner {
     height: 300px;
   }
-  .main-overlay .overlay-content-case .story-banner .main-story .col .card {
+  .main-overlay .overlay-content-case-content .main-story .col .card {
     min-height: 300px;
   }
-  .main-overlay .overlay-content-case .story-banner .main-story .story-links {
+  .main-overlay .overlay-content-case-content .main-story .story-links {
     flex-direction: column;
   }
-  .main-overlay .overlay-content-case .story-banner .main-story .story-links > * {
+  .main-overlay .overlay-content-case-content .main-story .story-links > * {
     margin-bottom: 20px;
     width: 100%;
   }
-  .main-overlay .overlay-content-case .story-banner .main-story .story-links > * a {
+  .main-overlay .overlay-content-case-content .main-story .story-links > * a {
     width: inherit;
   }
 }
@@ -419,6 +422,9 @@
   }
   .main-overlay .overlay-content-case-content .main-story .col {
     padding: 0;
+  }
+  .main-overlay .overlay-content-case-content .main-story .col .card {
+    min-height: 230px;
   }
   .main-overlay .overlay-content-case-content .main-story .story-links {
     margin: 35px 0 0;

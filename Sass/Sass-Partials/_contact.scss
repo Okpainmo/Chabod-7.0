@@ -45,6 +45,9 @@
     button {
       border: none;
       padding: 10px;
+      &:hover {
+        transition: border 0.2s ease;
+      }
     }
   }
   .map-area {

@@ -119,9 +119,14 @@ body {
 .side-content .contact .contact-form input {
   color: var(--color-c);
 }
-.side-content .contact .contact-form button {
+.side-content .contact .contact-form .custom-btn {
   background-color: var(--color-d);
   color: var(--color-e);
+}
+.side-content .contact .contact-form .custom-btn:hover {
+  background-color: var(--color-c);
+  color: var(--color-e);
+  border-bottom: 3px solid var(--color-d);
 }
 .side-content .contact .map-area .map-case {
   background-color: var(--color-b);
@@ -521,6 +526,9 @@ body {
   border: none;
   padding: 10px;
 }
+.contact .contact-form button:hover {
+  transition: border 0.2s ease;
+}
 .contact .map-area {
   padding: 20px;
   text-align: center;
@@ -804,7 +812,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   margin-bottom: 0;
 }
 .main-overlay .overlay-content-case-content .main-story .col .card {
-  min-height: 250px;
+  min-height: 200px;
   background-size: cover;
   margin: 5px 0;
 }
@@ -815,8 +823,8 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .main-overlay .overlay-content-case-content .main-story .story-links {
   display: flex;
-  flex-direction: row;
-  margin: 35px 0;
+  justify-content: space-evenly;
+  margin: 35px 0 0;
 }
 .main-overlay .overlay-content-case-content .main-story .story-links a {
   text-decoration: none;
@@ -956,7 +964,7 @@ html .mont-font {
 }
 .dark-mode-activated .side-content .custom-btn {
   color: black;
-  background-color: #b3b3b4;
+  background-color: #6b6a6a;
 }
 .dark-mode-activated .side-content .custom-btn:hover {
   background-color: #6b6a6a;
