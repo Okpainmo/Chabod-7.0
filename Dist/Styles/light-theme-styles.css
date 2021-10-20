@@ -815,7 +815,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .main-overlay .overlay-content-case-content .main-story .story-links {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
   margin: 35px 0;
 }
 .main-overlay .overlay-content-case-content .main-story .story-links a {
@@ -973,7 +973,7 @@ html .mont-font {
 }
 .dark-mode-activated .side-content .portfolio-section .projects .tag:hover {
   background-color: #6b6a6a;
-  color: black;
+  color: white;
 }
 .dark-mode-activated .side-content .portfolio-section .projects .card .slide-overlay-case {
   box-shadow: 0 25px 20px -20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.06);

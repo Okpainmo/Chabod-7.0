@@ -138,7 +138,7 @@
 }
 @media (max-width: 767px) {
   .side-content .home .seller-intro {
-    padding: 15vh 15px 0;
+    padding: 14vh 15px 0;
   }
   .side-content .float-chat-button {
     bottom: 100px;
@@ -274,7 +274,7 @@
 
   .side-nav {
     top: calc(100vh - 55px);
-    padding: 5px 15px;
+    padding: 5px 10px;
   }
   .side-nav .side-nav-item .side-nav-link .side-icons {
     font-size: 18px;
@@ -288,7 +288,7 @@
   }
   .side-content .seller-content .home-social {
     left: 0;
-    top: 540px;
+    top: 545px;
     width: 100%;
     margin: 0 auto;
     flex-direction: row;

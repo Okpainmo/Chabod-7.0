@@ -117,7 +117,7 @@
         }
         .story-links {
           display: flex;
-          justify-content: space-evenly;
+          flex-direction: row;
           margin: 35px 0;
           a {
             text-decoration: none;

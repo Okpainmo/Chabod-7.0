@@ -822,7 +822,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .main-overlay .overlay-content-case-content .main-story .story-links {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
   margin: 35px 0;
 }
 .main-overlay .overlay-content-case-content .main-story .story-links a {
