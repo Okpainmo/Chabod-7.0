@@ -124,7 +124,7 @@ body {
   color: var(--color-e);
 }
 .side-content .contact .map-area .map-case {
-  color: var(--color-b);
+  background-color: var(--color-b);
 }
 .side-content .blog-section .post-banner {
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);

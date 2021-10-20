@@ -54,7 +54,7 @@ body {
 }
 .side-content .float-chat-button {
   background-color: var(--color-c);
-  color: var(--color-a);
+  color: var(--color-e);
   box-shadow: 0 0 10px 1px var(--color-c);
 }
 .side-content .seller-content .seller-intro-background .seller-intro {
@@ -78,7 +78,7 @@ body {
 }
 .side-content .portfolio-section .projects .filter-tags .tag:hover {
   background-color: var(--color-c);
-  color: var(--color-e);
+  color: var(--color-b);
 }
 .side-content .portfolio-section .projects .row .card .slide-overlay-case {
   box-shadow: 0 25px 20px -20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.06);
@@ -131,7 +131,7 @@ body {
   color: var(--color-e);
 }
 .side-content .contact .map-area .map-case {
-  color: var(--color-b);
+  background-color: var(--color-e);
 }
 .side-content .blog-section .post-banner {
   box-shadow: 0 25px 20px -20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.06);
@@ -983,6 +983,9 @@ html .mont-font {
   color: white;
 }
 .light-mode-activated .side-content .portfolio-section .projects .card .slide-overlay-case {
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+}
+.light-mode-activated .side-content .blog-section .post-banner {
   box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
 }
 .light-mode-activated .side-content .testimonials .client-photo-case img {
