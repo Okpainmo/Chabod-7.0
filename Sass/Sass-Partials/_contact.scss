@@ -13,7 +13,7 @@
     .address-case {
       width: 30%;
       i {
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 15px;
       }
     }
@@ -55,6 +55,10 @@
     }
     .address-case {
       margin: 0 auto;
+      i {
+        font-size: 25px;
+        margin: 15px 0;
+      }
     }
     .map-case {
       width: 87%;

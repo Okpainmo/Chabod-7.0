@@ -58,10 +58,10 @@
     width: 100%;
     margin-left: 0;
   }
-  .side-content .home {
+  .side-content .seller-content {
     height: 650px;
   }
-  .side-content .home #particlesCase {
+  .side-content .seller-content #particlesCase {
     width: 100%;
     height: 650px;
   }
@@ -103,7 +103,10 @@
     max-width: 100%;
   }
 
-  .side-content .portfolio-section .card {
+  .side-content .seller-content #particlesCase {
+    height: 100%;
+  }
+  .side-content .portfolio-section .projects .row .card {
     margin: 0 0 10px 0;
   }
   .side-content .contact .contact-details {
@@ -153,10 +156,10 @@
   .side-content .about-section .seller-area .seller-banner img {
     height: 500px;
   }
-  .side-content .about-section .seller-area .seller-banner .about-text-case {
+  .side-content .about-section .seller-area .about-text-case {
     width: 100%;
   }
-  .side-content .about-section .seller-area .seller-banner .about-text-case .btn-case {
+  .side-content .about-section .seller-area .about-text-case .btn-case {
     margin: 50px auto 0;
   }
   .side-content .portfolio-section .projects {
@@ -168,6 +171,7 @@
   }
   .side-content .portfolio-section .projects .filter-tags .tag {
     background-color: transparent;
+    color: var(--color-c);
     min-width: 50px;
     font-style: italic;
     margin: 0 5px;
@@ -214,10 +218,10 @@
     top: calc(100vh - 85px);
     padding: 10px;
   }
-  .side-nav .side-nav-link .bi {
+  .side-nav .side-nav-item .side-nav-link .side-icons {
     font-size: 20px;
   }
-  .side-nav .side-nav-link .side-nav-text {
+  .side-nav .side-nav-item .side-nav-link .side-nav-text {
     font-size: 14px;
     padding: 0 5px;
   }
@@ -272,11 +276,11 @@
     top: calc(100vh - 55px);
     padding: 5px 15px;
   }
-  .side-nav .side-nav-link .bi {
+  .side-nav .side-nav-item .side-nav-link .side-icons {
     font-size: 18px;
   }
-  .side-nav .side-nav-link .side-nav-text {
-    font-size: 11px;
+  .side-nav .side-nav-item .side-nav-link .side-nav-text {
+    font-size: 13px;
   }
 
   .side-content .seller-content #particles-case {
@@ -307,6 +311,23 @@
   }
   .side-content .portfolio-section .projects .tag {
     padding: 10px 0;
+  }
+  .side-content .portfolio-section .projects .card .slide-overlay-case {
+    height: 270px;
+  }
+  .side-content .portfolio-section .projects .card .slide-overlay-case .card-image-case {
+    min-height: 270px;
+  }
+  .side-content .portfolio-section .projects .card .slide-overlay-case .slide-up-overlay {
+    min-height: 270px;
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay_slideDown {
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+  }
+  .side-content .portfolio-section .projects .card .slide-up-overlay_slideUp {
+    transform: translateY(-270px);
+    transition: transform 0.5s ease;
   }
   .side-content .about-section .achievements .achievement-list {
     flex-direction: column;
@@ -404,24 +425,6 @@
   }
 }
 @media screen and (max-width: 400px) and (max-width: 400px) {
-  .side-content .portfolio-section .projects .card .slide-overlay-case {
-    height: 270px;
-  }
-  .side-content .portfolio-section .projects .card .slide-overlay-case .card-image-case {
-    min-height: 270px;
-  }
-  .side-content .portfolio-section .projects .card .slide-overlay-case .slide-up-overlay {
-    min-height: 270px;
-  }
-  .side-content .portfolio-section .projects .card .slide-up-overlay_slideDown {
-    transform: translateY(0);
-    transition: transform 0.5s ease;
-  }
-  .side-content .portfolio-section .projects .card .slide-up-overlay_slideUp {
-    transform: translateY(-270px);
-    transition: transform 0.5s ease;
-  }
-
   .main-overlay .overlay-content-case-content .story-banner {
     height: 220px;
   }

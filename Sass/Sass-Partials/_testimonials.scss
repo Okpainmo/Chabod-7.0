@@ -6,14 +6,16 @@
   .testimonials-case {
     padding: 50px 70px;
     text-align: center;
+    &:hover {
+      .client-photo-case {
+        img {
+          filter: none;
+          transition: filter 0.4s ease;
+        }
+      }
+    }
     .testimonials-header {
       margin-bottom: 40px;
-    }
-    &:hover {
-      img {
-        filter: none;
-        transition: filter 0.4s ease;
-      }
     }
     .carousel-indicators {
       bottom: -50px;

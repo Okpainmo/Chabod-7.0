@@ -42,19 +42,19 @@ body {
       color: var(--color-e);
       &:hover {
         background-color: var(--color-c);
-        color: var(--color-b);
+        color: var(--color-e);
         border-bottom: 3px solid var(--color-d);
       }
     }
   }
   .light-mode-switch {
-    color: var(--color-d);
-  }
-  .dark-mode-switch {
     color: var(--color-e);
   }
+  .dark-mode-switch {
+    color: var(--color-d);
+  }
   .card {
-    background-color: white;
+    background-color: transparent;
   }
   .form-control {
     background-color: #fff;
@@ -101,12 +101,9 @@ body {
       }
       .row {
         .card {
-          box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%),
-            0 0 15px rgb(0 0 0 / 6%);
           .slide-overlay-case {
-            // .card-image-case {
-
-            // }
+            box-shadow: 0 25px 20px -20px rgb(0 0 0 / 30%),
+              0 0 15px rgb(0 0 0 / 6%);
             .slide-up-overlay {
               color: var(--color-e);
               background-color: rgba(0, 0, 0, 0.75);
@@ -152,7 +149,7 @@ body {
   .contact {
     .contact-details {
       .phone-case,
-      .main-case,
+      .mail-case,
       .address-case {
         span {
           color: var(--color-c);
@@ -179,6 +176,12 @@ body {
       .map-case {
         color: var(--color-b);
       }
+    }
+  }
+  .blog-section {
+    .post-banner {
+      box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3),
+        0 0 15px rgba(0, 0, 0, 0.06);
     }
   }
   footer {

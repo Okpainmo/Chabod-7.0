@@ -69,7 +69,7 @@
   .side-content {
     width: 100%;
     margin-left: 0;
-    .home {
+    .seller-content {
       height: 650px;
       #particlesCase {
         width: 100%;
@@ -118,9 +118,18 @@
     max-width: 100%;
   }
   .side-content {
+    .seller-content {
+      #particlesCase {
+        height: 100%;
+      }
+    }
     .portfolio-section {
-      .card {
-        margin: 0 0 10px 0;
+      .projects {
+        .row {
+          .card {
+            margin: 0 0 10px 0;
+          }
+        }
       }
     }
     .contact {
@@ -182,11 +191,11 @@
           img {
             height: 500px;
           }
-          .about-text-case {
-            width: 100%;
-            .btn-case {
-              margin: 50px auto 0;
-            }
+        }
+        .about-text-case {
+          width: 100%;
+          .btn-case {
+            margin: 50px auto 0;
           }
         }
       }
@@ -199,6 +208,7 @@
           margin-bottom: 10px;
           .tag {
             background-color: transparent;
+            color: var(--color-c);
             min-width: 50px;
             font-style: italic;
             margin: 0 5px;
@@ -255,13 +265,15 @@
   .side-nav {
     top: calc(100vh - 85px);
     padding: 10px;
-    .side-nav-link {
-      .bi {
-        font-size: 20px;
-      }
-      .side-nav-text {
-        font-size: 14px;
-        padding: 0 5px;
+    .side-nav-item {
+      .side-nav-link {
+        .side-icons {
+          font-size: 20px;
+        }
+        .side-nav-text {
+          font-size: 14px;
+          padding: 0 5px;
+        }
       }
     }
     .side-nav-item:nth-child(4) {
@@ -319,12 +331,14 @@
   .side-nav {
     top: calc(100vh - 55px);
     padding: 5px 15px;
-    .side-nav-link {
-      .bi {
-        font-size: 18px;
-      }
-      .side-nav-text {
-        font-size: 11px;
+    .side-nav-item {
+      .side-nav-link {
+        .side-icons {
+          font-size: 18px;
+        }
+        .side-nav-text {
+          font-size: 13px;
+        }
       }
     }
   }
@@ -364,6 +378,25 @@
         padding: 0px;
         .tag {
           padding: 10px 0;
+        }
+        .card {
+          .slide-overlay-case {
+            height: 270px;
+            .card-image-case {
+              min-height: 270px;
+            }
+            .slide-up-overlay {
+              min-height: 270px;
+            }
+          }
+          .slide-up-overlay_slideDown {
+            transform: translateY(0);
+            transition: transform 0.5s ease;
+          }
+          .slide-up-overlay_slideUp {
+            transform: translateY(-270px);
+            transition: transform 0.5s ease;
+          }
         }
       }
     }
@@ -479,31 +512,6 @@
 }
 @include config.media-breakpoint-xsm {
   @media screen and (max-width: 400px) {
-    .side-content {
-      .portfolio-section {
-        .projects {
-          .card {
-            .slide-overlay-case {
-              height: 270px;
-              .card-image-case {
-                min-height: 270px;
-              }
-              .slide-up-overlay {
-                min-height: 270px;
-              }
-            }
-            .slide-up-overlay_slideDown {
-              transform: translateY(0);
-              transition: transform 0.5s ease;
-            }
-            .slide-up-overlay_slideUp {
-              transform: translateY(-270px);
-              transition: transform 0.5s ease;
-            }
-          }
-        }
-      }
-    }
     .main-overlay {
       .overlay-content-case {
         &-content {
