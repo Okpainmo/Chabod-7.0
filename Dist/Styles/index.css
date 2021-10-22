@@ -53,7 +53,7 @@ body {
   background-color: #fff;
 }
 .side-content .float-chat-button {
-  background-color: var(--color-d);
+  background-color: var(--color-b);
   color: var(--color-e);
   box-shadow: 0 0 10px 1px var(--color-c);
 }

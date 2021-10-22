@@ -53,7 +53,7 @@ body {
   background-color: #fff;
 }
 .side-content .float-chat-button {
-  background-color: var(--color-d);
+  background-color: var(--color-b);
   color: var(--color-e);
   box-shadow: 0 0 10px 1px var(--color-c);
 }
@@ -876,69 +876,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   color: blue;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-html body {
-  font-family: "Nunito", sans-serif;
-}
-html .mont-font {
-  font-family: "Montserrat", sans-serif;
-}
-
-.section-header {
-  margin-left: 20px;
-}
-.section-header h1,
-.section-header h2,
-.section-header h3,
-.section-header h4,
-.section-header h5 {
-  margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
-}
-.section-header::after {
-  content: "";
-  width: 100px;
-  margin-top: 10px;
-  height: 5px;
-  display: block;
-}
-
-.main {
-  min-height: 100vh;
-  display: flex;
-}
-.main .side-content .light-mode-switch {
-  display: none;
-}
-
-.btn-case {
-  width: 350px;
-  min-height: 55px;
-  margin-top: 10px;
-}
-.btn-case .custom-btn {
-  padding: 10px 30px;
-  width: inherit;
-  font-size: 18px;
-  display: block;
-  border: none;
-}
-.btn-case .custom-btn:hover {
-  transition: border 0.2s ease;
-}
-
-.mobile-only {
-  display: none;
-}
-
 .dark-body {
   color: white;
   background-color: black;
@@ -1033,4 +970,67 @@ html .mont-font {
 .dark-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
   color: white;
   box-shadow: 0 0 7px 2px white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  font-family: "Nunito", sans-serif;
+}
+html .mont-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-header {
+  margin-left: 20px;
+}
+.section-header h1,
+.section-header h2,
+.section-header h3,
+.section-header h4,
+.section-header h5 {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.section-header::after {
+  content: "";
+  width: 100px;
+  margin-top: 10px;
+  height: 5px;
+  display: block;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+}
+.main .side-content .light-mode-switch {
+  display: none;
+}
+
+.btn-case {
+  width: 350px;
+  min-height: 55px;
+  margin-top: 10px;
+}
+.btn-case .custom-btn {
+  padding: 10px 30px;
+  width: inherit;
+  font-size: 18px;
+  display: block;
+  border: none;
+}
+.btn-case .custom-btn:hover {
+  transition: border 0.2s ease;
+}
+
+.mobile-only {
+  display: none;
 }
