@@ -384,12 +384,12 @@
         }
         .card {
           .slide-overlay-case {
-            height: 270px;
+            height: 300px;
             .card-image-case {
-              min-height: 270px;
+              min-height: 300px;
             }
             .slide-up-overlay {
-              min-height: 270px;
+              min-height: 300px;
             }
           }
           .slide-up-overlay_slideDown {
@@ -397,7 +397,7 @@
             transition: transform 0.5s ease;
           }
           .slide-up-overlay_slideUp {
-            transform: translateY(-270px);
+            transform: translateY(-300px);
             transition: transform 0.5s ease;
           }
         }

@@ -316,20 +316,20 @@
     padding: 10px 0;
   }
   .side-content .portfolio-section .projects .card .slide-overlay-case {
-    height: 270px;
+    height: 300px;
   }
   .side-content .portfolio-section .projects .card .slide-overlay-case .card-image-case {
-    min-height: 270px;
+    min-height: 300px;
   }
   .side-content .portfolio-section .projects .card .slide-overlay-case .slide-up-overlay {
-    min-height: 270px;
+    min-height: 300px;
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay_slideDown {
     transform: translateY(0);
     transition: transform 0.5s ease;
   }
   .side-content .portfolio-section .projects .card .slide-up-overlay_slideUp {
-    transform: translateY(-270px);
+    transform: translateY(-300px);
     transition: transform 0.5s ease;
   }
   .side-content .about-section .achievements .achievement-list {
