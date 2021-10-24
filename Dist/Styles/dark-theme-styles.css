@@ -619,6 +619,7 @@ body {
 .blog-section .blog-container .card .post-banner img {
   filter: grayscale(1);
   transform: scale(1);
+  min-height: 230px;
   border-radius: 0;
 }
 .blog-section .blog-container .card:hover {

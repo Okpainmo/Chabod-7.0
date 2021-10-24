@@ -1,7 +1,7 @@
 :root {
   --color-a: #f7f8f9;
   --color-b: black;
-  --color-c: #757575;
+  --color-c: #9d9999;
   --color-d: #212529;
   --color-e: white;
 }
@@ -612,6 +612,7 @@ body {
 .blog-section .blog-container .card .post-banner img {
   filter: grayscale(1);
   transform: scale(1);
+  min-height: 230px;
   border-radius: 0;
 }
 .blog-section .blog-container .card:hover {
@@ -901,7 +902,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .dark-mode-activated .side-content .custom-btn {
   color: black;
-  background-color: #6b6a6a;
+  background-color: #b3b3b4;
 }
 .dark-mode-activated .side-content .custom-btn:hover {
   background-color: #6b6a6a;

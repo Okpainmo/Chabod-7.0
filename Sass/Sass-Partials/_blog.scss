@@ -16,6 +16,7 @@
         img {
           filter: grayscale(1);
           transform: scale(1);
+          min-height: 230px;
           border-radius: 0;
         }
       }
