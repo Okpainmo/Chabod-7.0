@@ -220,7 +220,7 @@ body {
   height: 250px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  background-image: url(../../Dist/Images/pix-6x.jpg);
+  background-image: url(../../Dist/Images/seller-pic-0.jpg);
   background-size: cover;
   filter: grayscale(1);
 }
@@ -987,6 +987,12 @@ html body {
 }
 html .mont-font {
   font-family: "Montserrat", sans-serif;
+}
+html .custom-link {
+  color: var(--color-c);
+}
+html .custom-link:hover {
+  color: inherit;
 }
 
 .section-header {

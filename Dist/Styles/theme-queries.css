@@ -358,9 +358,6 @@
   .side-content .about-section .seller-area .seller-banner {
     padding: 15px 0;
   }
-  .side-content .about-section .seller-area .seller-banner img {
-    height: 400px;
-  }
   .side-content .contact .contact-details {
     flex-direction: column;
   }

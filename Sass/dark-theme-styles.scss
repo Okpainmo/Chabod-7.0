@@ -32,6 +32,12 @@ html {
   .mont-font {
     font-family: 'Montserrat', sans-serif;
   }
+  .custom-link {
+    color: var(--color-c);
+    &:hover {
+      color: inherit;
+    }
+  }
 }
 
 // section header styling
