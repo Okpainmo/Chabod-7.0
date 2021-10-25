@@ -165,7 +165,7 @@ body {
   color: var(--color-c);
 }
 .main-overlay .overlay-content-case-content .post-details {
-  color: var(--color-d);
+  color: var(--color-c);
 }
 .main-overlay .overlay-content-case-content .post-details .author-name::after {
   background-color: var(--color-d);
@@ -220,7 +220,6 @@ body {
   height: 250px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  background-image: url(../../Dist/Images/seller-pic-0.jpg);
   background-size: cover;
   filter: grayscale(1);
 }
@@ -963,9 +962,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .dark-mode-activated .main-overlay .overlay-content-case .photo-credit {
   color: white;
-}
-.dark-mode-activated .main-overlay .overlay-content-case .post-details {
-  color: #6b6a6a;
 }
 .dark-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
   color: white;

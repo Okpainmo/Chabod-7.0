@@ -227,7 +227,6 @@ body {
   height: 250px;
   margin: 0 auto 30px;
   border-radius: 100%;
-  background-image: url(../../Dist/Images/seller-pic-0.jpg);
   background-size: cover;
   filter: grayscale(1);
 }
@@ -969,9 +968,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .light-mode-activated .main-overlay .overlay-content-case .photo-credit {
   color: white;
-}
-.light-mode-activated .main-overlay .overlay-content-case .post-details {
-  color: #757575;
 }
 .light-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
   color: white;
