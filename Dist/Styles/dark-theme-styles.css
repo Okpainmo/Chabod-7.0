@@ -287,9 +287,8 @@ body {
   font-size: 16px;
 }
 .about-section .achievements {
-  margin: 50px 20px;
   width: 90%;
-  margin: 0 auto 50px;
+  margin: 50px auto;
 }
 .about-section .achievements p {
   width: 60%;
