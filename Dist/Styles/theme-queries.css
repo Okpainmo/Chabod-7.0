@@ -128,6 +128,9 @@
   .side-content .about-section .achievements p {
     width: 80%;
   }
+  .side-content .blog-section .blog-container .card .post-banner {
+    height: 150px;
+  }
 
   .main-overlay .overlay-content-case {
     width: 96%;
@@ -137,6 +140,21 @@
   }
 }
 @media (max-width: 767px) {
+  .side-nav {
+    top: calc(100vh - 70px);
+    padding: 10px;
+  }
+  .side-nav .side-nav-item .side-nav-link .side-icons {
+    font-size: 20px;
+  }
+  .side-nav .side-nav-item .side-nav-link .side-nav-text {
+    font-size: 14px;
+    padding: 0 5px;
+  }
+  .side-nav .side-nav-item:nth-child(4) {
+    display: none;
+  }
+
   .side-content .home .seller-intro {
     padding: 14vh 15px 0;
   }
@@ -213,23 +231,11 @@
 .side-content .testimonials .testimonials-case .carousel-control-prev {
     display: none;
   }
+  .side-content .blog-section .blog-container .card .post-banner {
+    height: 200px;
+  }
   .side-content footer {
     margin-bottom: 85px;
-  }
-
-  .side-nav {
-    top: calc(100vh - 70px);
-    padding: 10px;
-  }
-  .side-nav .side-nav-item .side-nav-link .side-icons {
-    font-size: 20px;
-  }
-  .side-nav .side-nav-item .side-nav-link .side-nav-text {
-    font-size: 14px;
-    padding: 0 5px;
-  }
-  .side-nav .side-nav-item:nth-child(4) {
-    display: none;
   }
 
   .main-overlay .overlay-content-case-content .story-banner {
@@ -377,14 +383,17 @@
     width: 95%;
     padding: 10px;
   }
-  .side-content .blog-section .card {
-    margin: 0;
-  }
-  .side-content .blog-section .card .card-body {
-    margin-bottom: 10px;
-  }
   .side-content .blog-section .blog-container {
     width: 100%;
+  }
+  .side-content .blog-section .blog-container .card {
+    margin: 0;
+  }
+  .side-content .blog-section .blog-container .card .post-banner {
+    height: 270px;
+  }
+  .side-content .blog-section .blog-container .card .card-body {
+    margin-bottom: 10px;
   }
   .side-content .blog-section .blog-container .btn-case {
     padding: 0 7px;

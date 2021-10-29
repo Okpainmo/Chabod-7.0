@@ -605,11 +605,14 @@ body {
   border-radius: 0;
 }
 .blog-section .blog-container .card .post-banner {
+  height: 230px;
   overflow: hidden;
 }
 .blog-section .blog-container .card .post-banner img {
   filter: grayscale(1);
   transform: scale(1);
+  height: inherit;
+  background-size: cover;
   border-radius: 0;
 }
 .blog-section .blog-container .card:hover {

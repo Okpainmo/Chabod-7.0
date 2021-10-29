@@ -159,6 +159,15 @@
         }
       }
     }
+    .blog-section {
+      .blog-container {
+        .card {
+          .post-banner {
+            height: 150px;
+          }
+        }
+      }
+    }
   }
   .main-overlay {
     .overlay-content-case {
@@ -170,6 +179,24 @@
   }
 }
 @include config.media-breakpoint-md {
+  .side-nav {
+    top: calc(100vh - 70px);
+    padding: 10px;
+    .side-nav-item {
+      .side-nav-link {
+        .side-icons {
+          font-size: 20px;
+        }
+        .side-nav-text {
+          font-size: 14px;
+          padding: 0 5px;
+        }
+      }
+    }
+    .side-nav-item:nth-child(4) {
+      display: none;
+    }
+  }
   .side-content {
     .home {
       .seller-intro {
@@ -261,26 +288,17 @@
         }
       }
     }
-    footer {
-      margin-bottom: 85px;
-    }
-  }
-  .side-nav {
-    top: calc(100vh - 70px);
-    padding: 10px;
-    .side-nav-item {
-      .side-nav-link {
-        .side-icons {
-          font-size: 20px;
-        }
-        .side-nav-text {
-          font-size: 14px;
-          padding: 0 5px;
+    .blog-section {
+      .blog-container {
+        .card {
+          .post-banner {
+            height: 200px;
+          }
         }
       }
     }
-    .side-nav-item:nth-child(4) {
-      display: none;
+    footer {
+      margin-bottom: 85px;
     }
   }
   .main-overlay {
@@ -456,14 +474,17 @@
       }
     }
     .blog-section {
-      .card {
-        margin: 0;
-        .card-body {
-          margin-bottom: 10px;
-        }
-      }
       .blog-container {
         width: 100%;
+        .card {
+          margin: 0;
+          .post-banner {
+            height: 270px;
+          }
+          .card-body {
+            margin-bottom: 10px;
+          }
+        }
         .btn-case {
           padding: 0 7px;
         }

@@ -12,11 +12,13 @@
       overflow: hidden;
       border-radius: 0;
       .post-banner {
+        height: 230px;
         overflow: hidden;
         img {
           filter: grayscale(1);
           transform: scale(1);
-          // min-height: 230px;
+          height: inherit;
+          background-size: cover;
           border-radius: 0;
         }
       }
