@@ -51,6 +51,7 @@ body {
   a {
     margin: 0 auto;
     text-decoration: none;
+    width: 100%;
     text-align: center;
     &:hover {
       img {
@@ -59,7 +60,7 @@ body {
       }
     }
     .image-case {
-      min-width: 400px;
+      min-width: 420px;
       min-height: 200px;
       font-size: 20px;
       img {
@@ -92,12 +93,12 @@ body {
   .modes-display {
     a {
       .image-case {
-        padding: 10px;
+        // padding: 10px;
         min-width: 100%;
         min-height: 100%;
         img {
-          width: 98%;
-          height: 163px;
+          width: 92%;
+          height: 170px;
         }
       }
     }

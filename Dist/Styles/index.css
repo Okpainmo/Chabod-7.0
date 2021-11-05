@@ -126,7 +126,6 @@ body {
 .side-content .contact .contact-form .custom-btn:hover {
   background-color: var(--color-c);
   color: var(--color-e);
-  border-bottom: 3px solid var(--color-d);
 }
 .side-content .contact .map-area .map-case {
   background-color: var(--color-b);
@@ -253,6 +252,7 @@ body {
 .modes-display a {
   margin: 0 auto;
   text-decoration: none;
+  width: 100%;
   text-align: center;
 }
 .modes-display a:hover img {
@@ -260,7 +260,7 @@ body {
   transition: transform 0.75s ease;
 }
 .modes-display a .image-case {
-  min-width: 400px;
+  min-width: 420px;
   min-height: 200px;
   font-size: 20px;
 }
@@ -286,12 +286,11 @@ body {
 }
 @media screen and (max-width: 500px) {
   .modes-display a .image-case {
-    padding: 10px;
     min-width: 100%;
     min-height: 100%;
   }
   .modes-display a .image-case img {
-    width: 98%;
-    height: 163px;
+    width: 92%;
+    height: 170px;
   }
 }

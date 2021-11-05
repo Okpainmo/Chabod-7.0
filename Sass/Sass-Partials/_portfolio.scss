@@ -15,6 +15,7 @@
         min-width: 100px;
         text-align: center;
         padding: 10px 15px;
+        text-transform: capitalize;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -56,6 +57,9 @@
             .slide-up-top {
               display: flex;
               justify-content: space-between;
+              h5 {
+                text-transform: capitalize;
+              }
             }
           }
           &:hover {
@@ -73,6 +77,7 @@
           justify-content: space-between;
           .card-title {
             margin-bottom: 5px;
+            text-transform: capitalize;
           }
           .read-on-menu-bar {
             text-align: right;

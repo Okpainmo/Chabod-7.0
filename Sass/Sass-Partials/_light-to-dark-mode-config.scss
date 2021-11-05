@@ -28,6 +28,14 @@ $dark-e: black;
       .side-icons {
         color: $dark-d;
       }
+      &:hover {
+        .side-nav-text {
+          color: $dark-d;
+        }
+        .side-icons {
+          color: $dark-c;
+        }
+      }
     }
   }
   .side-content {
@@ -37,7 +45,6 @@ $dark-e: black;
       &:hover {
         background-color: $dark-c;
         color: $dark-a;
-        border-bottom: 3px solid $dark-d;
       }
     }
     .float-chat-button {
@@ -93,9 +100,15 @@ $dark-e: black;
         color: $dark-d;
       }
     }
-    .form-control {
-      background-color: $dark-e;
-      color: $dark-b;
+    .contact {
+      .map-area {
+        .map-case {
+          background-color: $dark-b;
+        }
+      }
+      .form-control {
+        background-color: $dark-e;
+      }
     }
     footer {
       color: $dark-e;

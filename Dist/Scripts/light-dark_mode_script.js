@@ -175,7 +175,7 @@ function goodDay() {
         },
       },
       opacity: {
-        value: 0.5,
+        value: 0.7,
         random: false,
         anim: {
           enable: false,
@@ -198,7 +198,7 @@ function goodDay() {
         enable: true,
         distance: 100,
         color: '#757575',
-        opacity: 0.4,
+        opacity: 0.7,
         width: 1,
       },
       move: {

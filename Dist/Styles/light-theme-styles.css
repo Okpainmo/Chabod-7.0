@@ -126,7 +126,6 @@ body {
 .side-content .contact .contact-form .custom-btn:hover {
   background-color: var(--color-c);
   color: var(--color-e);
-  border-bottom: 3px solid var(--color-d);
 }
 .side-content .contact .map-area .map-case {
   background-color: var(--color-b);
@@ -322,6 +321,7 @@ body {
   min-width: 100px;
   text-align: center;
   padding: 10px 15px;
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,6 +367,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.portfolio-section .projects .row .card .slide-overlay-case .slide-up-overlay .slide-up-top h5 {
+  text-transform: capitalize;
+}
 .portfolio-section .projects .row .card .slide-overlay-case:hover .card-image-case {
   filter: none;
   transform: scale(1.25);
@@ -380,6 +383,7 @@ body {
 }
 .portfolio-section .projects .row .card .card-body .card-title {
   margin-bottom: 5px;
+  text-transform: capitalize;
 }
 .portfolio-section .projects .row .card .card-body .read-on-menu-bar {
   text-align: right;
@@ -761,6 +765,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .main-overlay .overlay-content-case-header h3 {
   margin-bottom: 0;
+  text-transform: capitalize;
 }
 .main-overlay .overlay-content-case-header span {
   transform: translateY(2px);
@@ -772,6 +777,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .main-overlay .overlay-content-case-content h4 {
   display: inline-block;
+  text-transform: capitalize;
 }
 .main-overlay .overlay-content-case-content .story-banner {
   width: 100%;
@@ -793,6 +799,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .main-overlay .overlay-content-case-content .post-details .author-name {
   font-weight: 900;
   font-size: 18px;
+  text-transform: capitalize;
 }
 .main-overlay .overlay-content-case-content .post-details .author-name::after {
   content: "";
@@ -811,6 +818,7 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .main-overlay .overlay-content-case-content .main-story .story-text-header h4 {
   font-size: 22px;
   margin-bottom: 0;
+  text-transform: capitalize;
 }
 .main-overlay .overlay-content-case-content .main-story .col .card {
   min-height: 200px;
@@ -900,6 +908,12 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .dark-mode-activated .side-nav .side-nav-link .side-icons {
   color: #b3b3b4;
 }
+.dark-mode-activated .side-nav .side-nav-link:hover .side-nav-text {
+  color: #b3b3b4;
+}
+.dark-mode-activated .side-nav .side-nav-link:hover .side-icons {
+  color: #6b6a6a;
+}
 .dark-mode-activated .side-content .custom-btn {
   color: black;
   background-color: #b3b3b4;
@@ -907,7 +921,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .dark-mode-activated .side-content .custom-btn:hover {
   background-color: #6b6a6a;
   color: #161616;
-  border-bottom: 3px solid #b3b3b4;
 }
 .dark-mode-activated .side-content .float-chat-button {
   background-color: #6b6a6a;
@@ -946,9 +959,11 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .dark-mode-activated .side-content .seller-content .home-social a span {
   color: #b3b3b4;
 }
-.dark-mode-activated .side-content .form-control {
+.dark-mode-activated .side-content .contact .map-area .map-case {
+  background-color: white;
+}
+.dark-mode-activated .side-content .contact .form-control {
   background-color: black;
-  color: white;
 }
 .dark-mode-activated .side-content footer {
   color: black;
@@ -1032,7 +1047,7 @@ html .custom-link:hover {
   border: none;
 }
 .btn-case .custom-btn:hover {
-  transition: border 0.2s ease;
+  transition: color 0.75s ease;
 }
 
 .mobile-only {

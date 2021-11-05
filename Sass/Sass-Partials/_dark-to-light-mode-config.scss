@@ -28,6 +28,14 @@ $light-e: white;
       .side-icons {
         color: $light-d;
       }
+      &:hover {
+        .side-nav-text {
+          color: $light-d;
+        }
+        .side-icons {
+          color: $light-c;
+        }
+      }
     }
   }
   .side-content {
@@ -37,7 +45,6 @@ $light-e: white;
       &:hover {
         background-color: $light-c;
         color: $light-a;
-        border-bottom: 3px solid $light-d;
       }
     }
     .float-chat-button {
@@ -94,8 +101,15 @@ $light-e: white;
         }
       }
     }
-    .form-control {
-      background-color: $light-e;
+    .contact {
+      .map-area {
+        .map-case {
+          background-color: $light-b;
+        }
+      }
+      .form-control {
+        background-color: $light-e;
+      }
     }
     footer {
       color: $light-e;
