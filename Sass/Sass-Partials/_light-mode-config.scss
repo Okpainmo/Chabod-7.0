@@ -36,15 +36,12 @@ body {
 }
 
 .side-content {
-  .btn-case {
-    .custom-btn {
-      background-color: var(--color-d);
+  .custom-btn {
+    background-color: var(--color-d);
+    color: var(--color-e);
+    &:hover {
+      background-color: var(--color-c);
       color: var(--color-e);
-      &:hover {
-        background-color: var(--color-c);
-        color: var(--color-e);
-        border-bottom: 3px solid var(--color-d);
-      }
     }
   }
   .light-mode-switch {
@@ -166,14 +163,6 @@ body {
     .contact-form {
       input {
         color: var(--color-c);
-      }
-      .custom-btn {
-        background-color: var(--color-d);
-        color: var(--color-e);
-        &:hover {
-          background-color: var(--color-c);
-          color: var(--color-e);
-        }
       }
     }
     .map-area {

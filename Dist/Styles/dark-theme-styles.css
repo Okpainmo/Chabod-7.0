@@ -31,14 +31,13 @@ body {
   color: var(--color-c);
 }
 
-.side-content .btn-case .custom-btn {
+.side-content .custom-btn {
   background-color: var(--color-d);
   color: var(--color-e);
 }
-.side-content .btn-case .custom-btn:hover {
+.side-content .custom-btn:hover {
   background-color: var(--color-c);
   color: var(--color-b);
-  border-bottom: 3px solid var(--color-d);
 }
 .side-content .light-mode-switch {
   color: var(--color-b);
@@ -125,14 +124,6 @@ body {
 }
 .side-content .contact .contact-form input {
   color: var(--color-c);
-}
-.side-content .contact .contact-form .custom-btn {
-  background-color: var(--color-d);
-  color: var(--color-e);
-}
-.side-content .contact .contact-form .custom-btn:hover {
-  background-color: var(--color-d);
-  color: var(--color-e);
 }
 .side-content .contact .map-area .map-case {
   background-color: var(--color-b);
@@ -531,11 +522,11 @@ body {
 .contact .contact-form .form-header, .contact .contact-form .map-area .map-area-header, .contact .map-area .contact-form .map-area-header {
   margin-bottom: 30px;
 }
-.contact .contact-form button {
+.contact .contact-form .custom-btn {
   border: none;
   padding: 10px;
 }
-.contact .contact-form button:hover {
+.contact .contact-form .custom-btn:hover {
   transition: border 0.2s ease;
 }
 .contact .map-area {
@@ -611,12 +602,12 @@ body {
 }
 .blog-section .blog-container .card {
   border: 0;
-  margin: 0 15px;
+  margin: 0 15px 40px;
   overflow: hidden;
   border-radius: 0;
 }
 .blog-section .blog-container .card .post-banner {
-  height: 230px;
+  height: 210px;
   overflow: hidden;
 }
 .blog-section .blog-container .card .post-banner img {
@@ -636,7 +627,6 @@ body {
 }
 .blog-section .blog-container .card .card-body {
   padding: 15px 0 0;
-  margin-bottom: 40px;
 }
 .blog-section .blog-container .card .card-body .card-title {
   text-transform: capitalize;
@@ -1046,13 +1036,14 @@ html .custom-link:hover {
   min-height: 55px;
   margin-top: 10px;
 }
-.btn-case .custom-btn {
+
+.custom-btn {
   padding: 10px 30px;
   width: inherit;
   font-size: 18px;
   display: block;
 }
-.btn-case .custom-btn:hover {
+.custom-btn:hover {
   transition: color 0.75s ease;
 }
 

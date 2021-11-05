@@ -79,14 +79,14 @@ html {
   width: 350px;
   min-height: 55px;
   margin-top: 10px;
-  .custom-btn {
-    padding: 10px 30px;
-    width: inherit;
-    font-size: 18px;
-    display: block;
-    &:hover {
-      transition: color 0.75s ease;
-    }
+}
+.custom-btn {
+  padding: 10px 30px;
+  width: inherit;
+  font-size: 18px;
+  display: block;
+  &:hover {
+    transition: color 0.75s ease;
   }
 }
 .mobile-only {
