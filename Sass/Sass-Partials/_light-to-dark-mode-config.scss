@@ -113,6 +113,11 @@ $dark-e: black;
     footer {
       color: $dark-e;
       background-color: $dark-d;
+      .social-icons-case {
+        .social-icons {
+          color: var($dark-a);
+        }
+      }
     }
   }
   .main-overlay {

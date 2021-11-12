@@ -114,6 +114,11 @@ $light-e: white;
     footer {
       color: $light-e;
       background-color: $light-d;
+      .social-icons-case {
+        .social-icons {
+          color: $light-c;
+        }
+      }
     }
   }
   .main-overlay {

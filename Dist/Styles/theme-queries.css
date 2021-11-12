@@ -307,6 +307,7 @@
   }
   .side-content .float-chat-button {
     bottom: 65px;
+    padding: 10px;
   }
   .side-content .home {
     height: 100vh;

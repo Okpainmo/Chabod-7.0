@@ -1,4 +1,4 @@
-@use "./Sass-Partials/media-queries-config.scss" as config;
+@use './Sass-Partials/media-queries-config.scss' as config;
 
 @include config.media-breakpoint-xl {
   .contact {
@@ -383,6 +383,7 @@
     }
     .float-chat-button {
       bottom: 65px;
+      padding: 10px;
     }
     .home {
       height: 100vh;

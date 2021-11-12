@@ -49,7 +49,7 @@ body {
   background-color: transparent;
 }
 .side-content .form-control {
-  background-color: #fff;
+  background-color: var(--color-e);
 }
 .side-content .float-chat-button {
   background-color: var(--color-b);
