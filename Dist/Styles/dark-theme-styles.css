@@ -185,11 +185,11 @@ body {
   color: var(--color-d);
 }
 .main-overlay .overlay-content-case-content .story-links a {
-  color: var(--color-e);
+  color: var(--color-b);
   background-color: var(--color-d);
 }
 .main-overlay .overlay-content-case-content .story-links a .bi {
-  color: var(--color-c);
+  color: var(--color-b);
 }
 .main-overlay .overlay-content-case .close-main-overlay-btn {
   color: var(--color-b);

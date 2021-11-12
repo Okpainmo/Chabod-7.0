@@ -126,6 +126,15 @@ $dark-e: black;
       .photo-credit {
         color: $dark-b;
       }
+      .story-links {
+        a {
+          color: var($dark-b);
+          background-color: var($dark-d);
+          .bi {
+            color: var($dark-b);
+          }
+        }
+      }
       .close-main-overlay-btn {
         color: $dark-b;
         box-shadow: 0 0 7px 2px $dark-b;

@@ -970,6 +970,13 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .dark-mode-activated .main-overlay .overlay-content-case .photo-credit {
   color: white;
 }
+.dark-mode-activated .main-overlay .overlay-content-case .story-links a {
+  color: var(white);
+  background-color: var(#b3b3b4);
+}
+.dark-mode-activated .main-overlay .overlay-content-case .story-links a .bi {
+  color: var(white);
+}
 .dark-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
   color: white;
   box-shadow: 0 0 7px 2px white;
