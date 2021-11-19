@@ -26,6 +26,16 @@
     right: 8px;
   }
 }
+/** This media query breakpoint corrects the animation effect of the larger screens view overlay 
+close button that happens because of the slide-in animation effect that 
+was added to the main-overlay pop-ups**/
+@media screen and (min-width: 1035px) {
+  .main-overlay .overlay-content-case .close-main-overlay-btn {
+    animation-name: animate-overlay-content-case;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+  }
+}
 @media (max-width: 1035px) {
   .mobile-only {
     display: none;

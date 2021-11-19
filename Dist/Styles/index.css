@@ -208,6 +208,7 @@ body {
 }
 
 .modes-display {
+  width: 100%;
   min-height: 100vh;
   padding: 0;
   display: flex;
@@ -253,11 +254,11 @@ body {
 .modes-display a .image-case {
   min-width: 420px;
   min-height: 200px;
+  padding: 13px;
   font-size: 20px;
 }
 .modes-display a .image-case img {
   width: 420px;
-  height: 200px;
   box-shadow: 0 0 10px 2px #817474;
 }
 
@@ -278,10 +279,15 @@ body {
 @media screen and (max-width: 500px) {
   .modes-display a .image-case {
     min-width: 100%;
-    min-height: 100%;
+    padding: 15px;
   }
   .modes-display a .image-case img {
-    width: 92%;
-    height: 170px;
+    width: 100%;
+  }
+  .modes-display .light-side .pseudo-nav {
+    padding: 10px 13px;
+  }
+  .modes-display .light-side .pseudo-nav .brand-name {
+    font-size: 25px;
   }
 }
