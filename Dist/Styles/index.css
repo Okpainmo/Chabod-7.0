@@ -216,7 +216,18 @@ body {
 .modes-display .light-side {
   width: 50%;
   display: flex;
+  justify-content: center;
   align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.modes-display .light-side .light-case {
+  position: absolute;
+  transform: translateX(-700px);
+}
+.modes-display .light-side .light-case-slide-in {
+  transform: translateX(0);
+  transition: transform 1.75s ease;
 }
 .modes-display .light-side .pseudo-nav {
   width: 100%;
@@ -236,7 +247,18 @@ body {
   width: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: var(--color-b);
+  position: relative;
+  overflow: hidden;
+}
+.modes-display .dark-side .dark-case {
+  position: absolute;
+  transform: translateX(700px);
+}
+.modes-display .dark-side .dark-case-slide-in {
+  transform: translateX(0);
+  transition: transform 1.75s ease;
 }
 .modes-display .dark-side .mode-name {
   color: var(--color-e);
@@ -246,6 +268,7 @@ body {
   text-decoration: none;
   width: 100%;
   text-align: center;
+  position: relative;
 }
 .modes-display a:hover img {
   transform: scale(1.05);

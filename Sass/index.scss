@@ -24,7 +24,18 @@ body {
   .light-side {
     width: 50%;
     display: flex;
+    justify-content: center;
     align-items: center;
+    overflow: hidden;
+    position: relative;
+    .light-case {
+      position: absolute;
+      transform: translateX(-700px);
+    }
+    .light-case-slide-in {
+      transform: translateX(0);
+      transition: transform 1.75s ease;
+    }
     .pseudo-nav {
       width: 100%;
       box-sizing: border-box;
@@ -44,7 +55,18 @@ body {
     width: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: var(--color-b);
+    position: relative;
+    overflow: hidden;
+    .dark-case {
+      position: absolute;
+      transform: translateX(700px);
+    }
+    .dark-case-slide-in {
+      transform: translateX(0);
+      transition: transform 1.75s ease;
+    }
     .mode-name {
       color: var(--color-e);
     }
@@ -54,6 +76,7 @@ body {
     text-decoration: none;
     width: 100%;
     text-align: center;
+    position: relative;
     &:hover {
       img {
         transform: scale(1.05);
