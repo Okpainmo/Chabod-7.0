@@ -96,12 +96,35 @@ $light-e: white;
             border: 7px solid $light-b;
           }
         }
-        .home-social a span {
-          color: $light-d;
+        .home-social {
+          a {
+            &:hover {
+              span {
+                color: $light-c;
+                transition: color 0.75s ease;
+              }
+            }
+            span {
+              color: $light-d;
+            }
+          }
         }
       }
     }
     .contact {
+      .contact-details {
+        .phone-case {
+          .social-icons-case {
+            .social-icons {
+              color: $light-d;
+              &:hover {
+                color: $light-c;
+                transition: color 0.75 ease;
+              }
+            }
+          }
+        }
+      }
       .map-area {
         .map-case {
           background-color: $light-b;
@@ -116,7 +139,11 @@ $light-e: white;
       background-color: $light-d;
       .social-icons-case {
         .social-icons {
-          color: $light-c;
+          color: $light-a;
+          &:hover {
+            color: $light-c;
+            transition: color 0.75 ease;
+          }
         }
       }
     }

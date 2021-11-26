@@ -319,7 +319,7 @@ was added to the main-overlay pop-ups**/
     padding: 0;
   }
   .side-content .float-chat-button {
-    bottom: 65px;
+    bottom: 70px;
   }
   .side-content .portfolio-section .projects {
     padding: 0px;
@@ -430,7 +430,7 @@ was added to the main-overlay pop-ups**/
   }
   .main-overlay .overlay-content-case-content {
     width: 100%;
-    padding: 7px;
+    padding: 10px;
   }
   .main-overlay .overlay-content-case-content .main-story .col {
     padding: 0;

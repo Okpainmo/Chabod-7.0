@@ -65,6 +65,10 @@ body {
 .side-content .seller-content .seller-intro-background .seller-intro h5 {
   color: var(--color-c);
 }
+.side-content .seller-content .seller-intro-background .home-social a:hover span {
+  color: var(--color-c);
+  transition: color 0.75s ease;
+}
 .side-content .seller-content .seller-intro-background .home-social a span {
   color: var(--color-d);
 }
@@ -113,7 +117,11 @@ body {
   color: var(--color-c);
 }
 .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: var(--color-d);
+}
+.side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
   color: var(--color-c);
+  transition: color 0.75 ease;
 }
 .side-content .contact .contact-form input {
   color: var(--color-c);
@@ -129,7 +137,11 @@ body {
   color: var(--color-e);
 }
 .side-content footer .social-icons-case .social-icons {
+  color: var(--color-a);
+}
+.side-content footer .social-icons-case .social-icons:hover {
   color: var(--color-c);
+  transition: color 0.75 ease;
 }
 
 .main-overlay {
@@ -236,10 +248,6 @@ body {
 .seller-content .seller-intro-background .home-social a span {
   font-size: 20px;
   margin-bottom: 20px;
-}
-.seller-content .seller-intro-background .home-social a span:hover {
-  transform: scale(1.15);
-  transition: transform 0.75s ease;
 }
 
 .about-section {
@@ -958,8 +966,19 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .dark-mode-activated .side-content .seller-content .seller-intro .seller-photo {
   border: 7px solid white;
 }
+.dark-mode-activated .side-content .seller-content .home-social a:hover span {
+  color: #6b6a6a;
+  transition: color 0.75s ease;
+}
 .dark-mode-activated .side-content .seller-content .home-social a span {
   color: #b3b3b4;
+}
+.dark-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: #b3b3b4;
+}
+.dark-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
+  color: #6b6a6a;
+  transition: color 0.75 ease;
 }
 .dark-mode-activated .side-content .contact .map-area .map-case {
   background-color: white;
@@ -973,6 +992,10 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .dark-mode-activated .side-content footer .social-icons-case .social-icons {
   color: #161616;
+}
+.dark-mode-activated .side-content footer .social-icons-case .social-icons:hover {
+  color: #6b6a6a;
+  transition: color 0.75 ease;
 }
 .dark-mode-activated .main-overlay .overlay-content-case {
   color: #161616;

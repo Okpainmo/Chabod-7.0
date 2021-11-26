@@ -65,6 +65,10 @@ body {
 .side-content .seller-content .seller-intro-background .seller-intro h5 {
   color: var(--color-c);
 }
+.side-content .seller-content .seller-intro-background .home-social a:hover span {
+  color: var(--color-c);
+  transition: color 0.75s ease;
+}
 .side-content .seller-content .seller-intro-background .home-social a span {
   color: var(--color-d);
 }
@@ -120,7 +124,11 @@ body {
   color: var(--color-c);
 }
 .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: var(--color-d);
+}
+.side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
   color: var(--color-c);
+  transition: color 0.75 ease;
 }
 .side-content .contact .contact-form input {
   color: var(--color-c);
@@ -137,6 +145,10 @@ body {
 }
 .side-content footer .social-icons-case .social-icons {
   color: var(--color-a);
+}
+.side-content footer .social-icons-case .social-icons:hover {
+  color: var(--color-c);
+  transition: color 0.75 ease;
 }
 
 .main-overlay {
@@ -243,10 +255,6 @@ body {
 .seller-content .seller-intro-background .home-social a span {
   font-size: 20px;
   margin-bottom: 20px;
-}
-.seller-content .seller-intro-background .home-social a span:hover {
-  transform: scale(1.15);
-  transition: transform 0.75s ease;
 }
 
 .about-section {
@@ -965,8 +973,19 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 .light-mode-activated .side-content .seller-content .seller-intro-background .seller-intro .seller-photo {
   border: 7px solid black;
 }
+.light-mode-activated .side-content .seller-content .seller-intro-background .home-social a:hover span {
+  color: #757575;
+  transition: color 0.75s ease;
+}
 .light-mode-activated .side-content .seller-content .seller-intro-background .home-social a span {
   color: #212529;
+}
+.light-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: #212529;
+}
+.light-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
+  color: #757575;
+  transition: color 0.75 ease;
 }
 .light-mode-activated .side-content .contact .map-area .map-case {
   background-color: black;
@@ -979,7 +998,11 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
   background-color: #212529;
 }
 .light-mode-activated .side-content footer .social-icons-case .social-icons {
+  color: #f7f8f9;
+}
+.light-mode-activated .side-content footer .social-icons-case .social-icons:hover {
   color: #757575;
+  transition: color 0.75 ease;
 }
 .light-mode-activated .main-overlay .overlay-content-case {
   color: #212529;

@@ -65,6 +65,10 @@ body {
 .side-content .seller-content .seller-intro-background .seller-intro h5 {
   color: var(--color-c);
 }
+.side-content .seller-content .seller-intro-background .home-social a:hover span {
+  color: var(--color-c);
+  transition: color 0.75s ease;
+}
 .side-content .seller-content .seller-intro-background .home-social a span {
   color: var(--color-d);
 }
@@ -113,7 +117,11 @@ body {
   color: var(--color-c);
 }
 .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: var(--color-d);
+}
+.side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
   color: var(--color-c);
+  transition: color 0.75 ease;
 }
 .side-content .contact .contact-form input {
   color: var(--color-c);
@@ -129,7 +137,11 @@ body {
   color: var(--color-e);
 }
 .side-content footer .social-icons-case .social-icons {
+  color: var(--color-a);
+}
+.side-content footer .social-icons-case .social-icons:hover {
   color: var(--color-c);
+  transition: color 0.75 ease;
 }
 
 .main-overlay {
