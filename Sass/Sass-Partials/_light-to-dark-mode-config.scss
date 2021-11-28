@@ -118,7 +118,6 @@ $dark-e: black;
               color: $dark-d;
               &:hover {
                 color: $dark-c;
-                transition: color 0.75 ease;
               }
             }
           }
@@ -141,7 +140,6 @@ $dark-e: black;
           color: $dark-a;
           &:hover {
             color: $dark-c;
-            transition: color 0.75 ease;
           }
         }
       }

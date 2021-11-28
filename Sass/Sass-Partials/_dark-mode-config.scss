@@ -173,7 +173,6 @@ body {
             color: var(--color-d);
             &:hover {
               color: var(--color-c);
-              transition: color 0.75 ease;
             }
           }
         }
@@ -204,7 +203,6 @@ body {
         color: var(--color-a);
         &:hover {
           color: var(--color-c);
-          transition: color 0.75 ease;
         }
       }
     }

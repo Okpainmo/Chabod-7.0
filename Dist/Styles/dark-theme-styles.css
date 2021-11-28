@@ -128,7 +128,6 @@ body {
 }
 .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
   color: var(--color-c);
-  transition: color 0.75 ease;
 }
 .side-content .contact .contact-form input {
   color: var(--color-c);
@@ -148,7 +147,6 @@ body {
 }
 .side-content footer .social-icons-case .social-icons:hover {
   color: var(--color-c);
-  transition: color 0.75 ease;
 }
 
 .main-overlay {
@@ -206,6 +204,122 @@ body {
 .main-overlay .overlay-content-case .close-main-overlay-btn {
   color: var(--color-b);
   box-shadow: 0 0 7px 2px var(--color-b);
+}
+
+.light-body {
+  color: black;
+  background-color: white;
+}
+
+.light-mode-activated {
+  transition: all 1.05s ease;
+}
+.light-mode-activated .section-header {
+  color: black;
+}
+.light-mode-activated .section-header::after {
+  background-color: black;
+}
+.light-mode-activated .side-nav {
+  background-color: #f7f8f9;
+}
+.light-mode-activated .side-nav .side-nav-link .side-nav-text {
+  color: #757575;
+}
+.light-mode-activated .side-nav .side-nav-link .side-icons {
+  color: #212529;
+}
+.light-mode-activated .side-nav .side-nav-link:hover .side-nav-text {
+  color: #212529;
+}
+.light-mode-activated .side-nav .side-nav-link:hover .side-icons {
+  color: #757575;
+}
+.light-mode-activated .side-content .custom-btn {
+  color: white;
+  background-color: #212529;
+}
+.light-mode-activated .side-content .custom-btn:hover {
+  background-color: #757575;
+  color: #f7f8f9;
+}
+.light-mode-activated .side-content .float-chat-button {
+  background-color: #212529;
+  color: white;
+}
+.light-mode-activated .side-content .portfolio-section .projects .tag {
+  color: white;
+  background-color: #212529;
+}
+.light-mode-activated .side-content .portfolio-section .projects .tag:hover {
+  background-color: #757575;
+  color: white;
+}
+.light-mode-activated .side-content .portfolio-section .projects .card .slide-overlay-case {
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+}
+.light-mode-activated .side-content .blog-section .post-banner {
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
+}
+.light-mode-activated .side-content .testimonials .client-photo-case img {
+  border: 2px solid black;
+}
+.light-mode-activated .side-content .testimonials .carousel-control-next-icon,
+.light-mode-activated .side-content .testimonials .carousel-control-prev-icon {
+  filter: invert(1) grayscale(100);
+}
+.light-mode-activated .side-content .testimonials .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+.light-mode-activated .side-content .seller-content .seller-intro-background .seller-intro {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.light-mode-activated .side-content .seller-content .seller-intro-background .seller-intro .seller-photo {
+  border: 7px solid black;
+}
+.light-mode-activated .side-content .seller-content .seller-intro-background .home-social a:hover span {
+  color: #757575;
+  transition: color 0.75s ease;
+}
+.light-mode-activated .side-content .seller-content .seller-intro-background .home-social a span {
+  color: #212529;
+}
+.light-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: #212529;
+}
+.light-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
+  color: #757575;
+}
+.light-mode-activated .side-content .contact .map-area .map-case {
+  background-color: black;
+}
+.light-mode-activated .side-content .contact .form-control {
+  background-color: white;
+}
+.light-mode-activated .side-content footer {
+  color: white;
+  background-color: #212529;
+}
+.light-mode-activated .side-content footer .social-icons-case .social-icons {
+  color: #f7f8f9;
+}
+.light-mode-activated .side-content footer .social-icons-case .social-icons:hover {
+  color: #757575;
+}
+.light-mode-activated .main-overlay .overlay-content-case {
+  color: #212529;
+  background-color: white;
+}
+.light-mode-activated .main-overlay .overlay-content-case-header {
+  color: #212529;
+  box-shadow: 0 0 4px 0px #757575;
+}
+.light-mode-activated .main-overlay .overlay-content-case .photo-credit {
+  color: white;
+}
+.light-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
+  color: white;
+  box-shadow: 0 0 7px 2px white;
 }
 
 .seller-content {
@@ -900,124 +1014,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .modal .sales-modal-content .selar {
   color: blue;
-}
-
-.light-body {
-  color: black;
-  background-color: white;
-}
-
-.light-mode-activated {
-  transition: all 1.05s ease;
-}
-.light-mode-activated .section-header {
-  color: black;
-}
-.light-mode-activated .section-header::after {
-  background-color: black;
-}
-.light-mode-activated .side-nav {
-  background-color: #f7f8f9;
-}
-.light-mode-activated .side-nav .side-nav-link .side-nav-text {
-  color: #757575;
-}
-.light-mode-activated .side-nav .side-nav-link .side-icons {
-  color: #212529;
-}
-.light-mode-activated .side-nav .side-nav-link:hover .side-nav-text {
-  color: #212529;
-}
-.light-mode-activated .side-nav .side-nav-link:hover .side-icons {
-  color: #757575;
-}
-.light-mode-activated .side-content .custom-btn {
-  color: white;
-  background-color: #212529;
-}
-.light-mode-activated .side-content .custom-btn:hover {
-  background-color: #757575;
-  color: #f7f8f9;
-}
-.light-mode-activated .side-content .float-chat-button {
-  background-color: #212529;
-  color: white;
-}
-.light-mode-activated .side-content .portfolio-section .projects .tag {
-  color: white;
-  background-color: #212529;
-}
-.light-mode-activated .side-content .portfolio-section .projects .tag:hover {
-  background-color: #757575;
-  color: white;
-}
-.light-mode-activated .side-content .portfolio-section .projects .card .slide-overlay-case {
-  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
-}
-.light-mode-activated .side-content .blog-section .post-banner {
-  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.06);
-}
-.light-mode-activated .side-content .testimonials .client-photo-case img {
-  border: 2px solid black;
-}
-.light-mode-activated .side-content .testimonials .carousel-control-next-icon,
-.light-mode-activated .side-content .testimonials .carousel-control-prev-icon {
-  filter: invert(1) grayscale(100);
-}
-.light-mode-activated .side-content .testimonials .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: black;
-}
-.light-mode-activated .side-content .seller-content .seller-intro-background .seller-intro {
-  background-color: rgba(255, 255, 255, 0.75);
-}
-.light-mode-activated .side-content .seller-content .seller-intro-background .seller-intro .seller-photo {
-  border: 7px solid black;
-}
-.light-mode-activated .side-content .seller-content .seller-intro-background .home-social a:hover span {
-  color: #757575;
-  transition: color 0.75s ease;
-}
-.light-mode-activated .side-content .seller-content .seller-intro-background .home-social a span {
-  color: #212529;
-}
-.light-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
-  color: #212529;
-}
-.light-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
-  color: #757575;
-  transition: color 0.75 ease;
-}
-.light-mode-activated .side-content .contact .map-area .map-case {
-  background-color: black;
-}
-.light-mode-activated .side-content .contact .form-control {
-  background-color: white;
-}
-.light-mode-activated .side-content footer {
-  color: white;
-  background-color: #212529;
-}
-.light-mode-activated .side-content footer .social-icons-case .social-icons {
-  color: #f7f8f9;
-}
-.light-mode-activated .side-content footer .social-icons-case .social-icons:hover {
-  color: #757575;
-  transition: color 0.75 ease;
-}
-.light-mode-activated .main-overlay .overlay-content-case {
-  color: #212529;
-  background-color: white;
-}
-.light-mode-activated .main-overlay .overlay-content-case-header {
-  color: #212529;
-  box-shadow: 0 0 4px 0px #757575;
-}
-.light-mode-activated .main-overlay .overlay-content-case .photo-credit {
-  color: white;
-}
-.light-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
-  color: white;
-  box-shadow: 0 0 7px 2px white;
 }
 
 * {

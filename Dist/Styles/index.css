@@ -121,7 +121,6 @@ body {
 }
 .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
   color: var(--color-c);
-  transition: color 0.75 ease;
 }
 .side-content .contact .contact-form input {
   color: var(--color-c);
@@ -141,7 +140,6 @@ body {
 }
 .side-content footer .social-icons-case .social-icons:hover {
   color: var(--color-c);
-  transition: color 0.75 ease;
 }
 
 .main-overlay {

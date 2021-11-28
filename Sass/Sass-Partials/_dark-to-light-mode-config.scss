@@ -119,7 +119,6 @@ $light-e: white;
               color: $light-d;
               &:hover {
                 color: $light-c;
-                transition: color 0.75 ease;
               }
             }
           }
@@ -142,7 +141,6 @@ $light-e: white;
           color: $light-a;
           &:hover {
             color: $light-c;
-            transition: color 0.75 ease;
           }
         }
       }

@@ -121,7 +121,6 @@ body {
 }
 .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
   color: var(--color-c);
-  transition: color 0.75 ease;
 }
 .side-content .contact .contact-form input {
   color: var(--color-c);
@@ -141,7 +140,6 @@ body {
 }
 .side-content footer .social-icons-case .social-icons:hover {
   color: var(--color-c);
-  transition: color 0.75 ease;
 }
 
 .main-overlay {
@@ -199,6 +197,129 @@ body {
 .main-overlay .overlay-content-case .close-main-overlay-btn {
   color: var(--color-e);
   box-shadow: 0 0 7px 2px var(--color-e);
+}
+
+.dark-body {
+  color: white;
+  background-color: black;
+}
+
+.dark-mode-activated {
+  transition: all 1.05s ease;
+}
+.dark-mode-activated .section-header {
+  color: white;
+}
+.dark-mode-activated .section-header::after {
+  background-color: white;
+}
+.dark-mode-activated .side-nav {
+  background-color: #161616;
+}
+.dark-mode-activated .side-nav .side-nav-link .side-nav-text {
+  color: #6b6a6a;
+}
+.dark-mode-activated .side-nav .side-nav-link .side-icons {
+  color: #b3b3b4;
+}
+.dark-mode-activated .side-nav .side-nav-link:hover .side-nav-text {
+  color: #b3b3b4;
+}
+.dark-mode-activated .side-nav .side-nav-link:hover .side-icons {
+  color: #6b6a6a;
+}
+.dark-mode-activated .side-content .custom-btn {
+  color: black;
+  background-color: #b3b3b4;
+}
+.dark-mode-activated .side-content .custom-btn:hover {
+  background-color: #6b6a6a;
+  color: white;
+}
+.dark-mode-activated .side-content .float-chat-button {
+  background-color: #6b6a6a;
+  color: black;
+}
+.dark-mode-activated .side-content .portfolio-section .projects .tag {
+  color: black;
+  background-color: #b3b3b4;
+}
+.dark-mode-activated .side-content .portfolio-section .projects .tag:hover {
+  background-color: #6b6a6a;
+  color: white;
+}
+.dark-mode-activated .side-content .portfolio-section .projects .card .slide-overlay-case {
+  box-shadow: 0 25px 20px -20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.06);
+}
+.dark-mode-activated .side-content .blog-section .post-banner {
+  box-shadow: 0 25px 20px -20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.06);
+}
+.dark-mode-activated .side-content .testimonials .client-photo-case img {
+  border: 2px solid white;
+}
+.dark-mode-activated .side-content .testimonials .carousel-control-next-icon,
+.dark-mode-activated .side-content .testimonials .carousel-control-prev-icon {
+  filter: none;
+}
+.dark-mode-activated .side-content .testimonials .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: white;
+}
+.dark-mode-activated .side-content .seller-content .seller-intro {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.dark-mode-activated .side-content .seller-content .seller-intro .seller-photo {
+  border: 7px solid white;
+}
+.dark-mode-activated .side-content .seller-content .home-social a:hover span {
+  color: #6b6a6a;
+  transition: color 0.75s ease;
+}
+.dark-mode-activated .side-content .seller-content .home-social a span {
+  color: #b3b3b4;
+}
+.dark-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
+  color: #b3b3b4;
+}
+.dark-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
+  color: #6b6a6a;
+}
+.dark-mode-activated .side-content .contact .map-area .map-case {
+  background-color: white;
+}
+.dark-mode-activated .side-content .contact .form-control {
+  background-color: black;
+}
+.dark-mode-activated .side-content footer {
+  color: black;
+  background-color: #b3b3b4;
+}
+.dark-mode-activated .side-content footer .social-icons-case .social-icons {
+  color: #161616;
+}
+.dark-mode-activated .side-content footer .social-icons-case .social-icons:hover {
+  color: #6b6a6a;
+}
+.dark-mode-activated .main-overlay .overlay-content-case {
+  color: #161616;
+  background-color: white;
+}
+.dark-mode-activated .main-overlay .overlay-content-case-header {
+  color: #161616;
+  box-shadow: 0 0 4px 0px #6b6a6a;
+}
+.dark-mode-activated .main-overlay .overlay-content-case .photo-credit {
+  color: white;
+}
+.dark-mode-activated .main-overlay .overlay-content-case .story-links a {
+  color: var(white);
+  background-color: var(#b3b3b4);
+}
+.dark-mode-activated .main-overlay .overlay-content-case .story-links a .bi {
+  color: var(white);
+}
+.dark-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
+  color: white;
+  box-shadow: 0 0 7px 2px white;
 }
 
 .seller-content {
@@ -893,131 +1014,6 @@ footer .footer-content .social-icons-case .footer-link .social-icons:hover {
 }
 .modal .sales-modal-content .selar {
   color: blue;
-}
-
-.dark-body {
-  color: white;
-  background-color: black;
-}
-
-.dark-mode-activated {
-  transition: all 1.05s ease;
-}
-.dark-mode-activated .section-header {
-  color: white;
-}
-.dark-mode-activated .section-header::after {
-  background-color: white;
-}
-.dark-mode-activated .side-nav {
-  background-color: #161616;
-}
-.dark-mode-activated .side-nav .side-nav-link .side-nav-text {
-  color: #6b6a6a;
-}
-.dark-mode-activated .side-nav .side-nav-link .side-icons {
-  color: #b3b3b4;
-}
-.dark-mode-activated .side-nav .side-nav-link:hover .side-nav-text {
-  color: #b3b3b4;
-}
-.dark-mode-activated .side-nav .side-nav-link:hover .side-icons {
-  color: #6b6a6a;
-}
-.dark-mode-activated .side-content .custom-btn {
-  color: black;
-  background-color: #b3b3b4;
-}
-.dark-mode-activated .side-content .custom-btn:hover {
-  background-color: #6b6a6a;
-  color: white;
-}
-.dark-mode-activated .side-content .float-chat-button {
-  background-color: #6b6a6a;
-  color: black;
-}
-.dark-mode-activated .side-content .portfolio-section .projects .tag {
-  color: black;
-  background-color: #b3b3b4;
-}
-.dark-mode-activated .side-content .portfolio-section .projects .tag:hover {
-  background-color: #6b6a6a;
-  color: white;
-}
-.dark-mode-activated .side-content .portfolio-section .projects .card .slide-overlay-case {
-  box-shadow: 0 25px 20px -20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.06);
-}
-.dark-mode-activated .side-content .blog-section .post-banner {
-  box-shadow: 0 25px 20px -20px rgba(255, 255, 255, 0.3), 0 0 15px rgba(255, 255, 255, 0.06);
-}
-.dark-mode-activated .side-content .testimonials .client-photo-case img {
-  border: 2px solid white;
-}
-.dark-mode-activated .side-content .testimonials .carousel-control-next-icon,
-.dark-mode-activated .side-content .testimonials .carousel-control-prev-icon {
-  filter: none;
-}
-.dark-mode-activated .side-content .testimonials .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: white;
-}
-.dark-mode-activated .side-content .seller-content .seller-intro {
-  background-color: rgba(0, 0, 0, 0.75);
-}
-.dark-mode-activated .side-content .seller-content .seller-intro .seller-photo {
-  border: 7px solid white;
-}
-.dark-mode-activated .side-content .seller-content .home-social a:hover span {
-  color: #6b6a6a;
-  transition: color 0.75s ease;
-}
-.dark-mode-activated .side-content .seller-content .home-social a span {
-  color: #b3b3b4;
-}
-.dark-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons {
-  color: #b3b3b4;
-}
-.dark-mode-activated .side-content .contact .contact-details .phone-case .social-icons-case .social-icons:hover {
-  color: #6b6a6a;
-  transition: color 0.75 ease;
-}
-.dark-mode-activated .side-content .contact .map-area .map-case {
-  background-color: white;
-}
-.dark-mode-activated .side-content .contact .form-control {
-  background-color: black;
-}
-.dark-mode-activated .side-content footer {
-  color: black;
-  background-color: #b3b3b4;
-}
-.dark-mode-activated .side-content footer .social-icons-case .social-icons {
-  color: #161616;
-}
-.dark-mode-activated .side-content footer .social-icons-case .social-icons:hover {
-  color: #6b6a6a;
-  transition: color 0.75 ease;
-}
-.dark-mode-activated .main-overlay .overlay-content-case {
-  color: #161616;
-  background-color: white;
-}
-.dark-mode-activated .main-overlay .overlay-content-case-header {
-  color: #161616;
-  box-shadow: 0 0 4px 0px #6b6a6a;
-}
-.dark-mode-activated .main-overlay .overlay-content-case .photo-credit {
-  color: white;
-}
-.dark-mode-activated .main-overlay .overlay-content-case .story-links a {
-  color: var(white);
-  background-color: var(#b3b3b4);
-}
-.dark-mode-activated .main-overlay .overlay-content-case .story-links a .bi {
-  color: var(white);
-}
-.dark-mode-activated .main-overlay .overlay-content-case .close-main-overlay-btn {
-  color: white;
-  box-shadow: 0 0 7px 2px white;
 }
 
 * {
